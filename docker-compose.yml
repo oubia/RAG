@@ -1,0 +1,20 @@
+services:
+  backend:
+    build: ./backend
+    container_name: tper-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ~/.aws:/root/.aws
+      - /Users/oubia/Desktop/Bitapp/ai/Tper/chroma_langchain_db:/app/chroma_langchain_db
+    env_file:
+      - ./backend/.env
+
+  frontend:
+    build: ./frontend
+    container_name: tper-frontend
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./frontend/.env
