@@ -5,70 +5,70 @@
         "llm_name": "bedrock",
         "embedding_name": "amazon.titan-embed-text-v2:0",
         "vectore_store_type": "qdrant",
-        "collection_name": "tper_docs_bedrock"
+        "collection_name": "collection_name"
       },
       {
         "selected_approach": "bedrock + amazon titan",
         "llm_name": "bedrock",
         "embedding_name": "amazon.titan-embed-text-v2:0",
         "vectore_store_type": "chroma",
-        "collection_name": "tper_docs_bedrock"
+        "collection_name": "docs_bedrock"
       },
       {
         "selected_approach": "llama + nomic-embed-text",
         "llm_name": "llama",
         "embedding_name": "nomic-embed-text",
         "vectore_store_type": "qdrant",
-        "collection_name": "tper_docs_nomic"
+        "collection_name": "docs_nomic"
       },
       {
         "selected_approach": "llama + nomic-embed-text",
         "llm_name": "llama",
         "embedding_name": "nomic-embed-text",
         "vectore_store_type": "Chroma",
-        "collection_name": "tper_docs_nomic"
+        "collection_name": "docs_nomic"
       },
       {
         "selected_approach": "llama + text-embedding-3-small",
         "llm_name": "llama",
         "embedding_name": "text-embedding-3-small",
         "vectore_store_type": "qdrant",
-        "collection_name": "tper_docs_openai"
+        "collection_name": "docs_openai"
       },
       {
         "selected_approach": "llama + text-embedding-3-small",
         "llm_name": "llama",
         "embedding_name": "text-embedding-3-small",
         "vectore_store_type": "Chroma",
-        "collection_name": "tper_docs_openai"
+        "collection_name": "docs_openai"
       },
       {
         "selected_approach": "deepseek + amazon titan",
         "llm_name": "deepseek",
         "embedding_name": "amazon.titan-embed-text-v2:0",
         "vectore_store_type": "qdrant",
-        "collection_name": "tper_docs_bedrock"
+        "collection_name": "docs_bedrock"
       },
       {
         "selected_approach": "deepseek + nomic-embed-text",
         "llm_name": "deepseek",
         "embedding_name": "nomic-embed-text",
         "vectore_store_type": "qdrant",
-        "collection_name": "tper_docs_nomic"
+        "collection_name": "docs_nomic"
       },
       {
         "selected_approach": "deepseek + amazon titan",
         "llm_name": "deepseek",
         "embedding_name": "amazon.titan-embed-text-v2:0",
         "vectore_store_type": "Chroma",
-        "collection_name": "tper_docs_bedrock"
+        "collection_name": "docs_bedrock"
       },
       {
         "selected_approach": "deepseek + nomic-embed-text",
         "llm_name": "deepseek",
         "embedding_name": "nomic-embed-text",
         "vectore_store_type": "Chroma",
-        "collection_name": "tper_docs_nomic"
+        "collection_name": "docs_nomic"
       }
     ]
   }

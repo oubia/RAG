@@ -46,10 +46,10 @@ const App = () => {
   ];
 
   const [selectedLLM, setSelectedLLM] = useState('Bedrock + amazon titan');
-  const llms = ['Bedrock + amazon titan', 'Llama + nomic-embed-text', 'Llama + text-embedding-3-small',"deepseek + amazon titan","deepseek + nomic-embed-text"];
+  const llms = ['LLm + embedder', 'Llama + nomic-embed-text', 'Llama + text-embedding-3-small',"deepseek + amazon titan","deepseek + nomic-embed-text"];
  
   const [selectedVectoredb, setselectedVectoredb] = useState('Qdrant');
-  const vectoredb = ['Qdrant', 'Chroma'];
+  const vectoredb = ['Faiss', 'Chroma'];
 
   const [selectedRetriever, setSelectedRetriever] = useState('condense');
   const retrieverOptions = ['condense', 'conversation'];

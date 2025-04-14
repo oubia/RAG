@@ -3,7 +3,7 @@
 ---
 
 ## **Introduction**
-This guide provides instructions to set up and run the project using AWS-hosted large language models, a Python backend, and a frontend. Follow the steps to configure and execute the project successfully.
+This guide provides instructions to set up and run the project using Ollama stored large language models, a Python backend, and a frontend. Follow the steps to configure and execute the project successfully.
 
 ---
 
@@ -24,9 +24,9 @@ Ensure the following tools are installed:
 Use the following commands to clone the project repository and navigate into the project directory:
 
 ```bash
-git clone ssh://git@gitlab.bitapp.dev:4022/ai/tper-bot.git
-cd tper-bot
-git checkout RAG_web_page_content
+git clone repo_link
+cd RAG
+git checkout your-branch-or-main
 ```
 ---
 # Setting Up a Python Virtual Environment
@@ -43,7 +43,7 @@ This guide provides step-by-step instructions on how to create and activate a Py
 2. **Navigate to your project directory** where you want the virtual environment to be set up.
 
     ```bash
-    cd path/to/your/tper-bot
+    cd path/to/your/RAG
     ```
 
 3. **Create the virtual environment**:

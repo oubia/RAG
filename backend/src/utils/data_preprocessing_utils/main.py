@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 sys.path.append(os.getenv("PYTHONPATH"))
 
-input_file = 'src/data/d7_tper_pages.csv'  
+input_file = 'src/data/pages.csv'  
 output_file = 'src/data/cleaned_version.csv'  
 
 df = pd.read_csv(input_file, header=None, names=['date', 'page_title', 'content','NaN'])
@@ -46,7 +46,7 @@ del df['NaN']
 
 df = df[df['content'].notna()]
 
-df['page_link'] = df['id'].apply(lambda x: f"https://www.tper.it/node/{x}")
+df['page_link'] = df['id'].apply(lambda x: f"")
 
 df.to_csv(output_file, index=False)
 print("Cleaned content saved to:", output_file)

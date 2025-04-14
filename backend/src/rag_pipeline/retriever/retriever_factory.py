@@ -235,7 +235,7 @@ class Retrieval_Factory:
             ),
         ]
 
-        document_content_description = "This is the content of the web page of the public tansportation company"
+        document_content_description = "This is the content of the web page of the public page of the tourism affairs of italy"
 
         qdrant_translator = QdrantTranslator("source") 
         
