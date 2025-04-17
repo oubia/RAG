@@ -37,12 +37,12 @@ const App = () => {
   const disabled = loading || input.trim() === '';
 
   const suggestedQuestions = [
-    "Che cos'è TPER?",
-    'Quali certificazioni ha ottenuto TPER?',
-    "Quali sono i principali servizi offerti da TPER?",
-    "In quali città e regioni opera TPER?",
-    'TPER offre un servizio di car sharing?',
-    'Ci sono collaborazioni tra TPER e altre aziende di trasporto in Italia?',
+    "question 1?",
+    'question?',
+    "question?",
+    "question",
+    'question?',
+    'question?',
   ];
 
   const [selectedLLM, setSelectedLLM] = useState('Bedrock + amazon titan');
