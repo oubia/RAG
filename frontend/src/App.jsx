@@ -37,16 +37,15 @@ const App = () => {
   const disabled = loading || input.trim() === '';
 
   const suggestedQuestions = [
-    "question 1?",
-    'question?',
-    "question?",
-    "question",
-    'question?',
-    'question?',
+    "Quale legge ha istituito il Ministero del Turismo?",
+    'Cosa prevede il comma 3 dell’articolo 6 del Decreto-Legge 1° marzo 2021, n. 22?',
+    "Cosa stabilisce il DPCM del 20 maggio 2021, n. 102?",
+    "Cos’è il Regolamento (UE) n. 2021/241 del 12 febbraio 2021?",
+    'Quando è stato approvato il PNRR italiano dal Consiglio ECOFIN?',
   ];
 
-  const [selectedLLM, setSelectedLLM] = useState('Bedrock + amazon titan');
-  const llms = ['LLm + embedder', 'Llama + nomic-embed-text', 'Llama + text-embedding-3-small',"deepseek + amazon titan","deepseek + nomic-embed-text"];
+  const [selectedLLM, setSelectedLLM] = useState('llamantino + amazon titan');
+  const llms = ['llama + nomic-embed-text', 'Llama + nomic-embed-text', 'Llama + text-embedding-3-small',"qwen2 + amazon titan","qwen2 + nomic-embed-text"];
  
   const [selectedVectoredb, setselectedVectoredb] = useState('Qdrant');
   const vectoredb = ['Faiss', 'Chroma'];
@@ -155,7 +154,7 @@ const App = () => {
     setInput("");
 
     try {
-      const response = await fetch(`${chatApiUrl}chat/`, {
+      const response = await fetch(`http://127.0.0.1:8000/chat/`, {
         headers: { "Content-Type": "application/json", "Accept": "text/event-stream" },
         method: "POST",
         body: JSON.stringify({ 

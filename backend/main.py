@@ -3,7 +3,7 @@ from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from src.models.llm_factory.Llm_factory import LLMFactory
+from src.models.llm_factory import LLMFactory
 from src.chat.chat import Chat
 
 
@@ -33,7 +33,6 @@ async def chat_endpoint(message: Message):
     user_input = message.content
 
     config = load_config()
-
     settings = None  
     for item in config["available_settings"]:
         if (
@@ -51,9 +50,9 @@ async def chat_endpoint(message: Message):
 
     assistant = Chat(
         model=model,
-        vectorstore_type=settings["vectore_store_type"],
-        collection_name=settings["collection_name"],
-        embedding_model_name=settings["embedding_name"],
+        vectorstore_type="Chroma",
+        collection_name="turismo_metadata",
+        embedding_model_name="nomic-embed-text",
         retriever_type=message.retrieverType
     )
 

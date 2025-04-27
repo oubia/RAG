@@ -1,6 +1,6 @@
 import json
 from src.rag_models.retriever.retriever_factory import Retrieval_Factory
-from src.rag_models.vectorestore.vectore_store_factory import VectorStoreFactory
+from src.rag_models.vectorestore.vectorstore_factory import VectorStoreFactory
 from src.utils.prompts.prompt import general_prompt
 
 class Chat:

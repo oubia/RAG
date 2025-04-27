@@ -1,20 +1,20 @@
 {
     "available_settings": [
       {
-        "selected_approach": "bedrock + amazon titan",
-        "llm_name": "bedrock",
+        "selected_approach": "llama + nomic-embed-text",
+        "llm_name": "llama",
+        "embedding_name": "nomic-embed-text",
+        "vectore_store_type": "Chroma",
+        "collection_name": "turismo_metadata"
+      },
+      {
+        "selected_approach": "llamantino + amazon titan",
+        "llm_name": "llamantino",
         "embedding_name": "amazon.titan-embed-text-v2:0",
-        "vectore_store_type": "qdrant",
+        "vectore_store_type": "chroma",
         "collection_name": "collection_name"
       },
       {
-        "selected_approach": "bedrock + amazon titan",
-        "llm_name": "bedrock",
-        "embedding_name": "amazon.titan-embed-text-v2:0",
-        "vectore_store_type": "chroma",
-        "collection_name": "docs_bedrock"
-      },
-      {
         "selected_approach": "llama + nomic-embed-text",
         "llm_name": "llama",
         "embedding_name": "nomic-embed-text",
@@ -43,29 +43,29 @@
         "collection_name": "docs_openai"
       },
       {
-        "selected_approach": "deepseek + amazon titan",
-        "llm_name": "deepseek",
+        "selected_approach": "qwen2 + amazon titan",
+        "llm_name": "qwen2",
         "embedding_name": "amazon.titan-embed-text-v2:0",
         "vectore_store_type": "qdrant",
         "collection_name": "docs_bedrock"
       },
       {
-        "selected_approach": "deepseek + nomic-embed-text",
-        "llm_name": "deepseek",
+        "selected_approach": "qwen2 + nomic-embed-text",
+        "llm_name": "qwen2",
         "embedding_name": "nomic-embed-text",
         "vectore_store_type": "qdrant",
         "collection_name": "docs_nomic"
       },
       {
-        "selected_approach": "deepseek + amazon titan",
-        "llm_name": "deepseek",
+        "selected_approach": "qwen2 + amazon titan",
+        "llm_name": "qwen2",
         "embedding_name": "amazon.titan-embed-text-v2:0",
         "vectore_store_type": "Chroma",
         "collection_name": "docs_bedrock"
       },
       {
-        "selected_approach": "deepseek + nomic-embed-text",
-        "llm_name": "deepseek",
+        "selected_approach": "qwen2 + nomic-embed-text",
+        "llm_name": "qwen2",
         "embedding_name": "nomic-embed-text",
         "vectore_store_type": "Chroma",
         "collection_name": "docs_nomic"
