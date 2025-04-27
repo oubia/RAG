@@ -20,16 +20,8 @@ class Retrieval_Factory:
             elif role == 'assistant':
                 messages.append(AIMessage(content=content))
         return messages
-    def remove_internal_thoughts(self,text: str) -> str:
-        import re
-
-        cleaned = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
-        cleaned = re.sub(r"<think>|</think>", "", cleaned)
-        return cleaned.strip()
-
 
     def document_to_dict(self, doc):
-        # convert document to dict
         return doc
 
 

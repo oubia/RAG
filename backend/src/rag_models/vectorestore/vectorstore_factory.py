@@ -12,34 +12,20 @@ class VectorStoreFactory:
         return EmbeddingFactory.get_embedding_model(self.embedding_model_name) 
         
     def _init_vectorstore(self):
-
-        if self.vectorstore_type.lower() in "faisse":
-            from langchain.vectorstores import Qdrant
-            from qdrant_client import QdrantClient
-
-            client = QdrantClient(url=QDRANT_URL, port=None, api_key=QDRANT_API_KEY)
-            return Qdrant(
-                client=client,
-                collection_name=self.collection_name,
-                embeddings=self.embedding,
-            )
-
-        elif self.vectorstore_type.lower() in "chroma":
+        if self.vectorstore_type.lower() in "chroma":
             try:
                 from langchain_chroma import Chroma
                 from src.config.settings import CHROMA_DIR
-                from src.utils.embedder_utils.embedder_warper import EmbeddingWrapper
 
                 chroma_persist_dir = CHROMA_DIR
                 if not chroma_persist_dir:
                     raise ValueError("Chroma persist directory must be provided for Chroma vector store.")
                 embedding_instance = self.embedding
-                wrapped_embedding = EmbeddingWrapper(embedding_instance)
                 
                 return Chroma(
                     persist_directory=chroma_persist_dir, 
                     collection_name=self.collection_name,
-                    embedding_function=wrapped_embedding,
+                    embedding_function=embedding_instance,
                 )
             except Exception as e:
                 print(f"Error creating Chroma vector store: {e}")

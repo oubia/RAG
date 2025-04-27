@@ -44,13 +44,13 @@ const App = () => {
     'Quando è stato approvato il PNRR italiano dal Consiglio ECOFIN?',
   ];
 
-  const [selectedLLM, setSelectedLLM] = useState('llamantino + amazon titan');
+  const [selectedLLM, setSelectedLLM] = useState('llama + nomic-embed-text');
   const llms = ['llama + nomic-embed-text', 'Llama + nomic-embed-text', 'Llama + text-embedding-3-small',"qwen2 + amazon titan","qwen2 + nomic-embed-text"];
  
-  const [selectedVectoredb, setselectedVectoredb] = useState('Qdrant');
+  const [selectedVectoredb, setselectedVectoredb] = useState('Chroma');
   const vectoredb = ['Faiss', 'Chroma'];
 
-  const [selectedRetriever, setSelectedRetriever] = useState('condense');
+  const [selectedRetriever, setSelectedRetriever] = useState('conversation');
   const retrieverOptions = ['condense', 'conversation'];
 
   const handleLLMChange = (e) => { 
@@ -441,7 +441,7 @@ const App = () => {
         </div>
       <div
           className="container mx-auto px-6 flex flex-col items-center overflow-y-scroll hide-scrollbar"
-          style={{ height: 'calc(98vh - 64px)' }}
+          style={{ height: 'calc(105vh - 64px)' }}
         >
         {isPermissionAlertVisible && (
           <PermissionAlert onAllow={handleAllow} onDeny={handleDeny} />
