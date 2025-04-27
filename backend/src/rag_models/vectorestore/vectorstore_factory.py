@@ -1,5 +1,4 @@
 from src.rag_models.embedding.embedding_factory import EmbeddingFactory
-from src.config.settings import QDRANT_URL,QDRANT_API_KEY
 class VectorStoreFactory:
     def __init__(self, vectorstore_type: str, collection_name: str, embedding_model_name: str):
         self.vectorstore_type = vectorstore_type.lower()

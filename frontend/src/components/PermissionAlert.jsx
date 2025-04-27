@@ -27,7 +27,7 @@ const PermissionAlert = ({ onAllow, onDeny }) => {
     <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white rounded-lg shadow-lg p-6 w-96">
         <div className="flex items-center justify-center mb-4">
-          <FaMicrophone size={32} className="text-[#EE182B]" />
+          <FaMicrophone size={32} className="text-[#1665b5]" />
         </div>
         <h2 className="text-lg font-bold text-gray-800 text-center mb-2">
           Microphone Permission
@@ -38,7 +38,7 @@ const PermissionAlert = ({ onAllow, onDeny }) => {
         <div className="flex justify-center space-x-4">
           <button
             onClick={handleAllow}
-            className="px-4 py-2 bg-[#EE182B] text-white rounded-md hover:bg-[#CA1424]"
+            className="px-4 py-2 bg-[#1665b5] text-white rounded-md hover:bg-[#CA1424]"
           >
             Allow
           </button>

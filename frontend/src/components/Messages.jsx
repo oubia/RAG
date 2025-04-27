@@ -21,7 +21,7 @@ const Message = ({ msg, isUser, isAssistantTyping }) => {
       <div
         className={`relative max-w-3xl px-6 py-3 rounded-lg ${
           isUser
-            ? 'bg-[#EE182B] text-white rounded-br-none'
+            ? 'bg-[#1665b5] text-white rounded-br-none'
             : 'bg-gray-100 text-gray-800 rounded-bl-none'
         }`}
       >

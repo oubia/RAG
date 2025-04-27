@@ -39,7 +39,7 @@ const SuggestedQuestions = ({ suggestedQuestions, setShowChat, sendMessage }) =>
               setShowChat(true);
               sendMessage(question);
             }}
-            className="flex items-center space-x-2 px-6 py-4 border rounded-lg shadow-lg text-lg font-semibold text-gray-800 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#EE182B]"
+            className="flex items-center space-x-2 px-6 py-4 border rounded-lg shadow-lg text-lg font-semibold text-gray-800 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#1665b5]"
           >
             <span>{question}</span>
           </button>

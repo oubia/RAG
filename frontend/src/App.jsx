@@ -395,7 +395,7 @@ const App = () => {
                   value={llm}
                   checked={selectedLLM === llm}
                   onChange={handleLLMChange}
-                  className="accent-[#EE182B] cursor-pointer"
+                  className="accent-[#1665b5] cursor-pointer"
                 />
                 <span>{llm}</span>
               </label>
@@ -410,7 +410,7 @@ const App = () => {
                     value={vector}
                     checked={selectedVectoredb === vector}
                     onChange={handleVectordbChange}
-                    className="accent-[#EE182B] cursor-pointer"
+                    className="accent-[#1665b5] cursor-pointer"
                   />
                   <span>{vector}</span>
                 </label>
@@ -426,7 +426,7 @@ const App = () => {
                       value={retriever}
                       checked={selectedRetriever === retriever}
                       onChange={(e) => setSelectedRetriever(e.target.value)}
-                      className="accent-[#EE182B] cursor-pointer"
+                      className="accent-[#1665b5] cursor-pointer"
                     />
                     <span>{retriever}</span>
                   </label>
@@ -454,7 +454,7 @@ const App = () => {
                   setShowSuggestedQuestions(true);
                   setShowChat(false);
                 }}
-                className="flex items-center px-2 py-2 rounded-md shadow-md bg-white text-[#EE182B] hover:bg-[#EE182B] hover:text-white"
+                className="flex items-center px-2 py-2 rounded-md shadow-md bg-white text-[#1665b5] hover:bg-[#1665b5] hover:text-white"
                 
               >
                 <FaArrowLeft className="text-lg" />
@@ -530,7 +530,7 @@ const App = () => {
               <textarea
                 ref={textareaRef}
                 value={input || ''}
-                className="w-full pr-24 border rounded-md py-3 text-gray-700 leading-tight px-4 focus:outline-none focus:ring-2 focus:ring-[#EE182B] resize-none min-h-[2.5rem] max-h-40"
+                className="w-full pr-24 border rounded-md py-3 text-gray-700 leading-tight px-4 focus:outline-none focus:ring-2 focus:ring-[#1665b5] resize-none min-h-[2.5rem] max-h-40"
                 onChange={(e) => {
                   setInput(e.target.value);
                   setError(null);
@@ -542,7 +542,7 @@ const App = () => {
             )}
 
             {loading && (
-              <div className="animate-fadeIn absolute bottom-5 right-14 h-5 w-5 animate-spin rounded-full border-2 border-solid border-[#EE182B] border-r-transparent" />
+              <div className="animate-fadeIn absolute bottom-5 right-14 h-5 w-5 animate-spin rounded-full border-2 border-solid border-[#1665b5] border-r-transparent" />
             )}
 
             <div className="absolute right-2 bottom-3 flex space-x-0">
@@ -550,8 +550,8 @@ const App = () => {
                 <button
                   className={`flex justify-center items-center p-2 rounded-md ${
                     disabled
-                      ? 'bg-gray-300 cursor-not-allowed text-[#EE182B]'
-                      : 'bg-[#EE182B] hover:bg-[#CA1424] text-white'
+                      ? 'bg-gray-300 cursor-not-allowed text-[#1665b5]'
+                      : 'bg-[#1665b5] hover:bg-[#1665b5] text-white'
                   }`}
                   onClick={() => sendMessage()}
                   disabled={disabled}
@@ -577,10 +577,10 @@ const App = () => {
                 <button
                   className={`flex justify-center items-center p-2 rounded-md ${
                     isSubmitting
-                      ? 'bg-gray-300 cursor-not-allowed text-[#EE182B]'
+                      ? 'bg-gray-300 cursor-not-allowed text-[#1665b5]'
                       : isListening
-                      ? 'bg-[#CA1424] text-white'
-                      : 'bg-[#EE182B] hover:bg-[#CA1424] text-white'
+                      ? 'bg-[#1665b5] text-white'
+                      : 'bg-[#1665b5] hover:bg-[#1665b5] text-white'
                   }`}
                   onClick={isListening ? handleStopRecording : startListening}
                   disabled={isSubmitting}
@@ -597,7 +597,7 @@ const App = () => {
 
         {showScrollToBottom && (
           <button
-            className="fixed bottom-20 left-1/2 transform -translate-x-1/2 p-3 rounded-full bg-[#EE182B] text-white hover:bg-[#CA1424] shadow-md"
+            className="fixed bottom-20 left-1/2 transform -translate-x-1/2 p-3 rounded-full bg-[#1665b5] text-white hover:bg-[#1665b5] shadow-md"
             onClick={scrollToBottom}
           >
             <FaArrowDown size={15} />

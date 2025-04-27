@@ -56,6 +56,8 @@ class Retrieval_Factory:
             #     "source"
             # ],
         )
+        print(f"////////////////////{self.vectorstore._collection.count()}")  # Number of documents
+
         prompt = ChatPromptTemplate.from_template(prompt_template)
 
         qa_chain = ConversationalRetrievalChain.from_llm(
