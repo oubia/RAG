@@ -310,8 +310,9 @@ const App = () => {
     setError(null);
 
     try {
-      const response = await fetch(`${chatApiUrl}process_audio/`, {
+      const response = await fetch(`http://127.0.0.1:8000/process_audio/`, {
         method: "POST",
+        mode: "no-cors",
         body: formData,
       });
 
