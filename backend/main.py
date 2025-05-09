@@ -24,8 +24,8 @@ def load_config():
     
 class Message(BaseModel):
     content: str
-    selectedLLM: str
-    vectordb: str
+    selectedapproach: str
+    selectedChunkSize: str
     retrieverType: str
 
 @app.post("/chat/")
@@ -36,23 +36,24 @@ async def chat_endpoint(message: Message):
     settings = None  
     for item in config["available_settings"]:
         if (
-            str(item["selected_approach"]).lower() == str(message.selectedLLM).lower()
-            and str(item["vectore_store_type"]).lower() == str(message.vectordb).lower()
+            str(item["selectedapproach"]).lower() == str(message.selectedapproach).lower()
+            and str(item["selectedChunkSize"]).lower() == str(message.selectedChunkSize).lower()
         ):
             settings = item
             break  
 
-    print(settings)
+    print(f"\n ➡️{settings}")
     if not settings or settings is None:
         return {"error": "Invalid LLM or vector store type configuration."}
 
-    model = LLMFactory(settings["llm_name"]).get_llm()
+    model = LLMFactory("llama").get_llm()
 
     assistant = Chat(
         model=model,
         vectorstore_type="Chroma",
-        collection_name="turismo_metadata",
+        collection_name=settings["collection_name"],
         embedding_model_name="nomic-embed-text",
+        chunk_size=message.selectedChunkSize,
         retriever_type=message.retrieverType
     )
 

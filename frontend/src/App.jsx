@@ -44,21 +44,21 @@ const App = () => {
     'Quando è stato approvato il PNRR italiano dal Consiglio ECOFIN?',
   ];
 
-  const [selectedLLM, setSelectedLLM] = useState('llama + nomic-embed-text');
-  const llms = ['llama + nomic-embed-text', 'Llama + nomic-embed-text', 'Llama + text-embedding-3-small',"qwen2 + amazon titan","qwen2 + nomic-embed-text"];
+  const [selectedapproach, setselectedapproach] = useState('Native-chunking');
+  const approach = ['Native-chunking', 'Late-chunking'];
  
-  const [selectedVectoredb, setselectedVectoredb] = useState('Chroma');
-  const vectoredb = ['Faiss', 'Chroma'];
+  const [selectedChunkSize, setselectedChunkSize] = useState('750');
+  const chunksize = ['750',"250"];
 
-  const [selectedRetriever, setSelectedRetriever] = useState('conversation');
-  const retrieverOptions = ['condense', 'conversation'];
+  const [selectedapproachRetriever, setselectedapproachRetriever] = useState('Similarity-research');
+  const retrieverOptions = ['Similarity-research', 'Contextual-Compression', 'Parent-document','Document-re-rank'];
 
   const handleLLMChange = (e) => { 
-    setSelectedLLM(e.target.value);
+    setselectedapproach(e.target.value);
   };
 
   const handleVectordbChange = (e) => {
-    setselectedVectoredb(e.target.value);
+    setselectedChunkSize(e.target.value);
   };
  
 
@@ -107,7 +107,7 @@ const App = () => {
     let done = false;
     let newMessage = "";
 
-    setMessageHistory((prev) => [...prev, { role: "assistant", content: "", selectedLLM, selectedVectoredb }]);
+    setMessageHistory((prev) => [...prev, { role: "assistant", content: "", selectedapproach, selectedChunkSize }]);
 
     while (!done) {
       const { value, done: readerDone } = await reader.read();
@@ -159,9 +159,9 @@ const App = () => {
         method: "POST",
         body: JSON.stringify({ 
           content: message,
-          selectedLLM:selectedLLM,
-          vectordb:selectedVectoredb,
-          retrieverType: selectedRetriever,
+          selectedapproach:selectedapproach,
+          selectedChunkSize:selectedChunkSize,
+          retrieverType: selectedapproachRetriever,
         }),
         // credentials: "include",
       });
@@ -387,14 +387,14 @@ const App = () => {
     <Router>
       <Layout />
       <div className="absolute top-40 right-10 w-48 sm:w-50 md:w-60 max-w-xs p-2 rounded-md shadow-md bg-white border">
-      <h2 className="text-xl font-semibold mb-4">Select LLM</h2>
-            {llms.map((llm) => (
+      <h2 className="text-xl font-semibold mb-4">Select Chunking Approach</h2>
+            {approach.map((llm) => (
               <label key={llm} className="flex items-center space-x-2 mb-2">
                 <input
                   type="radio"
                   name="llm"
                   value={llm}
-                  checked={selectedLLM === llm}
+                  checked={selectedapproach === llm}
                   onChange={handleLLMChange}
                   className="accent-[#1665b5] cursor-pointer"
                 />
@@ -402,14 +402,14 @@ const App = () => {
               </label>
             ))}
 
-            <h2 className="text-xl font-semibold mt-4">Select Vectordb</h2>
-              {vectoredb.map((vector) => (
+            <h2 className="text-xl font-semibold mt-4">Select Chunk Size</h2>
+              {chunksize.map((vector) => (
                 <label key={vector} className="flex items-center space-x-2 mb-2">
                   <input
                     type="radio"
                     name="vector"
                     value={vector}
-                    checked={selectedVectoredb === vector}
+                    checked={selectedChunkSize === vector}
                     onChange={handleVectordbChange}
                     className="accent-[#1665b5] cursor-pointer"
                   />
@@ -425,8 +425,8 @@ const App = () => {
                       type="radio"
                       name="retriever"
                       value={retriever}
-                      checked={selectedRetriever === retriever}
-                      onChange={(e) => setSelectedRetriever(e.target.value)}
+                      checked={selectedapproachRetriever === retriever}
+                      onChange={(e) => setselectedapproachRetriever(e.target.value)}
                       className="accent-[#1665b5] cursor-pointer"
                     />
                     <span>{retriever}</span>
@@ -498,8 +498,8 @@ const App = () => {
                     msg={msg}
                     isUser={isUser}
                     isAssistantTyping={isAssistantTyping}
-                    selectedLLM={selectedLLM}
-                    selectedVectoredb={selectedVectoredb}
+                    selectedapproach={selectedapproach}
+                  
                   />
                 );
               })}

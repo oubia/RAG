@@ -1,179 +1,207 @@
+# retrieval_factory.py
 import asyncio
 from typing import AsyncGenerator
-from langchain.prompts import PromptTemplate
+
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.retrievers import (
+    ContextualCompressionRetriever,
+    EnsembleRetriever,
+    BM25Retriever,
+)
+from langchain_community.document_compressors.rankllm_rerank import RankLLMRerank
+from langchain.schema import HumanMessage, AIMessage, Document
+from langchain.prompts import ChatPromptTemplate
 
 class Retrieval_Factory:
-    def __init__(self, llm, vectorstore, chat_history=None):
+    """Create and use different retrievers on the same vector store."""
+
+    def __init__(self, llm, vectorstore, chat_history: list | None = None, chunk_size: int = 750):
         self.llm = llm
         self.vectorstore = vectorstore
-        self.chat_history = chat_history if chat_history else []
+        self.chunk_size = chunk_size
+        self.chat_history = chat_history or []
 
-    def format_chat_history(self,chat_history):
-        from langchain.schema import HumanMessage, AIMessage
-
+    # -----------------------------------------------------------
+    #  Chat-history formatter (unchanged)
+    # -----------------------------------------------------------
+    def format_chat_history(self, chat_history):
         messages = []
         for item in chat_history:
-            role = item['role']
-            content = item['content'].strip()
-            if role == 'user':
+            role, content = item["role"], item["content"].strip()
+            if role == "user":
                 messages.append(HumanMessage(content=content))
-            elif role == 'assistant':
+            elif role == "assistant":
                 messages.append(AIMessage(content=content))
         return messages
 
-    def document_to_dict(self, doc):
-        return doc
-
-
-    async def get_retrieve_answer_conversation(self, query: str, prompt_template: str) -> AsyncGenerator[str, None]:
-        import asyncio
-        from typing import AsyncGenerator
-        from langchain.memory import ConversationBufferMemory
-        from langchain.chains import ConversationalRetrievalChain
-        from langchain.prompts import ChatPromptTemplate
-
-        memory = ConversationBufferMemory(memory_key="chat_history", output_key="answer")
-
-        retriever = self.vectorstore.as_retriever(
-            search_type="similarity",
-            search_kwargs={
-                "k": 10,
-                # "score_threshold": 0.6,
-            },
-            # search_type="mmr",
-            # search_kwargs={
-            #     "k": 5,
-            #     "lambda_mult": 0.5,
-            # },
-
-            # content_payload_key="page_content",
-            # metadata_payload_key=[
-            #     "nid", 
-            #     "type", 
-            #     "created", 
-            #     "changed", 
-            #     "langcode", 
-            #     "source"
-            # ],
-        )
-        print(f"////////////////////{self.vectorstore._collection.count()}")  # Number of documents
-
-        prompt = ChatPromptTemplate.from_template(prompt_template)
-
-        qa_chain = ConversationalRetrievalChain.from_llm(
-            llm=self.llm,
-            retriever=retriever,
-            memory=memory,
-            combine_docs_chain_kwargs={"prompt": prompt},
-            verbose=True,
-            response_if_no_docs_found="No relevant documents",
-            return_source_documents=True,
-            output_key="answer",
-            # stop=["<think>", "</think>"]
+    # -----------------------------------------------------------
+    #  1) Standard vector-similarity (or MMR) retriever
+    # -----------------------------------------------------------
+    def build_similarity_retriever(self, k: int = 10, mmr: bool = False):
+        if mmr:
+            return self.vectorstore.as_retriever(
+                search_type="mmr",
+                search_kwargs={"k": k, "lambda_mult": 0.5},
+            )
+        return self.vectorstore.as_retriever(
+            search_type="similarity", search_kwargs={"k": k}
         )
 
-        response = await qa_chain.ainvoke(query)
-        print("QA chain response:", response)
-
-        source_docs = response.get("source_documents", [])
-        if source_docs:
-            print("Retrieved documents:")
-            for idx, doc in enumerate(source_docs, start=1):
-                print(f"\n--- Document {idx} ---")
-                print("Content:", doc.page_content)
-                print("Metadata:", doc.metadata)
-        else:
-            print("No source documents were retrieved.")
-        answer = response.get("answer", "")
-        # answer = self.remove_internal_thoughts(answer)
-        # sources = []
-        # for doc in source_docs:
-        #     source_link = doc.metadata.get("source")
-        #     if source_link:
-        #         sources.append(source_link)
-
-        # if sources:
-        #     answer += "\n\nSources:\n" + "\n".join(sources)
-
-        for letter in answer:
-            yield letter
-            await asyncio.sleep(0.01)
-
-    async def get_retrieve_answer_conversation_combiened(self, query: str, prompt_template: str) -> AsyncGenerator[str, None]:
-        import asyncio
-        from typing import AsyncGenerator
-        from langchain.memory import ConversationBufferMemory
-        from langchain.chains import ConversationalRetrievalChain, LLMChain
-        from langchain.prompts import ChatPromptTemplate, PromptTemplate
-        memory = ConversationBufferMemory(memory_key="chat_history", output_key="answer")
-        print(f"////////////////////{self.vectorstore._collection.count()}")  # Number of documents
-
-        retriever = self.vectorstore.as_retriever(
-            search_type="similarity",
-            search_kwargs={
-                "k": 10,
-                
-            },
+    # -----------------------------------------------------------
+    #  2) ContextualCompression (late-chunking) retriever
+    # -----------------------------------------------------------
+    def build_compression_retriever(
+        self,
+        k: int = 8,
+        chunk_size: int = 750,
+        chunk_overlap: int = 80,
+    ):
+        splitter = RecursiveCharacterTextSplitter(
+            chunk_size=chunk_size, chunk_overlap=chunk_overlap
+        )
+        return ContextualCompressionRetriever(
+            base_retriever=self.vectorstore.as_retriever(
+                search_type="similarity", search_kwargs={"k": k}
+            ),
+            base_compressor=splitter,
         )
 
-        print(f"retirever --------------------->  {retriever}")
-        prompt = ChatPromptTemplate.from_template(prompt_template)
-        qa_chain = ConversationalRetrievalChain.from_llm(
-            llm=self.llm,
-            retriever=retriever,
-            memory=memory,
-            combine_docs_chain_kwargs={"prompt": prompt},
-            verbose=True,
-            response_if_no_docs_found="No relevant documents",
-            return_source_documents=True,
-            output_key="answer",
+    # -----------------------------------------------------------
+    #  3) Document-Rerank retriever (vector → LLM cross-encoder)
+    # -----------------------------------------------------------
+    def build_rerank_retriever(
+        self,
+        first_pass_k: int = 50,
+        final_k: int = 8,
+    ):
+        first_pass = self.vectorstore.as_retriever(
+            search_type="similarity", search_kwargs={"k": first_pass_k}
         )
-        response = await qa_chain.ainvoke(query)
-        print("Initial QA chain response:", response)
-
-        source_docs = response.get("source_documents", [])
-        if source_docs:
-            print("Retrieved documents:")
-            for idx, doc in enumerate(source_docs, start=1):
-                print(f"\n--- Document {idx} ---")
-                print("Content:", doc.page_content)
-                print("Metadata:", doc.metadata)
-        else:
-            print("No source documents were retrieved.")
-
-        initial_answer = response.get("answer", "")
-        initial_answer = self.remove_internal_thoughts(initial_answer)
+        reranker = RankLLMRerank(top_n=final_k, llm=self.llm)
+        return ContextualCompressionRetriever(
+            base_retriever=first_pass, base_compressor=reranker
+        )
+    # -----------------------------------------------------------
+    #  4) Hybrid-Fusion retriever  (dense + BM25)
+    # Removed redundant import statement
+    from langchain.retrievers import BM25Retriever, EnsembleRetriever
 
     
-        sources = []
-        for doc in source_docs:
-            source_link = doc.metadata.get("source")
-            if source_link:
-                sources.append(source_link)
-        source_links_str = "\n".join(sources)
 
-        refinement_prompt_template = (
-            "Hai generato la seguente risposta iniziale: n n"
-            "{initial_answer} n n"
-            "Sono disponibili i seguenti collegamenti:"
-            "{source_links} n n"
-            "Riscrivere la risposta integrando naturalmente i collegamenti di origine nel punto più appropriato."
-            "Non aggiungere informazioni che non sono nella risposta iniziale.  n n"
-            "Risposta finale:"
-        )
-        refinement_prompt = PromptTemplate(
-            template=refinement_prompt_template,
-            input_variables=["initial_answer", "source_links"]
-        )
-        
-        refinement_input = {
-            "initial_answer": initial_answer,
-            "source_links": source_links_str
-        }
-        refinement_chain = LLMChain(llm=self.llm, prompt=refinement_prompt)
-        refined_answer = refinement_chain.run(refinement_input)
-        refined_answer = self.remove_internal_thoughts(refined_answer)
+    def build_hybrid_fusion_retriever(
+        self,
+        dense_k: int = 8,
+        sparse_k: int = 20,
+        alpha: float = 0.5,          # weight for dense vs sparse (0–1)
+    ):
+        """
+        alpha = 1   → only dense scores
+        alpha = 0   → only BM25 scores
+        """
 
-        for letter in refined_answer:
-            yield letter
+        # 1️⃣  Dense part (similarity search on Chroma)
+        dense_retriever = self.vectorstore.as_retriever(
+            search_type="similarity", search_kwargs={"k": dense_k}
+        )
+
+        # 2️⃣  Sparse part (BM25 over the same corpus)
+        #     We need the full corpus once to build the index
+        all_docs = []
+        for doc_text, meta in zip(
+            *self.vectorstore.get(
+                include=["documents", "metadatas"],
+                limit=None,
+            ).values()
+        ):
+            all_docs.append(Document(page_content=doc_text, metadata=meta))
+
+        bm25 = BM25Retriever.from_documents(all_docs)
+        bm25.k = sparse_k
+
+        # 3️⃣  Fuse scores
+        hybrid = EnsembleRetriever(
+            retrievers=[dense_retriever, bm25],
+            weights=[alpha, 1 - alpha],
+        )
+        return hybrid
+
+    # -----------------------------------------------------------
+    #  Generic ConversationalRetrieval chain
+    # -----------------------------------------------------------
+    async def converse(
+        self,
+        query: str,
+        prompt_template: str,
+        retriever,
+    ) -> AsyncGenerator[str, None]:
+        from langchain.memory import ConversationBufferMemory
+        from langchain.chains import ConversationalRetrievalChain
+
+        memory = ConversationBufferMemory(
+            memory_key="chat_history", output_key="answer"
+        )
+        prompt = ChatPromptTemplate.from_template(prompt_template)
+
+        qa_chain = ConversationalRetrievalChain.from_llm(
+            llm=self.llm,
+            retriever=retriever,
+            memory=memory,
+            combine_docs_chain_kwargs={"prompt": prompt},
+            return_source_documents=True,
+            verbose=True,
+        )
+
+        response = await qa_chain.ainvoke(query)
+        answer = response.get("answer", "")
+
+        # --- stream answer as characters ---
+        for ch in answer:
+            yield ch
             await asyncio.sleep(0.01)
+
+    # -----------------------------------------------------------
+    #  Convenience wrappers
+    # -----------------------------------------------------------
+    async def answer_with_similarity(
+        self, query: str, prompt_template: str, k: int = 10, mmr=False
+    ):
+        retriever = self.build_similarity_retriever(k=k, mmr=mmr)
+        async for chunk in self.converse(query, prompt_template, retriever):
+            yield chunk
+
+    async def answer_with_compression(
+        self, query: str, prompt_template: str, k: int = 8
+    ):
+        retriever = self.build_compression_retriever(k=k)
+        async for chunk in self.converse(query, prompt_template, retriever):
+            yield chunk
+
+    async def answer_with_rerank(
+        self,
+        query: str,
+        prompt_template: str,
+        first_pass_k: int = 50,
+        final_k: int = 8,
+    ):
+        retriever = self.build_rerank_retriever(
+            first_pass_k=first_pass_k, final_k=final_k
+        )
+        async for chunk in self.converse(query, prompt_template, retriever):
+            yield chunk
+
+    # -----------------------------------------------------------
+    # convenience async wrapper
+    # -----------------------------------------------------------
+    async def answer_with_hybrid(
+        self,
+        query: str,
+        prompt_template: str,
+        dense_k: int = 8,
+        sparse_k: int = 20,
+        alpha: float = 0.5,
+    ):
+        retriever = self.build_hybrid_fusion_retriever(
+            dense_k=dense_k, sparse_k=sparse_k, alpha=alpha
+        )
+        async for chunk in self.converse(query, prompt_template, retriever):
+            yield chunk

@@ -1,74 +1,24 @@
 {
     "available_settings": [
       {
-        "selected_approach": "llama + nomic-embed-text",
-        "llm_name": "llama",
-        "embedding_name": "nomic-embed-text",
-        "vectore_store_type": "Chroma",
-        "collection_name": "turismo_metadata"
+        "selectedapproach": "Native-chunking",
+        "selectedChunkSize": "750",
+        "collection_name": "turismo_native_chunk_750"
       },
       {
-        "selected_approach": "llamantino + amazon titan",
-        "llm_name": "llamantino",
-        "embedding_name": "amazon.titan-embed-text-v2:0",
-        "vectore_store_type": "chroma",
-        "collection_name": "collection_name"
+        "selectedapproach": "Native-chunking",
+        "selectedChunkSize": "250",
+        "collection_name": "turismo_native_chunk_250"
       },
       {
-        "selected_approach": "llama + nomic-embed-text",
-        "llm_name": "llama",
-        "embedding_name": "nomic-embed-text",
-        "vectore_store_type": "qdrant",
-        "collection_name": "docs_nomic"
+        "selectedapproach": "Late-chunking",
+        "selectedChunkSize": "750",
+        "collection_name": "turismo_full"
       },
       {
-        "selected_approach": "llama + nomic-embed-text",
-        "llm_name": "llama",
-        "embedding_name": "nomic-embed-text",
-        "vectore_store_type": "Chroma",
-        "collection_name": "docs_nomic"
-      },
-      {
-        "selected_approach": "llama + text-embedding-3-small",
-        "llm_name": "llama",
-        "embedding_name": "text-embedding-3-small",
-        "vectore_store_type": "qdrant",
-        "collection_name": "docs_openai"
-      },
-      {
-        "selected_approach": "llama + text-embedding-3-small",
-        "llm_name": "llama",
-        "embedding_name": "text-embedding-3-small",
-        "vectore_store_type": "Chroma",
-        "collection_name": "docs_openai"
-      },
-      {
-        "selected_approach": "qwen2 + amazon titan",
-        "llm_name": "qwen2",
-        "embedding_name": "amazon.titan-embed-text-v2:0",
-        "vectore_store_type": "qdrant",
-        "collection_name": "docs_bedrock"
-      },
-      {
-        "selected_approach": "qwen2 + nomic-embed-text",
-        "llm_name": "qwen2",
-        "embedding_name": "nomic-embed-text",
-        "vectore_store_type": "qdrant",
-        "collection_name": "docs_nomic"
-      },
-      {
-        "selected_approach": "qwen2 + amazon titan",
-        "llm_name": "qwen2",
-        "embedding_name": "amazon.titan-embed-text-v2:0",
-        "vectore_store_type": "Chroma",
-        "collection_name": "docs_bedrock"
-      },
-      {
-        "selected_approach": "qwen2 + nomic-embed-text",
-        "llm_name": "qwen2",
-        "embedding_name": "nomic-embed-text",
-        "vectore_store_type": "Chroma",
-        "collection_name": "docs_nomic"
+        "selectedapproach": "Late-chunking",
+        "selectedChunkSize": "250",
+        "collection_name": "turismo_full"
       }
     ]
   }

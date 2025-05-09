@@ -4,7 +4,7 @@ from src.rag_models.vectorestore.vectorstore_factory import VectorStoreFactory
 from src.utils.prompts.prompt import general_prompt
 
 class Chat:
-    def __init__(self, model, vectorstore_type: str, collection_name: str, embedding_model_name: str, retriever_type: str = "combined"):
+    def __init__(self, model, vectorstore_type: str, collection_name: str, embedding_model_name: str, chunk_size: int = 750, retriever_type: str = "Similarity-research"):
         self.model = model
         self.prompt = general_prompt
         self.vectorstore = VectorStoreFactory(
@@ -19,8 +19,10 @@ class Chat:
             retrieval_qna_handler = Retrieval_Factory(self.model, self.vectorstore)
             
             retriever_methods = {
-                "conversation": retrieval_qna_handler.get_retrieve_answer_conversation,
-                "condense": retrieval_qna_handler.get_retrieve_answer_conversation_combiened
+                "Similarity-research": retrieval_qna_handler.get_retrieve_answer_conversation,
+                "Contextual-Compression": retrieval_qna_handler.get_retrieve_answer_conversation_combiened,
+                "Parent-document": retrieval_qna_handler.get_retrieve_answer_conversation_combiened,
+                "Document-re-rank": retrieval_qna_handler.get_retrieve_answer_conversation_combiened
             }
             
             method = retriever_methods.get(self.retriever_type, retrieval_qna_handler.get_retrieve_answer_conversation_combiened)
