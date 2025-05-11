@@ -13,7 +13,6 @@ from langchain.schema import HumanMessage, AIMessage, Document
 from langchain.prompts import ChatPromptTemplate
 
 class Retrieval_Factory:
-    """Create and use different retrievers on the same vector store."""
 
     def __init__(self, llm, vectorstore, chat_history: list | None = None, chunk_size: int = 750):
         self.llm = llm
@@ -21,9 +20,7 @@ class Retrieval_Factory:
         self.chunk_size = chunk_size
         self.chat_history = chat_history or []
 
-    # -----------------------------------------------------------
     #  Chat-history formatter (unchanged)
-    # -----------------------------------------------------------
     def format_chat_history(self, chat_history):
         messages = []
         for item in chat_history:
@@ -34,100 +31,126 @@ class Retrieval_Factory:
                 messages.append(AIMessage(content=content))
         return messages
 
-    # -----------------------------------------------------------
     #  1) Standard vector-similarity (or MMR) retriever
-    # -----------------------------------------------------------
-    def build_similarity_retriever(self, k: int = 10, mmr: bool = False):
+  
+    def build_similarity_retriever(self,  mmr: bool = False):
         if mmr:
             return self.vectorstore.as_retriever(
                 search_type="mmr",
-                search_kwargs={"k": k, "lambda_mult": 0.5},
+                search_kwargs={"k": 10, "lambda_mult": 0.5},
             )
         return self.vectorstore.as_retriever(
-            search_type="similarity", search_kwargs={"k": k}
+            search_type="similarity", search_kwargs={"k": 10}
         )
 
-    # -----------------------------------------------------------
-    #  2) ContextualCompression (late-chunking) retriever
-    # -----------------------------------------------------------
-    def build_compression_retriever(
-        self,
-        k: int = 8,
-        chunk_size: int = 750,
-        chunk_overlap: int = 80,
-    ):
-        splitter = RecursiveCharacterTextSplitter(
-            chunk_size=chunk_size, chunk_overlap=chunk_overlap
-        )
-        return ContextualCompressionRetriever(
-            base_retriever=self.vectorstore.as_retriever(
-                search_type="similarity", search_kwargs={"k": k}
-            ),
-            base_compressor=splitter,
+    def build_compression_retriever(self):
+
+        from langchain.text_splitter import RecursiveCharacterTextSplitter
+        from langchain.retrievers.document_compressors import DocumentCompressorPipeline
+        from langchain.retrievers import ContextualCompressionRetriever
+
+        try:
+            splitter = RecursiveCharacterTextSplitter(
+                chunk_size     = self.chunk_size,      # e.g. 750
+                chunk_overlap  = 80,
+            )
+
+            compressor = DocumentCompressorPipeline(transformers=[splitter])
+
+            base = self.vectorstore.as_retriever(
+                search_type="similarity",
+                search_kwargs={"k": 10},
+            )
+
+            retriever = ContextualCompressionRetriever(
+                base_retriever  = base,
+                base_compressor = compressor,
+            )
+            return retriever
+
+        except Exception as err:
+            import logging, traceback
+            logging.error("Failed to build ContextualCompressionRetriever")
+            logging.error("".join(traceback.format_exception(err)))
+            raise RuntimeError(f"Failed to build compression retriever: {err}") from err
+
+        
+   
+    def build_parent_document_retriever(self):
+        from langchain.retrievers import ParentDocumentRetriever
+        from langchain_core.stores import InMemoryByteStore
+
+        child_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=self.chunk_size, 
+            chunk_overlap=80
         )
 
-    # -----------------------------------------------------------
-    #  3) Document-Rerank retriever (vector → LLM cross-encoder)
-    # -----------------------------------------------------------
-    def build_rerank_retriever(
-        self,
-        first_pass_k: int = 50,
-        final_k: int = 8,
-    ):
-        first_pass = self.vectorstore.as_retriever(
-            search_type="similarity", search_kwargs={"k": first_pass_k}
+        # 2) splitter for the parent chunks we want to re-contextualize
+        parent_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=self.chunk_size*100,  # e.g. 750
+            chunk_overlap=100
         )
-        reranker = RankLLMRerank(top_n=final_k, llm=self.llm)
-        return ContextualCompressionRetriever(
-            base_retriever=first_pass, base_compressor=reranker
-        )
-    # -----------------------------------------------------------
+
+        # 3) an in-memory store to remember which child came from which parent
+        byte_store = InMemoryByteStore()
+
+        return ParentDocumentRetriever(
+            vectorstore=self.vectorstore,
+            child_splitter=child_splitter,
+            parent_splitter=parent_splitter,
+            byte_store=byte_store
+        )   
+        
     #  4) Hybrid-Fusion retriever  (dense + BM25)
-    # Removed redundant import statement
     from langchain.retrievers import BM25Retriever, EnsembleRetriever
 
-    
-
-    def build_hybrid_fusion_retriever(
-        self,
-        dense_k: int = 8,
-        sparse_k: int = 20,
-        alpha: float = 0.5,          # weight for dense vs sparse (0–1)
-    ):
+    def build_hybrid_fusion_retriever(self,sparse_k: int = 20,alpha: float = 0.5):
         """
         alpha = 1   → only dense scores
         alpha = 0   → only BM25 scores
         """
+        from langchain.schema import Document
+        from langchain.retrievers import BM25Retriever, EnsembleRetriever
 
-        # 1️⃣  Dense part (similarity search on Chroma)
-        dense_retriever = self.vectorstore.as_retriever(
-            search_type="similarity", search_kwargs={"k": dense_k}
+        dense = self.vectorstore.as_retriever(
+            search_type="similarity",
+            search_kwargs={"k": 10},
         )
 
-        # 2️⃣  Sparse part (BM25 over the same corpus)
-        #     We need the full corpus once to build the index
-        all_docs = []
-        for doc_text, meta in zip(
-            *self.vectorstore.get(
+        try:
+            results = self.vectorstore.get(
                 include=["documents", "metadatas"],
-                limit=None,
-            ).values()
-        ):
-            all_docs.append(Document(page_content=doc_text, metadata=meta))
+                limit=None,         
+            ) or {}
 
-        bm25 = BM25Retriever.from_documents(all_docs)
-        bm25.k = sparse_k
+            docs_list  = results.get("documents") or []
+            metas_list = results.get("metadatas") or []
 
-        # 3️⃣  Fuse scores
-        hybrid = EnsembleRetriever(
-            retrievers=[dense_retriever, bm25],
-            weights=[alpha, 1 - alpha],
-        )
-        return hybrid
+            if not docs_list or not metas_list:
+                raise RuntimeError(
+                    f"No documents found in vectorstore (docs={len(docs_list)}, metas={len(metas_list)})"
+                )
 
-    # -----------------------------------------------------------
+            all_docs = [
+                Document(page_content=text, metadata=meta)
+                for text, meta in zip(docs_list, metas_list)
+            ]
+            bm25 = BM25Retriever.from_documents(all_docs)
+            bm25.k = sparse_k
+
+            hybrid = EnsembleRetriever(
+                retrievers=[dense, bm25],
+                weights=[alpha, 1 - alpha],
+            )
+            return hybrid
+
+        except Exception as err:
+            import logging, traceback
+            logging.error("Failed to build Hybrid-Fusion retriever")
+            logging.error("".join(traceback.format_exception(err)))
+            raise RuntimeError(f"Failed to build hybrid retriever: {err}") from err
+
     #  Generic ConversationalRetrieval chain
-    # -----------------------------------------------------------
     async def converse(
         self,
         query: str,
@@ -142,6 +165,7 @@ class Retrieval_Factory:
         )
         prompt = ChatPromptTemplate.from_template(prompt_template)
 
+        
         qa_chain = ConversationalRetrievalChain.from_llm(
             llm=self.llm,
             retriever=retriever,
@@ -153,55 +177,59 @@ class Retrieval_Factory:
 
         response = await qa_chain.ainvoke(query)
         answer = response.get("answer", "")
+	    
+        source_docs = response.get("source_documents", [])
+        if source_docs:
+            print("Retrieved documents:")
+            for idx, doc in enumerate(source_docs, start=1):
+                print(f"\n--- Document {idx} --- Chunk Size: {len(doc.page_content)}")
+                print("Content:", doc.page_content)
+                print("Metadata:", doc.metadata)
+        else:
+            print("No source documents were retrieved.")
 
-        # --- stream answer as characters ---
         for ch in answer:
             yield ch
             await asyncio.sleep(0.01)
 
-    # -----------------------------------------------------------
     #  Convenience wrappers
-    # -----------------------------------------------------------
     async def answer_with_similarity(
-        self, query: str, prompt_template: str, k: int = 10, mmr=False
+        self, query: str, prompt_template: str, mmr=False
     ):
-        retriever = self.build_similarity_retriever(k=k, mmr=mmr)
+        print(f"this ist this the similarity retriever")
+        retriever = self.build_similarity_retriever(mmr=mmr)
         async for chunk in self.converse(query, prompt_template, retriever):
             yield chunk
 
     async def answer_with_compression(
-        self, query: str, prompt_template: str, k: int = 8
+        self, query: str, prompt_template: str
     ):
-        retriever = self.build_compression_retriever(k=k)
+        print(f"this ist this the compression retriever")
+        retriever = self.build_compression_retriever()
+        print(f"this ist he retriever: {type(retriever)}")
         async for chunk in self.converse(query, prompt_template, retriever):
             yield chunk
 
-    async def answer_with_rerank(
+    async def answer_with_parent_document(
         self,
         query: str,
-        prompt_template: str,
-        first_pass_k: int = 50,
-        final_k: int = 8,
-    ):
-        retriever = self.build_rerank_retriever(
-            first_pass_k=first_pass_k, final_k=final_k
-        )
+        prompt_template: str):
+        print(f"this ist this the rerank retriever")
+        retriever = self.build_parent_document_retriever()
         async for chunk in self.converse(query, prompt_template, retriever):
             yield chunk
 
-    # -----------------------------------------------------------
-    # convenience async wrapper
-    # -----------------------------------------------------------
     async def answer_with_hybrid(
         self,
         query: str,
         prompt_template: str,
-        dense_k: int = 8,
-        sparse_k: int = 20,
-        alpha: float = 0.5,
     ):
+        print(f"this ist this the answer_with_hybrid retriever")
+        dense_k = 10
+        sparse_k = 20
+        alpha = 0.5
         retriever = self.build_hybrid_fusion_retriever(
-            dense_k=dense_k, sparse_k=sparse_k, alpha=alpha
+            sparse_k=sparse_k, alpha=alpha
         )
         async for chunk in self.converse(query, prompt_template, retriever):
             yield chunk

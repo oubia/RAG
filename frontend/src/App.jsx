@@ -51,7 +51,7 @@ const App = () => {
   const chunksize = ['750',"250"];
 
   const [selectedapproachRetriever, setselectedapproachRetriever] = useState('Similarity-research');
-  const retrieverOptions = ['Similarity-research', 'Contextual-Compression', 'Parent-document','Document-re-rank'];
+  const retrieverOptions = ['Similarity-research', 'Contextual-Compression', 'Parent-document','Hybrid-fusion'];
 
   const handleLLMChange = (e) => { 
     setselectedapproach(e.target.value);
@@ -107,7 +107,7 @@ const App = () => {
     let done = false;
     let newMessage = "";
 
-    setMessageHistory((prev) => [...prev, { role: "assistant", content: "", selectedapproach, selectedChunkSize }]);
+    setMessageHistory((prev) => [...prev, { role: "assistant", content: "", selectedapproach, selectedChunkSize, selectedapproachRetriever}]);
 
     while (!done) {
       const { value, done: readerDone } = await reader.read();
@@ -161,7 +161,7 @@ const App = () => {
           content: message,
           selectedapproach:selectedapproach,
           selectedChunkSize:selectedChunkSize,
-          retrieverType: selectedapproachRetriever,
+          selectedapproachRetriever: selectedapproachRetriever,
         }),
         // credentials: "include",
       });
@@ -498,8 +498,6 @@ const App = () => {
                     msg={msg}
                     isUser={isUser}
                     isAssistantTyping={isAssistantTyping}
-                    selectedapproach={selectedapproach}
-                  
                   />
                 );
               })}

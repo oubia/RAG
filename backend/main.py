@@ -25,8 +25,8 @@ def load_config():
 class Message(BaseModel):
     content: str
     selectedapproach: str
-    selectedChunkSize: str
-    retrieverType: str
+    selectedChunkSize: int
+    selectedapproachRetriever: str
 
 @app.post("/chat/")
 async def chat_endpoint(message: Message):
@@ -42,7 +42,7 @@ async def chat_endpoint(message: Message):
             settings = item
             break  
 
-    print(f"\n ➡️{settings}")
+    print(f"\n Chosen parameters ➡️{settings} selectedChunkSize: {int(message.selectedChunkSize)} retrieverType: {message.selectedapproachRetriever}\n")
     if not settings or settings is None:
         return {"error": "Invalid LLM or vector store type configuration."}
 
@@ -53,8 +53,8 @@ async def chat_endpoint(message: Message):
         vectorstore_type="Chroma",
         collection_name=settings["collection_name"],
         embedding_model_name="nomic-embed-text",
-        chunk_size=message.selectedChunkSize,
-        retriever_type=message.retrieverType
+        chunk_size=int(message.selectedChunkSize),
+        retriever_type=message.selectedapproachRetriever
     )
 
     async def event_generator():

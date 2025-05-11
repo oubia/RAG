@@ -51,7 +51,7 @@ const Message = ({ msg, isUser, isAssistantTyping}) => {
       {!isUser && (
         <h1 className="text-sm text-gray-800 italic flex items-center justify-center">
           <span className="flex-grow border-t border-gray-400 mx-4"></span>
-          <span className="italic text-gray-500">{msg.selectedapproach} + {msg.selectedChunkSize} + {msg.retrieverType}</span>
+          <span className="italic text-gray-500">{msg.selectedapproach} + {msg.selectedChunkSize} + {msg.selectedapproachRetriever}</span>
           <span className="flex-grow border-t border-gray-400 mx-4"></span>
         </h1>
       )}
