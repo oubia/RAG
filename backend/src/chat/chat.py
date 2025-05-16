@@ -38,7 +38,7 @@ class Chat:
             retriever_methods = {
                 "Similarity-research": retrieval_handler.answer_with_similarity,
                 "Contextual-Compression": retrieval_handler.answer_with_compression,
-                "Parent-document": retrieval_handler.answer_with_parent_document,
+                "Parent-document": retrieval_handler.answer_with_multiquery,
                 "Hybrid-fusion": retrieval_handler.answer_with_hybrid,
             }
 

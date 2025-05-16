@@ -20,7 +20,28 @@ class Retrieval_Factory:
         self.chunk_size = chunk_size
         self.chat_history = chat_history or []
 
-    #  Chat-history formatter (unchanged)
+    def load_raw_documents(self,csv_dir="D:\homy\S9\data-text-mining\RAG_Embeddings\data\output_csvs\output_csvs"):
+        import os, pandas as pd
+        from langchain.schema import Document
+
+        docs = []
+        for filename in os.listdir(csv_dir):
+            if filename.endswith(".csv"):
+                df = pd.read_csv(os.path.join(csv_dir, filename))
+                for idx, row in df.iterrows():
+                    txt = row.get("content", "").strip()
+                    if txt:
+                        docs.append(
+                            Document(
+                                page_content=txt,
+                                metadata={
+                                    "source_file": filename,
+                                    "title": os.path.splitext(filename)[0],
+                                },
+                            )
+                        )
+        return docs
+
     def format_chat_history(self, chat_history):
         messages = []
         for item in chat_history:
@@ -46,62 +67,71 @@ class Retrieval_Factory:
     def build_compression_retriever(self):
 
         from langchain.text_splitter import RecursiveCharacterTextSplitter
-        from langchain.retrievers.document_compressors import DocumentCompressorPipeline
+        from langchain.retrievers.document_compressors import (
+            DocumentCompressorPipeline,
+            EmbeddingsFilter, 
+        )
+        from langchain_community.document_transformers import EmbeddingsRedundantFilter
+
         from langchain.retrievers import ContextualCompressionRetriever
+        from langchain.retrievers.document_compressors import LLMChainExtractor
 
         try:
             splitter = RecursiveCharacterTextSplitter(
-                chunk_size     = self.chunk_size,      # e.g. 750
-                chunk_overlap  = 80,
+                chunk_size    = int(self.chunk_size) ,
+                chunk_overlap = int(self.chunk_size * 0.1)   
             )
 
             compressor = DocumentCompressorPipeline(transformers=[splitter])
 
-            base = self.vectorstore.as_retriever(
-                search_type="similarity",
-                search_kwargs={"k": 10},
-            )
 
-            retriever = ContextualCompressionRetriever(
-                base_retriever  = base,
+            return ContextualCompressionRetriever(
                 base_compressor = compressor,
-            )
-            return retriever
-
+                base_retriever  = self.vectorstore.as_retriever(
+                    search_type   = "similarity",
+                    search_kwargs = {"k":10},
+                ),
+            )   
         except Exception as err:
             import logging, traceback
             logging.error("Failed to build ContextualCompressionRetriever")
             logging.error("".join(traceback.format_exception(err)))
             raise RuntimeError(f"Failed to build compression retriever: {err}") from err
 
-        
-   
-    def build_parent_document_retriever(self):
-        from langchain.retrievers import ParentDocumentRetriever
-        from langchain_core.stores import InMemoryByteStore
+    def build_multiquery_retriever(
+        self,
+        n_queries: int = 4,         
+        top_k    : int = 10,           
+    ) -> "MultiQueryRetriever":
+        """
+        • Uses the LLM to generate `n_queries` reformulations of the user question.
+        • Performs similarity search in your *chunk* collection for each reformulation.
+        • Merges and deduplicates, then returns at most `top_k` chunks.
+        """
+        from langchain.retrievers.multi_query import MultiQueryRetriever
 
-        child_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=self.chunk_size, 
-            chunk_overlap=80
+        base = self.vectorstore.as_retriever(
+            search_type   = "similarity",
+            search_kwargs = {"k": top_k},
         )
+        from langchain.prompts import PromptTemplate
 
-        # 2) splitter for the parent chunks we want to re-contextualize
-        parent_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=self.chunk_size*100,  # e.g. 750
-            chunk_overlap=100
+        prompt = PromptTemplate.from_template(
+        "You are a search expert. Generate {n} diverse, \
+        semantically different search queries that could be used to look up \
+        answers to the user question.\n\nUser question: {question}"
+    ).partial(n=n_queries)
+        mqr = MultiQueryRetriever.from_llm(
+            retriever   = base,
+            llm         = self.llm,
+            prompt         = prompt,     
+            include_original = True,     
+            
         )
+        return mqr
 
-        # 3) an in-memory store to remember which child came from which parent
-        byte_store = InMemoryByteStore()
 
-        return ParentDocumentRetriever(
-            vectorstore=self.vectorstore,
-            child_splitter=child_splitter,
-            parent_splitter=parent_splitter,
-            byte_store=byte_store
-        )   
-        
-    #  4) Hybrid-Fusion retriever  (dense + BM25)
+            
     from langchain.retrievers import BM25Retriever, EnsembleRetriever
 
     def build_hybrid_fusion_retriever(self,sparse_k: int = 20,alpha: float = 0.5):
@@ -120,7 +150,7 @@ class Retrieval_Factory:
         try:
             results = self.vectorstore.get(
                 include=["documents", "metadatas"],
-                limit=None,         
+                limit=10,         
             ) or {}
 
             docs_list  = results.get("documents") or []
@@ -180,10 +210,10 @@ class Retrieval_Factory:
 	    
         source_docs = response.get("source_documents", [])
         if source_docs:
-            print("Retrieved documents:")
-            for idx, doc in enumerate(source_docs, start=1):
+            print("Retrieved documents (showing first 10):")
+            for idx, doc in enumerate(source_docs[:10], start=1):   # 🔹 keep only first 10
                 print(f"\n--- Document {idx} --- Chunk Size: {len(doc.page_content)}")
-                print("Content:", doc.page_content)
+                print("Content:",   doc.page_content)
                 print("Metadata:", doc.metadata)
         else:
             print("No source documents were retrieved.")
@@ -206,18 +236,24 @@ class Retrieval_Factory:
     ):
         print(f"this ist this the compression retriever")
         retriever = self.build_compression_retriever()
-        print(f"this ist he retriever: {type(retriever)}")
+
         async for chunk in self.converse(query, prompt_template, retriever):
             yield chunk
 
-    async def answer_with_parent_document(
-        self,
-        query: str,
-        prompt_template: str):
-        print(f"this ist this the rerank retriever")
-        retriever = self.build_parent_document_retriever()
+    async def answer_with_multiquery(
+            self,
+            query: str,
+            prompt_template: str,
+            n_queries: int = 4,
+            top_k: int = 10,
+    ):
+        retriever = self.build_multiquery_retriever(
+            n_queries=n_queries,
+            top_k=top_k,
+        )
         async for chunk in self.converse(query, prompt_template, retriever):
             yield chunk
+
 
     async def answer_with_hybrid(
         self,

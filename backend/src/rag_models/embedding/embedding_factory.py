@@ -25,5 +25,5 @@ class EmbeddingFactory:
         else:
             raise ValueError(
                 f"Unsupported embedding model: {model_name}. Supported models: "
-                f"'amazon.titan-embed-text-v2:0', 'nomic-embed-text', 'text-embedding-3-small'."
+                f" 'nomic-embed-text'."
             )
