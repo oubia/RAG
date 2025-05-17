@@ -1,4 +1,3 @@
-# retrieval_factory.py
 import asyncio
 from typing import AsyncGenerator
 

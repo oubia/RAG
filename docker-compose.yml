@@ -6,8 +6,7 @@ services:
       - "8000:8000"
     volumes:
       - ./backend:/app
-      - ~/.aws:/root/.aws
-      - /Users/oubia/Desktop/chroma_langchain_db:/app/chroma_langchain_db
+      - D:/homy/S9/data-text-mining/Vectorestor:/app/Vectorestor
     env_file:
       - ./backend/.env
 
