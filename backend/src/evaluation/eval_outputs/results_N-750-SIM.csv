@@ -1,0 +1,544 @@
+id,question,question_type,gold_choice,pred_choice,model_answer,gold_answer,similarity,correct,latency
+N-750-SIM,Chi ha ideato il progetto 'Cammini Aperti'?,short,,,La Regione Umbria.,Regione Umbria,0.9582522477016117,1,4.996798292035237
+N-750-SIM,Quali Regioni sono coinvolte nel progetto 'Cammini Aperti'?,multiple_choice,B,B,"La risposta corretta è:
+
+B) Umbria",Umbria,1.0,1,5.184799208014738
+N-750-SIM,Qual è lo scopo del Vademecum?,short,,,Lo scopo del Vademecum è quello di fornire informazioni e consigli per aiutare gli operatori e i cittadini a rendere i percorsi escursionistici più accessibili e fruibili per le persone con disabilità.,Il Vademecum propone un metodo di lavoro per tutti quegli operatori che vogliono confrontarsi col tema dell’accessibilità e fruibilità di un cammino per persone con disabilità e con esigenze specifiche.,0.8688445082559113,1,8.227895957999863
+N-750-SIM,"Secondo l'Organizzazione Mondiale della Sanità, come viene definita la disabilità?",multiple_choice,C,C,La risposta corretta è C) Una relazione tra persone con menomazioni e barriere.,Una relazione tra persone con menomazioni e barriere,1.0,1,6.066312541021034
+N-750-SIM,Quali sono i facilitatori che sono di supporto alle persone con disabilità?,short,,,"Gli esempi di facilitatori che sono di supporto alle persone con disabilità sono:
+
+*   Ascensori
+*   Un linguaggio facile da leggere e capire
+*   Un caregiver","Ad esempio: ascensori, un linguaggio facile da leggere e capire, un caregiver, ecc.",0.8761910191357107,1,7.503014457994141
+N-750-SIM,Qual è uno dei tipi di barriere che possono essere erette e diventare ostacoli per le persone con disabilità?,multiple_choice,D,D,La risposta corretta è D) Barriere fisiche.,Barriere fisiche,1.0,1,5.417813083040528
+N-750-SIM,Qual è una delle tipologie principali di disabilità menzionate nel testo?,short,,,La risposta è: 1. disabilità motoria,Disabilità motoria,0.8287813553140587,1,5.300723333959468
+N-750-SIM,Qual è una delle tipologie di supporti menzionati per compensare la riduzione parziale o totale della capacità di eseguire un'attività dovuta alla disabilità motoria?,multiple_choice,D,D,"La risposta corretta è:
+
+D) Sedia a ruote elettrica o manuale",Sedia a ruote elettrica o manuale,1.0,1,5.90373154199915
+N-750-SIM,Quali sono i due ordini di problemi che possono sorgere a causa della disabilità visiva?,short,,,"I due ordini di problemi che possono sorgere a causa della disabilità visiva sono:
+
+1.  Problemi relazionali e/o intellettivi
+2.  Problemi ambientali",Difficoltà di orientamento e mobilità; difficoltà di interpretazione dei messaggi e delle comunicazioni,0.6282395118153029,0,7.567001458024606
+N-750-SIM,Qual è una delle modalità di comunicazione utilizzate dalle persone con disabilità uditiva?,multiple_choice,B,B,"La risposta corretta è:
+
+B) Lettura labiale",Lettura labiale,1.0,1,5.394527958007529
+N-750-SIM,Quali sono le 4 grandi tipologie di esigenze dell'essere umano menzionate nel testo?,short,,,"Le 4 grandi tipologie di esigenze dell'essere umano menzionate nel testo sono:
+
+1. Materie sostanzialmente diverse
+2. Conoscenza, abilità e competenze acquisite
+3. Formazione ricevuta dal migrante
+4. Titolo professionale dello Stato membro ospitante","Motorie, visive, uditive, intellettive-relazionali",0.5132941002481194,0,9.479649416054599
+N-750-SIM,Quali sono alcune delle tipologie di esigenze specifiche menzionate nel testo?,multiple_choice,A,D,La risposta corretta è D) Persone con disabilità motoria.,Persone con allergie alimentari,0.0,0,5.771924333006609
+N-750-SIM,Qual è la prima azione indispensabile da porre in essere per lavorare sull'accessibilità e fruibilità di un cammino?,short,,,"La prima azione indispensabile da porre in essere per lavorare sull'accessibilità e fruibilità di un cammino è quella di ""mappare"" il grado di accessibilità e fruibilità del cammino, ovvero identificare le aree che richiedono miglioramenti o modifiche per renderle più accessibili e fruibili per tutti.",Acquisire dati sull’accessibilità e fruibilità del cammino,0.8373352876872924,1,10.398063874978106
+N-750-SIM,Qual è uno dei diversi ambiti su cui occorre lavorare per migliorare l'accessibilità e fruibilità di un cammino?,multiple_choice,B,A,La risposta corretta è A) Lo spazio fisico.,La filiera delle persone coinvolte,0.0,0,5.4307509159552865
+N-750-SIM,Quali sono i principali aspetti della logistica di un cammino?,short,,,"I principali aspetti della logistica di un cammino sono:
+
+1.  Trasporto: quali mezzi di trasporto si possono utilizzare e quali sono le loro caratteristiche di accessibilità e fruibilità per le persone con disabilità?
+2.  Percorsi/tracciati/sentieri: quali sono le loro caratteristiche di accessibilità e fruibilità?
+3.  Segnaletica di orientamento lungo il percorso: è accessibile anche alle persone con disabilità? Fornisce informazioni dedicate alle persone con disabilità?
+4.  Punti acqua potabile lungo il cammino: quali sono le loro caratteristiche di accessibilità e fruibilità?
+5.  Strutture ricettive, ristorative, farmacie, negozi e market: quali sono le loro caratteristiche di accessibilità e fruibilità?
+6.  Strutture culturali (musei, chiese, ecc): quali sono le loro caratteristiche di accessibilità e fruibilità?","Tra i principali aspetti della logistica di un cammino possiamo elencare come arrivare al punto di partenza del cammino, come ripartire una volta arrivati a destinazione, i percorsi/tracciati/sentieri, la segnaletica di orientamento lungo il percorso e i punti acqua potabile.",0.7473738782084671,1,20.624585290963296
+N-750-SIM,Quali sono le azioni possibili in merito agli aspetti logistici del cammino?,short,,,"Le azioni possibili in merito agli aspetti logistici del cammino sono:
+
+1. Acquisire dati sull’accessibilità e fruibilità del cammino
+2. Fornire informazioni oggettive, aggiornate e affidabili su come valutare la propria accessibilità e fruibilità
+3. Progettare interventi che migliorino l'accessibilità e fruibilità del cammino stesso
+4. Formare i progettisti di spazi, ambienti, percorsi, sentieri, ecc",Le azioni possibili sono mappare le caratteristiche di accessibilità e fruibilità dei punti elencati e fornire informazioni utili ai camminatori con disabilità.,0.7756428443355895,1,12.680275457969401
+N-750-SIM,"Qual è un suggerimento per chi offre escursioni, camminate, attività didattiche e culturali?",short,,,"Un suggerimento per chi offre escursioni, camminate, attività didattiche e culturali è quello di utilizzare un semplice accorgimento in fase di raccolta delle iscrizioni: chiedere se parteciperanno persone con disabilità e quali esigenze hanno in un contesto escursionistico.",Utilizzare un semplice accorgimento in fase di raccolta delle iscrizioni chiedendo se parteciperanno persone con disabilità e quali esigenze hanno.,0.9117297521056957,1,9.702381749986671
+N-750-SIM,"Per essere accessibili alle persone con disabilità, quali requisiti tecnico-informatici devono rispettare i siti web, app e social media?",multiple_choice,A,A,"La risposta corretta è:
+
+A) Seguire le Linee Guida per l'Accessibilità dei Contenuti Web 2.2",Seguire le Linee Guida per l'Accessibilità dei Contenuti Web 2.2,1.0,1,6.467106625030283
+N-750-SIM,Quali principi dovrebbero ispirare le informazioni di servizio fornite ai camminatori con disabilità e con esigenze specifiche?,short,,,"I principi che dovrebbero ispirare le informazioni di servizio fornite ai camminatori con disabilità e con esigenze specifiche sono:
+
+1.  L'accessibilità deve essere un fattore di qualità della propria offerta, non solo un vincolo progettuale o normativo.
+2.  Il cammino più accessibile e fruibile permette di attrarre nuovi camminatori e migliorare la soddisfazione di tutti i camminatori.
+3.  Le informazioni di servizio dovrebbero essere utilizzabili da tutte le persone, nella misura più estesa possibile, senza il bisogno di adattamenti o progettazioni specializzate.
+4.  Le informazioni di servizio dovrebbero includere la possibilità per i camminatori con disabilità e con esigenze specifiche di valutare se sono in grado di fruire del percorso o della struttura, tenuto conto delle proprie personali esigenze e dei propri livelli di autonomia.
+5.  Le informazioni di servizio dovrebbero includere la possibilità di indicare se ci sono state persone con disabilità o con esigenze specifiche che hanno già partecipato con soddisfazione alle attività proposte, specificando possibilmente il tipo di disabilità di tali persone (motoria, visiva, uditiva, intellettiva) o il tipo di esigenze specifiche (persone anziane, bambini, donne in gravidanza, persone obese, persone con problemi di salute ecc.).
+6.  Le informazioni di servizio dovrebbero includere la possibilità di indicare se chi organizza le attività ha esperienza nella gestione di camminatori con disabilità e con esigenze specifiche, oppure ha seguito corsi di formazione sul tema.","Non esprimere giudizi qualitativi e generici su percorsi e strutture, fornire informazioni oggettive, precise, aggiornate, affidabili, chiare.",0.3744171258043243,0,33.31121016701218
+N-750-SIM,Qual è il termine corretto da utilizzare per definire una persona con disabilità secondo l'Organizzazione Mondiale della Sanità?,short,,,"La risposta è: ""persone con disabilità"" o, più precisamente, ""persone che hanno una limitazione della loro capacità di partecipare alla vita quotidiana a causa di un'infermità o di una condizione fisica o mentale"".",persona con disabilità,0.7513961188431778,1,8.644271083001513
+N-750-SIM,Qual è uno degli elementi importanti da evitare nella comunicazione/promozione rivolta ai camminatori con disabilità e con esigenze specifiche?,multiple_choice,B,B,La risposta è B) Ritrarre la persona con disabilità in contesti assistenzialistici.,Ritrarre la persona con disabilità in contesti assistenzialistici,1.0,1,6.299040666024666
+N-750-SIM,Quali sono le fonti normative citate nel testo riguardo al riconoscimento delle qualifiche professionali?,short,,,"Le fonti normative citate nel testo sono:
+
+* La direttiva 2005/0036/CE del Parlamento europeo e del Consiglio, relativa al riconoscimento delle qualifiche professionali
+* La legge 7 agosto 1990, n. 241, con modificazioni successive","La direttiva 2013/55/UE, il regolamento (UE) n. 1024/2012, la direttiva 2005/36/CE e il decreto legislativo 9 novembre 2007, n. 206.",0.7722999445821617,1,9.25023741699988
+N-750-SIM,Quando è stata adottata la deliberazione del Consiglio dei ministri?,multiple_choice,C,A,La risposta è A) 13 novembre 2015.,20 gennaio 2016,0.0,0,5.322837957995944
+N-750-SIM,Cosa disciplina il presente decreto secondo l'articolo 1?,short,,,Il presente decreto disciplina le funzioni di competenza statale assegnate al Consiglio dei Ministri e ai ministeri.,Il riconoscimento delle qualifiche professionali già acquisite in uno o più Stati membri dell'Unione europea.,0.7244654290584019,1,6.805415124981664
+N-750-SIM,Quali organi parlamentari devono esprimere parere sugli schemi dei decreti legislativi?,short,,,La risposta è: la Camera dei Deputati e il Senato della Repubblica.,Camera dei deputati e Senato della Repubblica,0.8874651184744122,1,6.001178166014142
+N-750-SIM,Quali sono le spese previste nei decreti legislativi recanti attuazione delle direttive?,multiple_choice,A,A,La risposta è A) Spese non contemplate da leggi vigenti e che non riguardano l'attivita' ordinaria delle amministrazioni statali o regionali.,Spese non contemplate da leggi vigenti e che non riguardano l'attivita' ordinaria delle amministrazioni statali o regionali,1.0,1,7.348935584013816
+N-750-SIM,Quando scade il termine di recepimento per la direttiva 2013/35/UE?,short,,,Il termine di recepimento per la direttiva 2013/35/UE scade il 22 maggio 2017.,1° luglio 2016,0.539756774362587,0,6.389334917010274
+N-750-SIM,A quale direttiva si riferisce il termine di recepimento del 4 settembre 2015?,multiple_choice,C,D,La risposta è D,2013/40/UE,0.0,0,4.795284542022273
+N-750-SIM,Quando scade il termine di recepimento della direttiva 2013/55/UE?,short,,,Il termine di recepimento della direttiva 2013/55/UE è il 20 ottobre 2007.,18 gennaio 2016,0.40937348619135255,0,6.173620041983668
+N-750-SIM,A cosa si riferisce la direttiva 2013/56/UE del Parlamento europeo e del Consiglio del 20 novembre 2013?,multiple_choice,A,C,La direttiva 2013/56/UE del Parlamento europeo e del Consiglio del 20 novembre 2013 si riferisce alle norme fondamentali di sicurezza per le imbarcazioni da diporto e moto d'acqua.,Rifiuti di pile e accumulatori,0.0,0,8.228727334004361
+N-750-SIM,Quando scade il termine di recepimento della direttiva 2014/17/UE?,short,,,Il termine di recepimento della direttiva 2014/17/UE scade il 18 marzo 2021.,21 marzo 2016,0.5898730152907117,0,6.253450541989878
+N-750-SIM,A quale regolamento la direttiva 2014/27/UE si allinea?,multiple_choice,A,A,La risposta è A) Regolamento (CE) n. 1272/2008.,Regolamento (CE) n. 1272/2008,1.0,1,5.678839166008402
+N-750-SIM,Quando scade il termine di recepimento per la direttiva 2014/32/UE?,short,,,Il termine di recepimento per la direttiva 2014/32/UE scade il 29 luglio 2020.,19 aprile 2016,0.5632171625227202,0,6.3694427909795195
+N-750-SIM,Qual è l'obiettivo della direttiva 2014/50/UE del Parlamento europeo e del Consiglio?,multiple_choice,B,B,La risposta è B) Migliorare la mobilità dei lavoratori tra Stati membri.,Migliorare la mobilità dei lavoratori tra Stati membri,1.0,1,5.964536875020713
+N-750-SIM,Quando scade il termine di recepimento della direttiva 2014/53/UE?,short,,,Il termine di recepimento della direttiva 2014/53/UE scade il 6 maggio 2020.,12 giugno 2016,0.5086665148416752,0,6.455305915966164
+N-750-SIM,A cosa si riferisce la direttiva 2014/56/UE del Parlamento europeo e del Consiglio del 16 aprile 2014?,multiple_choice,A,C,La risposta corretta è C) Misure per agevolare l'esercizio dei diritti dei lavoratori.,Revisioni legali dei conti annuali,0.0,0,6.190401833038777
+N-750-SIM,Quando scade il termine di recepimento della direttiva 2014/59/UE?,short,,,Il termine di recepimento della direttiva 2014/59/UE scade il 1° luglio 2020.,31 dicembre 2014,0.6032397741007397,0,6.318534750025719
+N-750-SIM,A cosa si riferisce la direttiva 2014/65/UE del Parlamento europeo e del Consiglio?,multiple_choice,A,A,La risposta è A) Mercati degli strumenti finanziari.,Mercati degli strumenti finanziari,1.0,1,5.504136584000662
+N-750-SIM,Quando scade il termine di recepimento della direttiva 2011/96/UE?,short,,,Il termine di recepimento della direttiva 2011/96/UE scade il 29 giugno 2022.,31 dicembre 2015,0.5367660517093277,0,6.289251415990293
+N-750-SIM,A cosa si riferisce la direttiva 2014/95/UE del Parlamento europeo e del Consiglio?,multiple_choice,C,A,La risposta è A) Comunicazione di informazioni finanziarie.,Comunicazione di informazioni non finanziarie,0.0,0,5.592567083018366
+N-750-SIM,Quando scade il termine di recepimento per la direttiva 2014/104/UE?,short,,,Il termine di recepimento della direttiva 2014/104/UE scade il 29 luglio 2021.,27 dicembre 2016,0.5806028837119996,0,6.212422917014919
+N-750-SIM,Quando è stata pubblicata la direttiva 2013/55/UE?,short,,,La risposta è: 28 dicembre 2013,28 dicembre 2013,0.7986687173806427,1,5.243034458952025
+N-750-SIM,In che data è stata pubblicata la direttiva 2005/36/CE?,multiple_choice,A,A,La risposta è A) 30 settembre 2005.,30 settembre 2005,1.0,1,5.342652832972817
+N-750-SIM,Che direttiva del Parlamento europeo e del Consiglio è stata modificata dalla direttiva 2013/55/UE?,short,,,La direttiva del Parlamento europeo e del Consiglio modificata dalla direttiva 2013/55/UE è la direttiva relativa alla fatturazione elettronica negli appalti pubblici.,La direttiva 2005/36/CE,0.6419630044239549,0,7.883274124993477
+N-750-SIM,Qual è uno dei principali obiettivi della tessera professionale europea?,multiple_choice,A,A,"La risposta corretta è:
+
+A) Semplificare il processo di riconoscimento delle qualifiche professionali
+
+La tessera professionale europea è uno strumento che mira a semplificare il processo di riconoscimento delle qualifiche professionali, garantendo una maggiore mobilità e fluidità per i professionisti nel mercato unico.",Semplificare il processo di riconoscimento delle qualifiche professionali,1.0,1,10.643001166987233
+N-750-SIM,Quali sono le ore di studio equivalenti a un credito ECTS?,short,,,Un credito ECTS è equivalente a 30 ore di studio.,25-30 ore,0.5577841395522317,0,5.6255929169710726
+N-750-SIM,Per quanti crediti ECTS di norma sono richiesti per completare un anno accademico?,multiple_choice,D,D,La risposta è D) 60 crediti.,60 crediti,1.0,1,5.118262458010577
+N-750-SIM,Quali attività dovrebbero svolgere i punti nazionali di contatto secondo il testo?,short,,,"I punti nazionali di contatto dovrebbero svolgere le seguenti attività:
+
+*   consulenza
+*   assistenza ai cittadini
+*   consulenza diretta",Centri di assistenza focalizzati sulle attività di consulenza e assistenza ai cittadini,0.8258286706295546,1,7.314663875033148
+N-750-SIM,Cosa dovrebbero fare gli Stati membri riguardo ai professionisti che non sono più abilitati a esercitare la loro professione?,multiple_choice,C,C,La risposta corretta è C) Allertare le autorità competenti di altri Stati membri.,Allertare le autorità competenti di altri Stati membri,1.0,1,6.21518025000114
+N-750-SIM,Qual è l'eccezione alla quale la presente direttiva non si applica?,short,,,La presente direttiva non si applica alle strutture che svolgono attività di ricerca scientifica o di insegnamento.,Ai notai nominati con atto ufficiale della pubblica amministrazione.,0.6818921559190599,0,6.747124042012729
+N-750-SIM,Per quanto tempo è valida la tessera professionale europea?,short,,,"La tessera professionale europea è valida per un periodo di tempo che varia a seconda della professione e del paese in cui viene rilasciata. Tuttavia, non ci sono informazioni specifiche sul periodo di validità della tessera professionale europea.
+
+Tuttavia, si può dire che la tessera professionale europea è valuta per un periodo di tempo che varia da 3 a 10 anni, a seconda della professione e del paese in cui viene rilasciata. Ad esempio, secondo l'articolo 4 bis, la tessera professionale europea è valuta per un periodo di tempo di almeno 5 anni.
+
+Inoltre, si può dire che la tessera professionale europea deve essere rinnovata ogni 3-5 anni, a seconda della professione e del paese in cui viene rilasciata. Tuttavia, non ci sono informazioni specifiche su come e quando la tessera professionale europea deve essere rinnovata.
+
+In generale, la validità della tessera professionale europea dipende dalle normative e dalle regolamentazioni del paese in cui viene rilasciata. È importante consultare le autorità competenti per avere informazioni più precise sulla validità della tessera professionale europea.",La tessera professionale europea è valida sull’intero territorio di tutti gli Stati membri ospitanti interessati per tutto il tempo in cui il rispettivo titolare conserva il diritto di esercitare.,0.8463067999959782,1,25.200057333044242
+N-750-SIM,Quali informazioni sono contenute nel fascicolo IMI per accertare il diritto del titolare all'esercizio della professione?,multiple_choice,B,B,"Le informazioni contenute nel fascicolo IMI per accertare il diritto del titolare all'esercizio della professione sono:
+
+B) Professione e qualifiche formali.",Professione e qualifiche formali,1.0,1,7.581753458012827
+N-750-SIM,Per quali professioni è richiesta una dichiarazione della conoscenza della lingua necessaria all'esercizio della professione nello Stato membro ospitante?,short,,,"La dichiarazione della conoscenza della lingua necessaria all'esercizio della professione nello Stato membro ospitante è richiesta per tutte le professioni, a eccezione di quelle che sono esenzate dalla disciplina del titolo e dell'abilitazione professionale.",Per le professioni che hanno implicazioni per la sicurezza dei pazienti.,0.7263345115073996,1,9.367889916000422
+N-750-SIM,Quali sono le condizioni per cui l'autorità competente dello Stato membro ospitante può richiedere un tirocinio di adattamento o una prova attitudinale?,multiple_choice,A,D,La risposta corretta è D) La qualifica professionale nazionale richiesta è classificata a norma dell'articolo 11.,Il richiedente ha completato una formazione in materie sostanzialmente diverse da quelle coperte dal titolo di formazione richiesto nello Stato membro ospitante.,0.0,0,6.719889624975622
+N-750-SIM,Quante ore di insegnamento teorico e clinico sono richieste per la formazione di infermiere responsabile dell'assistenza generale?,short,,,4.000 ore di insegnamento teorico e clinico sono richieste per la formazione di infermiere responsabile dell'assistenza generale.,Almeno 4 600 ore,0.5015851256105334,0,6.995149500027765
+N-750-SIM,Qual è il requisito di base per l'ammissione alla formazione di infermiere responsabile dell'assistenza generale secondo l'articolo 31?,multiple_choice,A,A,La risposta è A) Diploma di scuola superiore.,Diploma di scuola superiore,1.0,1,5.434185667021666
+N-750-SIM,Quali sono le competenze che un infermiere responsabile dell'assistenza generale deve acquisire?,short,,,"Secondo l'articolo 33 del trattato sulla libera circolazione dei servizi, un infermiere responsabile dell'assistenza generale deve acquisire le seguenti competenze:
+
+*   garantire la qualità delle cure infermieristiche
+*   valutare la qualità delle cure infermieristiche
+*   comunicare in modo esaustivo e professionale
+*   cooperare con gli esponenti di altre professioni del settore sanitario
+*   analizzare la qualità dell'assistenza in un'ottica di miglioramento della propria pratica","Le competenze che un infermiere responsabile dell'assistenza generale deve acquisire includono la capacità di individuare autonomamente le cure infermieristiche necessarie, di lavorare efficacemente con altri operatori sanitari, di orientare individui verso stili di vita sani, di avviare misure immediate per il mantenimento in vita e di fornire consigli e supporto alle persone bisognose di cure, tra gli altri.",0.8584844461439264,1,13.902460709039588
+N-750-SIM,Qual è uno dei requisiti minimi di formazione per un infermiere che deve essere riconosciuto dagli Stati membri?,multiple_choice,B,C,La risposta è C) Aver seguito un corso di formazione professionale infermieristica.,B) Aver conseguito un diploma di infermiere e ostetrica presso un liceo medico,0.0,0,6.186168167041615
+N-750-SIM,Quali sono le conoscenze richieste per l'igiene degli animali?,short,,,"Le conoscenze richieste per l'igiene degli animali includono:
+
+*   Adeguate conoscenze dell'igiene e della tecnologia per ottenere, fabbricare e immettere in commercio i mangimi animali o i prodotti alimentari di origine animale destinati al consumo umano.
+*   Conoscenza specifica delle malattie trasmissibili all'uomo.","Conoscenze dell'igiene e della tecnologia per ottenere, fabbricare e immettere in commercio i mangimi animali o i prodotti alimentari di origine animale destinati al consumo umano.",0.9209424248069017,1,10.79483079095371
+N-750-SIM,Quando deve avere luogo il tirocinio professionale secondo il testo?,short,,,"Secondo il testo, il tirocinio professionale deve avere luogo ""a condizione che il tirocinio si attenga alle linee guida pubblicate di cui al paragrafo 2"". In altre parole, il tirocinio professionale deve essere effettuato in conformità con le linee guida stabilite dalle autorità competenti dello Stato membro.",Dopo il completamento dei primi tre anni di insegnamento accademico.,0.5965343707795032,0,10.562319333024789
+N-750-SIM,Quali condizioni devono rispettare i quadri comuni di formazione?,multiple_choice,A,A,La risposta corretta è A) Essere basati sui livelli dell'EQF.,Essere basati sui livelli dell'EQF,1.0,1,5.799705290992279
+N-750-SIM,Quali sono le attività professionali soggette a limitazioni temporanee o permanenti in uno Stato membro?,short,,,"Le attività professionali soggette a limitazioni temporanee o permanenti in uno Stato membro sono quelle che, secondo l'articolo 5, paragrafo 1, della direttiva 2005/36/CE, sono ""soggette a limitazione temporanea o permanente"". Tuttavia, non è specificata una lista di attività professionali soggette a tali limitazioni.
+
+Tuttavia, si può inferire che le attività professionali soggette a limitazioni temporanee o permanenti sono quelle che richiedono l'abilitazione professionale rilasciata da uno Stato membro diverso dallo Stato membro in cui la persona esercita la professione.
+
+In particolare, si può considerare che le attività professionali soggette a limitazioni temporanee o permanenti sono quelle che richiedono:
+
+*   L'abilitazione professionale rilasciata da uno Stato membro diverso dallo Stato membro in cui la persona esercita la professione.
+*   La qualifica professionale riconosciuta da uno Stato membro diverso dallo Stato membro in cui la persona esercita la professione.
+
+Alcune attività professionali che potrebbero essere soggette a limitazioni temporanee o permanenti includono:
+
+*   Attività mediche e sanitarie
+*   Attività avvocatiche
+*   Attività di consulenza finanziaria
+*   Attività di consulenza legale","Attività professionali come medico, dentista, infermiere, veterinario, farmacista, ecc.",0.708327650315537,1,28.0827841659775
+N-750-SIM,Quali sono le professioni regolamentate elencate nell'articolo 56 bis soggette a limitazioni o divieti temporanei o permanenti?,multiple_choice,C,C,La risposta è C) Medico.,Medico,1.0,1,5.080048167030327
+N-750-SIM,Quali informazioni devono trasmettere le autorità competenti agli Stati membri ospitanti?,short,,,"Le autorità competenti degli Stati membri devono trasmettere gli attestati di assenza di sospensione temporanea o definitiva dall'esercizio della professione, nonché un attestato relativo alla natura e alla durata dell'attività rilasciato dall'autorità o dall'organismo competente dello Stato membro d'origine.",Tutte le informazioni pertinenti su singoli casi ai centri di assistenza negli Stati membri ospitanti,0.7199138395739704,1,10.287147250026464
+N-750-SIM,Entro quale termine un atto delegato entra in vigore se né il Parlamento europeo né il Consiglio sollevano obiezioni?,multiple_choice,B,B,La risposta è B) 2 mesi.,2 mesi,1.0,1,5.169771249988116
+N-750-SIM,Quali informazioni devono essere fornite al consumatore in tempo utile prima che sia vincolato da un contratto o da un'offerta?,short,,,"Le informazioni che devono essere fornite al consumatore in tempo utile prima che sia vincolato da un contratto o da un'offerta sono quelle relative al diritto di recesso, alle scadenze di pagamento e ai termini del contratto. In particolare, il consumatore deve essere informato:
+
+*   del diritto di recesso e delle condizioni per esercitarlo
+*   delle scadenze di pagamento e dei termini del contratto
+*   delle informazioni richieste che devono essere fornite al consumatore in tempo utile",Informazioni accurate e sufficienti secondo le modalità previste dall'art. 71 del decreto legislativo.,0.6365051263166198,0,13.636742290982511
+N-750-SIM,Qual è il periodo concesso al consumatore per recedere dal contratto di multiproprietà?,short,,,Il periodo concesso al consumatore per recedere dal contratto di multiproprietà è di 14 giorni.,Quattordici giorni,0.5139486188517435,0,6.254489542043302
+N-750-SIM,Dove possono essere reperiti i codici di condotta sottoscritti dall'operatore?,short,,,"I codici di condotta sottoscritti dall'operatore possono essere reperiti presso il responsabile del codice o l'organismo competente, come specificato nell'articolo 70.",Non è specificato nel testo.,0.5963373178240728,0,7.67466316698119
+N-750-SIM,Quali sono le restrizioni alla possibilità del consumatore di godere dei diritti acquisiti?,multiple_choice,D,D,La risposta è D) Tutte le precedenti.,Tutte le precedenti,1.0,1,5.284234332968481
+N-750-SIM,Quali costi il consumatore non dovrà sostenere diversi da quelli specificati nel contratto?,short,,,"Secondo l'articolo, il consumatore non dovra' sostenere spese od obblighi diversi da quelli specificati nel contratto.",Il consumatore non dovrà sostenere costi od obblighi diversi da quelli specificati nel contratto.,0.9384506931457167,1,6.925208124972414
+N-750-SIM,Quando può esercitare il diritto di recesso il consumatore?,multiple_choice,B,B,"La risposta corretta è:
+
+B) Entro quattordici giorni di calendario dalla conclusione del contratto.",Entro quattordici giorni di calendario dalla conclusione del contratto,1.0,1,6.460678915958852
+N-750-SIM,Chi può esercitare le funzioni amministrative in materia di turismo secondo il testo?,short,,,"Secondo il testo, le funzioni amministrative in materia di turismo possono essere esercitate dal Presidente del Consiglio dei Ministri o dal Ministro delegato.",Presidente del Consiglio dei Ministri o Ministro delegato,0.8213677398097357,1,7.588067582983058
+N-750-SIM,Quali sono le strutture ricettive extralberghiere composte da camere ubicate in più appartamenti nello stesso stabile?,short,,,"Le strutture ricettive ""residence"" sono complessi unitari costituiti da uno o più immobili comprendenti appartamenti arredati e dotati di servizi igienici e di cucina autonomi, gestiti in forma imprenditoriale, dati in locazione ai turisti, con contratti aventi validità non inferiore a tre giorni.",Gli esercizi di affittacamere.,0.5956545466188534,0,10.284612875024322
+N-750-SIM,Cosa sono le unità abitative ammobiliate ad uso turistico?,multiple_choice,D,D,La risposta è D) Appartamenti dati in locazione ai turisti.,Appartamenti dati in locazione ai turisti,1.0,1,5.746504833048675
+N-750-SIM,Quali sono i requisiti assicurati nelle strutture ricettive all'aperto?,short,,,"Secondo il testo del trattato, le strutture ricettive all'aperto devono assicurare i seguenti requisiti:
+
+* essere utilizzabili da tutte le persone, nella misura più estesa possibile, senza il bisogno di adattamenti o di progettazioni specializzate.
+* avere un cammino più accessibile e fruibile, che permetta di attrarre nuovi camminatori e migliorare la soddisfazione di tutti i camminatori.",a) la sorveglianza continua della struttura ricettiva durante i periodi di apertura; b) la continua presenza all'interno della struttura ricettiva del responsabile o di un suo delegato; c) la copertura assicurativa per i rischi di responsabilità civile a favore dei clienti.,0.6903012799453704,0,12.175933666992933
+N-750-SIM,Cosa definisce di mero supporto le strutture ricettive allestite dagli enti locali?,multiple_choice,A,B,La risposta è B) Campeggi itineranti.,Aree di sosta,0.0,0,5.381406666012481
+N-750-SIM,Qual è una delle categorie di turismo definite nel testo?,short,,,Il turismo con animali al seguito.,turismo della montagna,0.656631985045405,0,5.240583083010279
+N-750-SIM,Qual è l'obiettivo principale del Fondo buoni vacanze menzionato nel testo?,multiple_choice,C,D,La risposta è D) Incrementare i flussi turistici.,Sostenere le fasce sociali più deboli,0.0,0,5.513692583946977
+N-750-SIM,Qual è uno degli elementi che possono costituire un pacchetto turistico?,short,,,"Uno degli elementi che possono costituire un pacchetto turistico è la ""mobilità"", ovvero il mezzo di trasporto utilizzato per raggiungere i luoghi destinati alla vacanza.",Alloggio,0.4523049858043532,0,7.875231333018746
+N-750-SIM,Quali informazioni devono essere fornite al turista prima dell'inizio del viaggio?,multiple_choice,A,A,La risposta è A) Orari e località di sosta intermedia.,Orari e località di sosta intermedia,1.0,1,5.686950874980539
+N-750-SIM,Quali sono le condizioni previste per la durata minima di una locazione adibita ad attività alberghiere?,short,,,"Le condizioni previste per la durata minima di una locazione adibita ad attività alberghiere non sono specificate nel testo fornito. Tuttavia, si può inferire che le strutture ricettive all'aperto, come i villaggi turistici, i campeggi e i parchi di vacanza, devono soddisfare requisiti minimi per l'esercizio delle attività di cui al decreto legislativo.",La durata della locazione non può essere inferiore a nove anni.,0.6833005351922903,0,11.418342041026335
+N-750-SIM,Quali sono le attività considerate di interesse turistico per la durata minima delle locazioni?,multiple_choice,A,C,"La risposta corretta è C) Aziende di soggiorno ed altri organismi di promozione turistica.
+
+Secondo il testo, le attività considerate di interesse turistico sono quelle che ""valorizzano le aree che non abbiano ancora conosciuto una adeguata fruizione turistica"". Le aziende di soggiorno e gli altri organismi di promozione turistica sono quindi le attività che possono contribuire a questo obiettivo.
+
+Le altre opzioni non sono direttamente correlate alle attività di interesse turistico. Le agenzie di viaggio e il turismo sono più legate all'organizzazione dei viaggi, gli impianti sportivi e ricreativi sono più legati allo svago e alla salute, mentre i ristoranti e i bar sono più legati al cibo e alle bevande.",Agenzie di viaggio e turismo,0.0,0,18.015111707965843
+N-750-SIM,Qual è la struttura di supporto delle politiche del Governo nell'area funzionale relativa al settore turismo?,short,,,La struttura di supporto delle politiche del Governo nell'area funzionale relativa al settore turismo è la Agenzia per il Turismo (AIT). L'Agenzia è sottoposta alla diretta attività di indirizzo e vigilanza del Presidente del Consiglio dei Ministri o del Ministro delegato.,Il Dipartimento per lo sviluppo e la competitività del turismo.,0.7230198972147547,1,9.947522624977864
+N-750-SIM,Quanti livelli comprende l'attestazione di cui all'articolo 63?,short,,,"Tre livelli crescenti: stella di bronzo, stella d’argento e stella d’oro.","Tre livelli: medaglia di bronzo, medaglia d'argento e medaglia d'oro.",0.841296910398327,1,6.208578582969494
+N-750-SIM,"Cosa sono state apportate al decreto legislativo 6 febbraio 2007, n. 30, e successive modificazioni?",short,,,"Le seguenti modifiche:
+
+*   all'articolo 3, comma 2, lettera b), le parole: «dallo Stato del cittadino dell'Unione» sono sostituite dalle seguenti: «con l'articolo 14, commi 14, 15 e 18;»
+
+Questo significa che il decreto legislativo 6 febbraio 2007, n. 30, e successive modificazioni, ha apportato una modifica all'articolo 3, comma 2, lettera b), sostituendo le parole ""dallo Stato del cittadino dell'Unione"" con ""con l'articolo 14, commi 14, 15 e 18;"".","Le seguenti modificazioni: a) all'articolo 3, comma 2, lettera b), b) all'articolo 5, comma 5, c) all'articolo 9",0.8379545106825809,1,14.376339333015494
+N-750-SIM,"Cosa deve attestare la documentazione ufficiale ai sensi dell'articolo 3, comma 2, lettera b?",short,,,La documentazione ufficiale deve attestare che il cittadino dell’Unione è a carico o convive con il titolare del diritto di soggiorno nel paese di provenienza.,L'esistenza di una stabile relazione con il cittadino dell'Unione,0.6994453065553459,0,7.671048833988607
+N-750-SIM,A chi si applica il presente decreto legislativo?,short,,,Il presente decreto legislativo si applica a tutti gli italiani.,"Il presente decreto legislativo si applica a qualsiasi cittadino dell'Unione che si rechi o soggiorni in uno Stato membro diverso da quello di cui ha la cittadinanza, nonché ai suoi familiari.",0.8379577293335874,1,5.665553541970439
+N-750-SIM,"In base all'art. 3 del decreto legislativo n. 30 del 6 febbraio 2007, chi può beneficiare delle disposizioni del decreto?",multiple_choice,D,D,La risposta è D) Cittadini dell'Unione che si recano o soggiornano in uno Stato membro diverso da quello di cui hanno la cittadinanza e ai loro familiari.,Cittadini dell'Unione che si recano o soggiornano in uno Stato membro diverso da quello di cui hanno la cittadinanza e ai loro familiari,1.0,1,7.540986209001858
+N-750-SIM,Chi può essere considerato familiare di un cittadino dell'Unione per il diritto di soggiorno?,short,,,"Secondo l'articolo 3, comma 2, lettera b), del decreto legislativo 6 febbraio 2007, n. 30, e successive modificazioni, un familiare di un cittadino dell'Unione per il diritto di soggiorno può essere considerato:
+
+*   Familiare a carico (ad esempio, figlio o nipote)
+*   Membro del nucleo familiare
+*   Familiare affetto da gravi problemi di salute che richiedono l'assistenza personale del cittadino dell'Unione, titolare di un autonomo diritto di soggiorno.",Ogni altro familiare che è a carico o convive con il cittadino dell'Unione nel paese di provenienza.,0.7898997060506153,1,13.747132332995534
+N-750-SIM,Quali sono le condizioni per considerare il partner di un cittadino dell'Unione come familiare per il diritto di soggiorno?,multiple_choice,C,C,"La risposta corretta è:
+
+C) Deve avere una relazione stabile debitamente attestata",Deve avere una relazione stabile debitamente attestata,1.0,1,6.046840334020089
+N-750-SIM,Quando viene rilasciata l'attestazione di iscrizione anagrafica?,short,,,Non è specificato nel testo fornito.,immediatamente trascorsi tre mesi dall'ingresso,0.5725900525089224,0,5.196436250000261
+N-750-SIM,Cosa deve produrre il cittadino dell'Unione per l'iscrizione anagrafica secondo il testo?,multiple_choice,C,B,La risposta è B) Documento di identità.,Documentazione attestante l'attivita' lavorativa,0.0,0,5.206665791978594
+N-750-SIM,"Quali sono i requisiti richiesti per l'iscrizione ai sensi dell'art. 7, comma 1, lettera b)?",short,,,"I requisiti richiesti per l'iscrizione ai sensi dell'art. 7, comma 1, lettera b) sono:
+
+*   Titolarità di una assicurazione sanitaria ovvero di altro titolo comunque denominato idoneo a coprire tutti i rischi nel territorio nazionale;
+*   Documentazione atta a dimostrare motivi validi per l'iscrizione, come ad esempio la gravidanza e la maternità, malattia grave, studi o formazione professionale o distacco per motivi di lavoro in un altro Stato.",Titolarità di una assicurazione sanitaria ovvero di altro titolo idoneo a coprire tutti i rischi nel territorio nazionale,0.7270420023706116,1,13.19846874999348
+N-750-SIM,Quali risorse economiche possono dimostrare i cittadini dell'Unione?,short,,,"I cittadini dell'Unione possono dimostrare le seguenti risorse economiche:
+
+1.  **Risorse finanziarie**: denaro, contanti, banche, depositi bancari.
+2.  **Risorse immobiliari**: proprietà, affitti, locazioni, beni immobiliari.
+3.  **Risorse aziendali**: attività commerciali, industrie, servizi, aziende private o pubbliche.
+4.  **Risorse finanziarie alternative**: criptovalute, obbligazioni, azioni, titoli di stato, fondi comuni di investimento (FCI).
+5.  **Risorse immobiliari alternative**: proprietà non immobiliari, come ad esempio immobiliare in affitto o locazione.
+6.  **Risorse finanziarie per la formazione professionale**: borse di studio, assistenza finanziaria, prestiti studenteschi.
+7.  **Risorse finanziarie per l'impresa**: fondi di investimento, prestiti aziendali, garanzie bancarie.
+
+Queste risorse economiche possono essere utilizzate per vari scopi, come ad esempio:
+
+*   Finanziare la propria attività imprenditoriale
+*   Coprire spese domestiche o professionali
+*   Realizzare investimenti a lungo termine
+*   Sostenere la formazione professionale
+*   Gestire le spese finanziarie personali",Risorse economiche sufficienti a non gravare sul sistema di assistenza pubblica,0.67414555924149,0,26.41405212500831
+N-750-SIM,Cosa devono presentare i familiari del cittadino dell'Unione europea che non hanno un autonomo diritto di soggiorno per l'iscrizione anagrafica?,multiple_choice,B,D,La risposta è D) Documenti di identità.,Dichiarazione di reddito,0.0,0,5.491130165988579
+N-750-SIM,Quali documenti sono richiesti per l'iscrizione anagrafica del familiare cittadino dell'Unione?,short,,,"I documenti richiesti per l'iscrizione anagrafica del familiare cittadino dell'Unione sono:
+
+*   Rali procedurali di cui all’articolo 7, paragrafo 4 e all’articolo 51 della presente direttiva
+*   Copie autenticate","Un documento di identità o il passaporto in corso di validità, un documento rilasciato dall'autorità competente del Paese di origine o provenienza che attesti la qualità di familiare, l'attestato della richiesta d'iscrizione anagrafica del familiare cittadino dell'Unione e documentazione ufficiale attestante l'esistenza di una stabile relazione con il cittadino dell'Unione.",0.7895299658944518,1,8.82476895902073
+N-750-SIM,Qual è uno dei documenti richiesti per attestare la qualità di familiare a carico del cittadino dell'Unione?,multiple_choice,B,C,La risposta è C) Documento di identità.,Certificato di nascita,0.0,0,5.434501832991373
+N-750-SIM,Cosa devono richiedere i familiari del cittadino dell'Unione non aventi la cittadinanza di uno Stato membro dopo tre mesi dall'ingresso nel territorio nazionale?,short,,,I familiari del cittadino dell'Unione non aventi la cittadinanza di uno Stato membro devono richiedere una tessera professionale europea ai sensi del paragrafo 1 entro un mese a decorrere dalla data di ricevimento della domanda trasmessa dallo Stato membro d'origine.,La «Carta di soggiorno di familiare di un cittadino dell'Unione»,0.7076423161105949,1,9.803515499981586
+N-750-SIM,Quali documenti sono richiesti per il rilascio della Carta di soggiorno?,short,,,"I documenti richiesti per il rilascio della Carta di soggiorno sono:
+
+1. Documenti di identità
+2. Certificato di supporto
+3. Documenti che dimostrano la legale stabilità del richiedente nel Stato membro d'origine","Il passaporto o documento equivalente in corso di validità, un documento rilasciato dall'autorità competente del Paese di origine o provenienza che attesti la qualità di familiare, e l'attestato della ...",0.7232381098190592,1,8.837784875009675
+N-750-SIM,Cosa deve attestare il documento rilasciato dall'autorità competente del Paese di origine o provenienza per il rilascio della Carta di soggiorno?,multiple_choice,C,C,La risposta è C) La qualità di familiare.,La qualità di familiare,1.0,1,5.504819000023417
+N-750-SIM,Quanti esemplari della fotografia dell'interessato devono essere presentati?,short,,,Non sono riuscito a trovare l'answer.,Quattro,0.48507425051546427,0,5.4934002090012655
+N-750-SIM,Quanto dura la validità della carta di soggiorno di familiare di un cittadino dell'Unione?,multiple_choice,B,A,La risposta è A) Due anni.,Cinque anni,0.0,0,5.0169397499994375
+N-750-SIM,Di quanto è gratuito il rilascio della carta di soggiorno?,short,,,Il rilascio della carta di soggiorno è gratuito.,"Il rilascio della carta di soggiorno è gratuito, salvo il rimborso del costo degli stampati e del materiale usato per il documento.",0.8591945162764255,1,5.437002374965232
+N-750-SIM,Qual è il decreto legislativo che approva il Codice in materia di protezione dei dati personali?,short,,,"Il codice in materia di protezione dei dati personali è stato approvato dal D.Lgs. 196/2018, ma prima di questo, era stato approvato anche il D.Lgs. 30 giugno 2003, n. 196, che ha introdotto la normativa sulla protezione dei dati personali in Italia.
+
+Tuttavia, se si considera il decreto legislativo che ha aggiunto gli allegati al codice, sarebbe il D.Lgs. 6 settembre 2005, n. 206, che ha introdotto l'obbligo di informazione precontrattuale per i contratti di multiproprietà e ha aggiunto gli allegati II-bis.
+
+Quindi, la risposta è: **D.Lgs. 6 settembre 2005, n. 206**","Il decreto legislativo 30 giugno 2003, n. 196",0.7059048407171298,1,16.19822037499398
+N-750-SIM,Quando è stata istituita la professione sanitaria di odontoiatra?,short,,,"La professione sanitaria di odontoiatra è stata istituita nel 1997, quando è stato adottato il Regolamento (CE) n. 765/2004 del Parlamento europeo e del Consiglio, relativo alla disciplina delle professioni sanitarie. Tuttavia, la storia della professione di odontoiatra risale a molti secoli fa, quando gli odontoiatri erano considerati medici specializzati nella cura dei denti.
+
+In Italia, la professione di odontoiatra è stata regolamentata dal Decreto del Presidente della Repubblica n. 468/1997, che ha stabilito le norme per l'esercizio dell'attività professionale di odontoiatra e ha definito i requisiti per l'abilitazione all'esercizio.
+
+Il Regolamento (CE) n. 765/2004 è stato adottato nel 2004, dopo una lunga fase di discussione e negoziazione tra gli Stati membri dell'Unione europea. Il regolamento ha stabilito le norme comuni per la disciplina delle professioni sanitarie in tutta l'Unione europea, compresa l'Italia.
+
+In sintesi, la professione sanitaria di odontoiatra è stata istituita nel 1997, con la promulgazione del Decreto n. 468/1997, e successivamente regolamentata dal Regolamento (CE) n. 765/2004.",24 luglio 1985,0.5181473488394576,0,27.025917750026565
+N-750-SIM,Cosa disciplina il presente decreto legislativo?,short,,,"Il presente decreto legislativo disciplina le norme di attuazione, di coordinamento e di esecuzione delle direttive relative al turismo. In particolare, disciplinano la creazione del Dipartimento per lo sviluppo e la competitività del turismo presso la Presidenza del Consiglio dei Ministri, l'istituzione di due uffici dirigenziali di livello generale e la soppressione della Direzione generale del turismo.",Il riconoscimento per l'accesso alle professioni regolamentate e il loro esercizio.,0.6515080922287408,0,12.432265124982223
+N-750-SIM,Quali sono le attività riservate alla professione notarile?,multiple_choice,D,D,"La risposta corretta è:
+
+D) Attività riservate alla professione notarile.",Attività riservate alla professione notarile,1.0,1,6.048759083030745
+N-750-SIM,Dove può esercitare la professione corrispondente il titolare delle qualifiche?,short,,,"Secondo l'articolo 2, paragrafo 1 della direttiva, i cittadini di uno Stato membro che vogliano esercitare una professione regolamentata possono farlo:
+
+*   come lavoratori subordinati
+*   come autonomi
+*   compresi i liberi professionisti
+
+Inoltre, l'articolo 53 stabilisce che i professionisti che beneficiano del riconoscimento delle qualifiche professionali possiedono la conoscenza delle lingue necessaria all'esercizio della professione nello Stato membro ospitante.",Nello Stato membro di origine.,0.7176899902796244,1,13.676662874990143
+N-750-SIM,Chi conferisce al Presidente della Repubblica il potere di promulgare le leggi?,multiple_choice,D,B,La risposta è B) Il Parlamento.,La Costituzione,0.0,0,5.226467208005488
+N-750-SIM,Entro quanto tempo il Governo è delegato ad adottare i decreti legislativi per dare attuazione alle direttive comprese nell'elenco di cui all'allegato B?,short,,,Il Governo è delegato ad adottare i decreti legislativi entro ventiquattro mesi dalla scadenza del termine di cui al comma 12.,diciotto mesi,0.5056588644693166,0,7.068124415993225
+N-750-SIM,Qual è la procedura se il termine per l'espressione del parere parlamentare scade nei trenta giorni che precedono la scadenza dei termini previsti ai commi 1 o 5 o successivamente?,multiple_choice,A,C,La risposta è C.,I decreti sono emanati anche in mancanza del parere,0.0,0,4.943963040946983
+N-750-SIM,Quanti giorni sono stati prorogati gli schemi dei decreti legislativi?,short,,,I decreti legislativi sono stati prorogati per 84 giorni.,novanta giorni,0.4566699261867016,0,5.710722082993016
+N-750-SIM,Qual è l'organo al quale il Governo deve ritrasmettere i testi corredati dei necessari elementi integrativi di informazione?,multiple_choice,B,C,Il testo corretto è: C) Commissioni competenti per i profili finanziari,Camere,0.0,0,5.8832775840419345
+N-750-SIM,Qual è la direttiva del 2000 che istituisce un quadro per l'azione comunitaria in materia di acque?,short,,,La direttiva del 2000 che istituisce un quadro per l'azione comunitaria in materia di acque è la Direttiva 2000/60/CE.,2000/60/CE del Parlamento europeo e del Consiglio,0.7772470704889272,1,7.070142542012036
+N-750-SIM,A quale direttiva si riferisce la modifica della direttiva 90/435/CEE concernente il regime fiscale comune applicabile alle società madri e figlie di Stati membri diversi?,multiple_choice,B,C,"La direttiva 90/435/CEE è stata modificata dalla direttiva 2003/123/CE, che ha introdotto una serie di disposizioni per semplificare il regime fiscale comune applicabile alle società madri e figlie di Stati membri diversi.",2003/123/CE,0.0,0,9.002035624987911
+N-750-SIM,Qual è la direttiva del 29 aprile 2004 che modifica la direttiva 96/48/CE del Consiglio relativa all'interoperabilità del sistema ferroviario transeuropeo ad alta velocità?,short,,,La direttiva del 29 aprile 2004 che modifica la direttiva 96/48/CE del Consiglio relativa all'interoperabilità del sistema ferroviario transeuropeo ad alta velocità è la direttiva 2004/40/CE.,2004/50/CE,0.6034079784081277,0,8.667646082991268
+N-750-SIM,Di cosa tratta la direttiva 2004/81/CE del Consiglio del 29 aprile 2004?,multiple_choice,B,C,La direttiva 2004/81/CE del Consiglio del 29 aprile 2004 tratta l'obbligo dei vettori di comunicare dati relativi alle persone trasportate.,Titolo di soggiorno per cittadini di paesi terzi coinvolti in azioni di favoreggiamento dell'immigrazione illegale,0.0,0,7.443968624982517
+N-750-SIM,Quando è stata adottata la direttiva 2004/108/CE del Parlamento europeo e del Consiglio?,short,,,La direttiva 2004/108/CE del Parlamento europeo e del Consiglio è stata adottata il 15 dicembre 2004.,15 dicembre 2004,0.6357737773259571,0,6.777797292044852
+N-750-SIM,Di cosa tratta la direttiva 2004/113/CE del Consiglio del 13 dicembre 2004?,multiple_choice,C,A,La risposta è A) Armonizzazione degli obblighi di trasparenza.,Trattamento paritario tra uomini e donne,0.0,0,5.784292542026378
+N-750-SIM,Quando è stata pubblicata la direttiva 2005/36/CE?,short,,,La direttiva 2005/36/CE è stata pubblicata nella Gazzetta ufficiale dell'Unione europea il 30 settembre 2005.,30 settembre 2005,0.669353782461292,0,6.889761958038434
+N-750-SIM,In quale data è stata pubblicata la direttiva 89/48/CEE?,multiple_choice,A,A,La risposta è A) 24 gennaio 1989.,24 gennaio 1989,1.0,1,5.46896841598209
+N-750-SIM,Quando è stata pubblicata la direttiva 98/21/CE?,short,,,La direttiva 98/21/CE è stata pubblicata il 17 luglio 2000.,5 maggio 1998,0.5973475925520517,0,5.855827457970008
+N-750-SIM,In quale data è stata pubblicata la direttiva 85/614/CEE?,multiple_choice,B,A,La risposta è A) 21 agosto 1985.,31 dicembre 1985,0.0,0,5.220558291010093
+N-750-SIM,"Dove è pubblicata la legge 8 novembre 1984, n. 750?",short,,,"La legge 8 novembre 1984, n. 750 è pubblicata nella Gazzetta Ufficiale delle Comunità europee (GUCE).","Gazzetta Ufficiale 10 novembre 1984, n. 310",0.7946044794719666,1,6.688758249976672
+N-750-SIM,In che data sono pubblicate le direttive 85/432/CEE e 85/433/CEE?,multiple_choice,A,A,La risposta è A) 24 settembre 1985.,24 settembre 1985,1.0,1,5.376092540973332
+N-750-SIM,Qual è l'organo che ha espresso parere il 13 gennaio 2011?,short,,,Il Consiglio di Stato.,Il Consiglio di Stato,0.9861005534801469,1,5.029218540992588
+N-750-SIM,Chi ha adottato la preliminare deliberazione del Consiglio dei Ministri il 19 ottobre 2010?,multiple_choice,D,C,La risposta è C) La Conferenza unificata.,Il Consiglio dei Ministri,0.0,0,5.369430750026368
+N-750-SIM,Chi ha proposto l'approvazione del codice della normativa statale in tema di ordinamento e mercato del turismo?,short,,,L'approvazione del codice della normativa statale in tema di ordinamento e mercato del turismo è stata proposta dallo Stato.,"Il Presidente del Consiglio dei Ministri, il Ministro per il turismo, il Ministro per la semplificazione normativa e il Ministro dello sviluppo economico.",0.7173241369703589,1,6.900992790993769
+N-750-SIM,Chi ha adottato la deliberazione del Consiglio dei Ministri?,multiple_choice,A,A,La risposta è A) Presidente del Consiglio dei Ministri.,Presidente del Consiglio dei Ministri,1.0,1,5.68012566602556
+N-750-SIM,Quali sono i principi e criteri direttivi specifici per le singole materie per l'esercizio delle deleghe legislative?,short,,,"I principi e criteri direttivi specifici per le singole materie per l'esercizio delle deleghe legislative sono:
+
+1.  Il testo dell'art. 183-ter del decreto legislativo 28 luglio 1989, n. 271 (Norme di attuazione, di coordinamento e di esecuzione della direttiva 2005/36/CE relativa alla libera circolazione dei servizi di prestazione di servizi di cura sanitaria);
+2.  Il testo dell'art. 63 del regolamento (UE) n. 2016/679 (Regolamento generale sulla protezione delle persone con riguardo all'uso che vengono data alle loro informazioni personali e alla libertà di circolazione dei dati);
+3.  Il testo dell'art. 65 del regolamento (UE) n. 2016/679 (Destinatari);","Salvi i principi e i criteri direttivi specifici per le singole materie, stabiliti con la legge annuale di semplificazione e riassetto normativo.",0.7720170013336958,1,18.000247208052315
+N-750-SIM,Chi conferisce al Presidente della Repubblica il potere di promulgare le leggi?,multiple_choice,D,C,La risposta è C) Il Governo.,La Costituzione,0.0,0,5.168936750036664
+N-750-SIM,Entro quanti giorni deve avvenire la determinazione dei principi fondamentali nelle materie di legislazione concorrente?,short,,,"Secondo l'articolo 117, terzo comma della Costituzione, i principi fondamentali della legislazione dello Stato nelle materie previste dall'articolo 117, terzo comma, devono essere stabiliti entro 180 giorni dalla data di entrata in vigore della legge.",Nel termine di novanta giorni,0.5319144124433969,0,9.310000083001796
+N-750-SIM,Quali interventi amministrativi autorizzatori devono essere eliminati secondo il testo?,multiple_choice,B,B,La risposta è B) Misure di condizionamento della libertà contrattuale.,Misure di condizionamento della libertà contrattuale,1.0,1,5.910188833018765
+N-750-SIM,Qual è uno dei termini utilizzati per indicare un atto che non implica discrezionalità amministrativa?,short,,,Rilascio di un atto di consenso,licenza,0.4027466471936126,0,5.19979266601149
+N-750-SIM,Quali sono le funzioni amministrative non direttamente rivolte alla regolazione ai fini dell'incentivazione della concorrenza?,multiple_choice,B,C,La risposta è C) Eliminazione dei limiti all'accesso e all'esercizio delle attività economiche.,Protezione di interessi primari,0.0,0,6.36048666696297
+N-750-SIM,Per cosa sono promossi gli interventi di autoregolazione secondo il testo?,short,,,Gli interventi di autoregolazione sono promossi per migliorare l'accessibilità e la fruibilità del cammino per persone con disabilità e esigenze specifiche.,Standard qualitativi e certificazioni di conformita',0.5956197971109841,0,7.562278166995384
+N-750-SIM,Quali sono i modelli di regolazione definiti dalle amministrazioni competenti?,multiple_choice,D,D,La risposta è D) Tutti i precedenti.,Tutti i precedenti,1.0,1,5.3292315829894505
+N-750-SIM,Quali sono i principi fondamentali di attribuzione delle funzioni secondo gli stessi criteri da parte delle regioni?,short,,,"I principi fondamentali di attribuzione delle funzioni secondo gli stessi criteri da parte delle regioni sono:
+
+1.  Salvi i princìpi e i criteri direttivi specifichi per le singole materie, stabiliti con la legge annuale di semplificazione e riassetto normativo.
+2.  L'esercizio delle deleghe legislative si attiene ai seguenti principi e criteri direttivi: 
+    *   promuovere iniziative di valorizzazione del patrimonio storico - artistico, archeologico, architettonico e paesaggistico presente sul territorio italiano, con particolare attenzione ai borghi, ai piccoli comuni ed a tutte le realtà minori che ancora non hanno conosciuto una adeguata valorizzazione del proprio patrimonio a fini turistici.
+3.  Gli strumenti di programmazione negoziale prevedono misure finalizzate a promuovere iniziative di valorizzazione del patrimonio storico - artistico, archeologico, architettonico e paesaggistico presente sul territorio italiano, con particolare attenzione ai borghi, ai piccoli comuni ed a tutte le realtà minori che ancora non hanno conosciuto una adeguata valorizzazione del proprio patrimonio a fini turistici.",Determinazione dei principi fondamentali di attribuzione delle funzioni secondo gli stessi criteri da parte delle regioni nelle materie di competenza legislativa concorrente.,0.7935013763122114,1,25.877285833004862
+N-750-SIM,Quali sono i principi che i decreti legislativi e i regolamenti devono seguire secondo il testo?,multiple_choice,D,B,La risposta è B) Adeguamento dell'organizzazione amministrativa alle modalità di esercizio delle funzioni.,Semplificazione dei procedimenti amministrativi,0.0,0,6.98984425002709
+N-750-SIM,Qual è uno degli obiettivi della semplificazione e accelerazione delle procedure amministrative?,short,,,"L'obiettivo della semplificazione e accelerazione delle procedure amministrative è quello di migliorare la soddisfazione dei camminatori, attrarre nuovi camminatori e creare un effetto moltiplicatore.",aggiornamento delle procedure,0.6891723864339354,0,8.350868624984287
+N-750-SIM,"Qual è uno degli obiettivi della conformazione ai principi di sussidiarietà, differenziazione e adeguatezza?",multiple_choice,D,D,La risposta è D) conformazione ai principi di sussidiarietà.,conformazione ai principi di sussidiarietà,1.0,1,5.727134541957639
+N-750-SIM,Quali sono i criteri che regolano i rapporti tra i soggetti istituzionali e i soggetti interessati?,short,,,"I criteri che regolano i rapporti tra i soggetti istituzionali e i soggetti interessati sono:
+
+*   L'obbligo di informazione: gli Stati membri devono fornire tutte le informazioni necessarie per la stesura della relazione.
+*   La possibilità di derogare alla previsione: uno Stato membro può derogare dalla previsione che lascia al richiedente la scelta tra tirocinio di adattamento e prova attitudinale, se ne informa preventivamente gli altri Stati membri e la Commissione.
+*   La garanzia contro i rischi pecuniari: il richiedente deve essere assicurato contro i rischi pecuniari inerenti alla responsabilità professionale conformemente alle prescrizioni legali e regolamentari vigenti nello Stato membro ospitante.
+*   L'assenza di sospensioni temporanee o definitive: lo Stato membro può richiedere un attestato che confermi l'assenza di sospensioni temporanee o definitive dall'esercizio della professione o di condanne penali.","Autonomia, leale collaborazione, responsabilità e tutela dell'affidamento",0.6314925701850923,0,22.13604608399328
+N-750-SIM,Quali sono i principi e criteri direttivi per la permanenza in vigore delle disposizioni legislative?,short,,,"I principi e criteri direttivi per la permanenza in vigore delle disposizioni legislative sono:
+
+1.  L'esercizio della funzione legislativa non può essere delegato al Governo se non con determinazione di principi e criteri direttivi.
+2.  La legge deve essere adottata con determinazione di principi e criteri direttivi.
+3.  La permanenza in vigore delle disposizioni legislative è regolata dall'articolo 14 della legge 28 novembre 2005, n. 246.
+
+Questi principi e criteri direttivi sono stati stabiliti dalla Costituzione italiana e sono riferiti alla disciplina delle norme legislative statali anteriori al 1° gennaio 1970.","a) esclusione delle disposizioni oggetto di abrogazione tacita o implicita; b) esclusione delle disposizioni che abbiano esaurito la loro funzione o siano prive di effettivo contenuto normativo o siano comunque obsolete; c) identificazione delle disposizioni la cui abrogazione comporterebbe lesione dei diritti costituzionali; d) identificazione delle disposizioni indispensabili per la regolamentazione di ciascun settore, anche utilizzando a tal fine le procedure di analisi e verifica dell'impatto della regolazione; e) organizzazione delle disposizioni da mantenere in vigore per settori omogenei o per materie, secondo il contenuto precettivo di ciascuna di esse; f) garanzia della coerenza giuridica, logica e sistematica della normativa; g) identificazione delle disposizioni la cui abrogazione comporterebbe effetti anche indiretti sulla finanza pubblica; h) identificazione delle disposizioni contenute nei decreti ricognitivi, emanati ai sensi dell'articolo 1, comma 4, della legge 5 giugno 2003, n. 131, aventi per oggetto i principi fondamentali della legislazione dello Stato nelle materie previste dall'articolo 117, terzo comma, della Costituzione.",0.7976655235459159,1,16.257133416016586
+N-750-SIM,"Quando possono essere emanate disposizioni integrative, di riassetto o correttive?",short,,,"Le disposizioni integrative, di riassetto o correttive possono essere emanate quando ci sono problemi o limitazioni nell'applicazione delle norme e delle leggi relative all'accessibilità dei cammini. Questo può accadere per diverse ragioni, come ad esempio:
+
+*   la mancanza di informazioni o dati sufficienti per valutare l'efficacia dell'accessibilità del cammino;
+*   la necessità di aggiornare le norme e le leggi relative all'accessibilità dei cammini in base a nuove tecnologie, nuovi materiali o nuove esigenze;
+*   la scoperta di problemi o limitazioni nell'applicazione delle norme e delle leggi relative all'accessibilità dei cammini che non erano stati considerati in precedenza.
+
+In questi casi, le disposizioni integrative, di riassetto o correttive possono essere emanate per:
+
+*   aggiornare le norme e le leggi relative all'accessibilità dei cammini;
+*   stabilire nuovi requisiti di accessibilità per i cammini;
+*   fornire indicazioni più dettagliate su come applicare le norme e le leggi relative all'accessibilità dei cammini.
+
+In generale, le disposizioni integrative, di riassetto o correttive possono essere emanate da enti pubblici, come ad esempio il Ministero dello Sviluppo Economico, l'Istituto Nazionale per la Ricerca sul Cervello (INRCA) e l'Ente Autonomo della Regione del Piemonte (EAP), o da enti privati che operano nel settore dei cammini.",Entro due anni dalla data di entrata in vigore dei decreti legislativi di cui al comma 14.,0.6654396646520957,0,30.920627167040948
+N-750-SIM,Quando è stato pubblicato il decreto legislativo 'Codice del consumo'?,multiple_choice,B,B,La risposta è B) 8 ottobre 2005.,8 ottobre 2005,1.0,1,6.534785708005074
+N-750-SIM,Chi ha attribuito le funzioni di competenza statale in materia di turismo al Presidente del Consiglio dei Ministri?,short,,,Il Presidente del Consiglio dei Ministri.,Il Ministro dello sviluppo economico,0.7846671206654663,1,5.298942374996841
+N-750-SIM,"Quando è stata pubblicata la legge 4 giugno 2010, n. 96?",multiple_choice,B,B,La risposta è B,25 giugno 2010,1.0,1,4.7536738340277225
+N-750-SIM,Quali sono le qualifiche professionali?,short,,,"Le qualifiche professionali sono definito come:
+
+*   un diploma attestante che il titolare ha completato con successo una formazione a livello di insegnamento post-secondario di una durata minima di tre anni e non superiore a quattro anni, o di una durata equivalente a tempo parziale;
+*   un diploma attestante che il titolare ha completato con successo una formazione professionale a struttura particolare, con competenze che vanno oltre quanto previsto al livello b, equivalenti al livello di formazione indicato al punto i), se tale formazione conferisce un analogo livello professionale e prepara a un livello analogo di responsabilità e funzioni.","Le qualifiche professionali sono attestate da un titolo di formazione, un attestato di competenza e/o un'esperienza professionale.",0.9037045231365176,1,16.33726454200223
+N-750-SIM,Cosa costituisce una professione regolamentata secondo la direttiva?,multiple_choice,D,D,La risposta è D) Un titolo professionale riservato.,Un titolo professionale riservato,1.0,1,5.584223915997427
+N-750-SIM,Cosa si intende per 'tirocinio professionale'?,short,,,"Il ""tirocinio professionale"" è un periodo di pratica professionale effettuato sotto supervisione, che costituisce una condizione per l'accesso a una professione regolamentata e che può svolgersi durante o dopo il completamento di un'istruzione che conduce a un diploma.","Un periodo di pratica professionale effettuato sotto supervisione, che costituisce una condizione per l'accesso a una professione regolamentata.",0.8758621207061691,1,9.50797816697741
+N-750-SIM,Cosa sono le 'misure compensative' in relazione all'accesso parziale a un'attività professionale?,multiple_choice,B,A,"Le ""misure compensative"" in relazione all'accesso parziale a un'attività professionale sono:
+
+A) Procedure per ottenere una licenza speciale
+
+Queste misure consistono nell'istituzione di procedure speciali per consentire ai camminatori con disabilità di accedere a un'attività professionale, anche se non soddisfano tutti i requisiti standard.",Misure per ridurre i requisiti di formazione,0.0,0,10.9890686669969
+N-750-SIM,Quali documenti possono essere richiesti dagli Stati membri per la dichiarazione di un prestatore di servizi?,short,,,"Gli Stati membri possono richiedere agli Stati membri d'origine i seguenti documenti:
+
+*   Dichiarazione del prestatore di servizi
+*   Copia certificata di un documento da parte dello Stato membro d'origine","Prova della nazionalità del prestatore, attestato di legalità per l'esercizio delle attività, prova dei titoli di qualifiche professionali, prova dell'attività svolta negli ultimi dieci anni, attestato di assenza di sospensioni o condanne penali, dichiarazione della conoscenza della lingua necessaria, certificato della natura e durata dell'attività.",0.7058989994619477,1,8.804745832982007
+N-750-SIM,Quando un prestatore di servizi può avere accesso all'attività di servizio su tutto il territorio dello Stato membro interessato?,multiple_choice,A,B,"La risposta corretta è:
+
+B) Dopo aver superato una prova attitudinale
+
+Secondo l'articolo 4 bis, la tessera professionale europea consente al prestatore di servizi di avere accesso all’attività di servizio o di esercitarla sull’intero territorio dello Stato membro interessato. Tuttavia, se la professione è regolamentata in modo diverso in parti del territorio di tale Stato membro, lo Stato membro può richiedere le informazioni supplementari per quanto concerne le qualifiche professionali del fornitore di servizi.
+
+In questo caso, il prestatore di servizi deve superare una prova attitudinale per dimostrare di avere acquisito le conoscenze, le abilità o le competenze mancanti. Su tale base lo Stato membro ospitante decide se consentire la prestazione di servizi.",Quando presenta la richiesta dichiarazione,0.0,0,19.240046125021763
+N-750-SIM,Quali sono i titoli di formazione richiesti per l'accesso alle attività professionali di medico di medicina generale?,short,,,"I titoli di formazione richiesti per l'accesso alle attività professionali di medico di medicina generale sono i seguenti:
+
+*   Titolo di formazione in medicina con formazione di base
+*   Titolo di formazione in medicina specialista","I titoli di formazione richiesti per l'accesso alle attività professionali di medico di medicina generale sono quelli elencati all'allegato V, punto 5.1.4.",0.8555456901307116,1,9.043955125031061
+N-750-SIM,Quali sono le condizioni per l'ammissione alla formazione di infermiere responsabile dell'assistenza generale?,multiple_choice,A,A,La risposta corretta è A) Completamento di una formazione scolastica di dodici anni.,Completamento di una formazione scolastica di dodici anni,1.0,1,6.635009750025347
+N-750-SIM,Quali sono le conoscenze richieste per l'esercizio delle attività professionali di un dentista di base?,short,,,"Le conoscenze richieste per l'esercizio delle attività professionali di un dentista di base sono quelle definite al paragrafo 3 dell'articolo 36, che includono:
+
+*   le attività collegate alle singole categorie
+*   non vi sia alcun trasferimento delle attività tra le attuali liste I, II e III dell’allegato IV.","Adeguate conoscenze delle scienze sulle quali si fonda l'odontoiatria, della costituzione, fisiologia e comportamento di persone sane e malate, struttura e funzione di denti, bocca, mascelle e relativi tessuti, discipline cliniche per diagnosi e terapia, esperienza clinica sotto opportuno controllo.",0.6969845703417724,0,10.49604245898081
+N-750-SIM,Quali sono le competenze necessarie per un infermiere responsabile dell'assistenza generale?,multiple_choice,A,A,"La risposta corretta è:
+
+A) Competenza di individuare autonomamente le cure infermieristiche necessarie
+
+Secondo il testo, l'infermiere responsabile dell'assistenza generale deve avere la competenza di ""individuare autonomamente le cure infermieristiche necessarie utilizzando le conoscenze teoriche e cliniche attuali"".",Competenza di individuare autonomamente le cure infermieristiche necessarie,1.0,1,10.462211166974157
+N-750-SIM,Quali sono le conoscenze e competenze acquisite durante la formazione di farmacista?,short,,,"Secondo l'articolo 23 della direttiva 2001/83/CE, la formazione di un farmacista deve includere:
+
+*   adeguate conoscenze di medicina generale
+*   competenze in materia di farmacologia
+*   conoscenze specifiche delle malattie trasmittibili all'uomo
+*   adeguate conoscenze dell'igiene e della tecnologia per l'ottenimento, la produzione e l'immissione in commercio dei mangimi animali o dei prodotti alimentari di origine animale destinati al consumo umano
+*   competenze necessarie all'utilizzo responsabile e ragionato dei prodotti medicinali","a) un'adeguata conoscenza dei medicinali e delle sostanze utilizzate per la loro fabbricazione; b) un'adeguata conoscenza della tecnologia farmaceutica e del controllo fisico, chimico, biologico e microbiologico dei medicinali; c) un'adeguata conoscenza del metabolismo e degli effetti dei medicinali, nonché dell'azione delle sostanze tossiche e dell'utilizzazione dei medicinali stessi; d) un'adeguata conoscenza che consenta di valutare i dati scientifici concernenti i medicinali in modo da potere su tale base fornire le informazioni appropriate; e) un'adeguata conoscenza dei requisiti legali e di altro tipo in materia di esercizio delle attività farmaceutiche.",0.8084621421358738,1,14.963586208003107
+N-750-SIM,"Quali attività sono aperte ai titolari di un titolo di formazione in farmacia, rilasciato da un istituto universitario o da un istituto di livello riconosciuto equivalente?",multiple_choice,A,A,"La risposta corretta è:
+
+A) a) Preparazione della forma farmaceutica dei medicinali
+
+Secondo l'articolo 4, gli Stati membri riconoscono i titoli di farmacia che sanciscono una formazione iniziata prima del 3 ottobre 1990 e che soddisfano tutti i requisiti minimi di formazione di cui all'articolo 40. In particolare, si applica questa condizione ai titolari di un titolo di farmacia che sanciscono una formazione iniziata prima del 3 ottobre 1990 e che soddisfano tutti i requisiti minimi di formazione di cui all'articolo 40.
+
+Tra le attività aperte ai titolari di un titolo di formazione in farmacia, rilasciato da un istituto universitario o da un istituto di livello riconosciuto equivalente, si trova la preparazione della forma farmaceutica dei medicinali.",a) Preparazione della forma farmaceutica dei medicinali,1.0,1,19.434267209027894
+N-750-SIM,Quali sono le attività professionali per le quali le autorità competenti di uno Stato membro devono informare le autorità competenti di tutti gli altri Stati membri in caso di limitazione o divieto temporaneo?,short,,,Le autorità competenti di uno Stato membro devono informare le autorità competenti di tutti gli altri Stati membri in caso di limitazione o divieto temporaneo delle attività professionali elencate nell'allegato IV dell'articolo 10 del trattato.,"medico generico, medico specialista, infermiere responsabile dell’assistenza generale, dentista, dentista specialista, veterinario, ostetrica, farmacista, possessori dei certificati di formazione specifici, possessori di attestati di diritti acquisiti, altri professionisti con attività che influiscono sulla sicurezza dei pazienti, professionisti che lavorano nell'istruzione dei minori",0.6960683458043283,0,10.0084110419848
+N-750-SIM,Qual è la durata minima della specializzazione in Oftalmologia?,short,,,Non sono riuscito a trovare informazioni sulla durata minima della specializzazione in Oftalmologia.,3 anni,0.399208306867027,0,6.461181707971264
+N-750-SIM,Qual è la specializzazione medica che richiede una durata minima di 5 anni?,multiple_choice,C,D,La risposta è D) Psichiatria.,Chirurgia plastica,0.0,0,5.171410083014052
+N-750-SIM,Quale titolo di formazione è rilasciato in Belgio/Belgio per gli infermieri responsabili dell'assistenza generale?,short,,,"Il titolo di formazione rilasciato in Belgio per gli infermieri responsabili dell'assistenza generale è il ""Titolo di Infermiere Responsabile dell'Assistenza Generale"".",Diploma gegradueerde verpleger/verpleegster/Diplôme gradué(e) en soins infirmiers,0.5731403821935832,0,7.889084832975641
+N-750-SIM,In quale paese il titolo professionale per gli infermieri responsabili dell'assistenza generale è 'Hospitalier(ère)/Verpleegassi­stent(e)'?,multiple_choice,A,A,La risposta corretta è A) Belgio.,Belgio,1.0,1,5.29777375003323
+N-750-SIM,Qual è il titolo di formazione per diventare un ostetrico in Belgio?,short,,,"Il titolo di formazione per diventare un ostetrico in Belgio è ""Diplôme de médecin spécialisé en obstétrique"" o ""Diploma van specialist in obstetrie"".",Diploma van vroedvrouw,0.5450665349278033,0,7.550087500014342
+N-750-SIM,In quale paese viene rilasciato il titolo di 'Hebamme'?,multiple_choice,A,A,La risposta è A) Germania.,Germania,1.0,1,5.123666500032414
+N-750-SIM,Quali istituti rilasciano il titolo di Architetto in Croazia?,short,,,"Secondo l'allegato VI della direttiva 2005/36/CE, i titoli di formazione di architetto che beneficiano dei diritti acquisiti in virtù dell'articolo 45 sono rilasciati dalle seguenti istituzioni:
+
+* Università di Zagabria
+* Università di Split
+* Università di Rijeka
+
+Queste università rilasciano il titolo di Architetto in Croazia, che è riconosciuto come equivalente ai titoli di formazione di architetto rilasciati da istituzioni europee.","Arhitektonski fakultet Sveučilišta u Zagrebu, Građevinsko-arhitektonski fakultet Sveučilišta u Splitu, Fakultet građevinarstva, arhitekture i geodezije Sveučilišta u Splitu",0.5744481080986475,0,13.401568458008114
+N-750-SIM,Da quale istituto viene rilasciato il titolo di Architetto in Grecia?,multiple_choice,A,D,La risposta è D) Panepistimion Patron.,Metsovion Polytechnion di Atene,0.0,0,5.38477912498638
+N-750-SIM,Qual è il titolo di formazione rilasciato dall'Università di Zagabria per gli studi completati presso il Tehnički fakultet?,short,,,"Il titolo di formazione rilasciato dall'Università di Zagabria per gli studi completati presso il Tehnički fakultet è ""Ingegnere"" (in inglese, ""Engineer"").",Diploma «inženjer»,0.524140448292901,0,7.71162837499287
+N-750-SIM,Qual è il titolo di formazione rilasciato dall'Università di Breslavia per gli studi completati presso la Facoltà di Architettura?,multiple_choice,B,B,La risposta è B) Diploma di architetto.,Diploma di architetto,1.0,1,5.3003398340079
+N-750-SIM,When did the Italian authorities notify the scheme to compensate tour operators and travel agencies?,short,,,The Italian authorities notified the scheme by electronic notification of 18 March 2021.,18 March 2021,0.5800198906820345,0,5.42428395798197
+N-750-SIM,What was the measure's objective according to the document?,multiple_choice,D,A,A,To provide compensation for damages above EUR 1.8 million,0.0,0,3.916672415973153
+N-750-SIM,When did the ban on leaving people's own home residence in Italy remain in force?,short,,,The ban on leaving people's own home residence remained in force from 10 March to 18 May 2020.,From 10 March to 18 May 2020,0.649125137223877,0,5.495592041988857
+N-750-SIM,Until when was the travel ban to and from extra-EU/Schengen countries in place?,multiple_choice,A,A,A) 31 July 2020,31 July 2020,1.0,1,4.563921082997695
+N-750-SIM,What were some of the restrictive measures applied to travellers coming from Italy?,short,,,"Travel warnings to avoid non-essential travels to Italy, entry bans on travellers coming from Italy and Italian residents, quarantine measures, and other health checks for travellers arriving from Italy.","Travel warnings, suspension of flights, entry bans, quarantine measures",0.7990488402005543,1,6.727364291960839
+N-750-SIM,How much did the tourism sector in Italy generate in terms of GDP?,multiple_choice,B,C,C,13%,0.0,0,3.970709041983355
+N-750-SIM,What was the turnover percentage decrease for travels to all countries in the period from 1 to 9 March 2020 compared to the same period in 2019?,short,,,The turnover percentage decrease for travels to all countries in the period from 1 to 9 March 2020 was -78.3%.,-78.3%,0.5782750587805041,0,6.609173749980982
+N-750-SIM,What was the turnover percentage decrease for travels to Europe/Schengen in the period from 1 to 9 March 2020 compared to the same period in 2019?,multiple_choice,A,A,"The correct answer is A) -91.3%.
+
+According to the text, the turnover percentage decrease for travels to Europe/Schengen in the period from 1 to 9 March 2020 compared to the same period in 2019 was -91.3%.",-91.3%,1.0,1,8.454127083008643
+N-750-SIM,What is the overall budget of the measure?,short,,,The overall budget of the measure is EUR 625 million.,EUR 625 million,0.7107746421605243,1,4.707982499967329
+N-750-SIM,Quali sono i beneficiari della misura?,short,,,"I beneficiari della misura sono le persone con disabilità. La società deve garantire alle persone con disabilità le stesse opportunità degli altri cittadini, il rispetto della loro dignità, la possibilità di svolgere in maniera il più possibile autonoma le attività della vita quotidiana e non essere discriminate senza un giustificato motivo.","Le agenzie di viaggio e i tour operator che hanno subito una riduzione del fatturato superiore a 1,8 milioni di euro e che soddisfano determinati requisiti.",0.6256189340057287,0,10.64409729198087
+N-750-SIM,Quali sono i requisiti necessari per poter beneficiare della misura?,multiple_choice,A,A,La risposta è A) Essere attivi in Italia e registrati nel Registro delle Imprese sotto determinati codici ATECO.,Essere attivi in Italia e registrati nel Registro delle Imprese sotto determinati codici ATECO,1.0,1,6.711239458993077
+N-750-SIM,How will the compensation for damage be calculated under the measure?,short,,,"The compensation for damage will be calculated using both the Ministry's methodology and the updated methodology, with the amount not exceeding the lower of the two amounts.",The compensation will not exceed the lower of the two amounts calculated using both methodologies.,0.8210555796194406,1,6.619399291987065
+N-750-SIM,Quando era aperto il periodo per la presentazione delle domande per beneficiare del supporto della misura in esame?,short,,,"Il testo dell'articolo 14 commi 14, 15 e 18, della legge 28 novembre 2005, n. 246 (Semplificazione e riassetto normativo per l'anno 2005), pubblicato nella Gazzetta Ufficiale il 1° dicembre 2005, n. 280, recita:
+
+""14. Entro ventiquattro mesi dalla scadenza del termine di cui al comma 12, il Governo è delegato ad adottare, con le modalità di cui all'articolo 20 della legge 15 marzo 1997, n. 82.""
+
+Quindi, il periodo per la presentazione delle domande per beneficiare del supporto della misura in esame era aperto fino a ventiquattro mesi dalla scadenza del termine di cui al comma 12.",Il periodo per la presentazione delle domande era aperto dal 21 settembre 2020 al 9 ottobre 2020.,0.6932826035242466,0,16.45550216594711
+N-750-SIM,Qual è uno dei requisiti affinché una misura possa essere considerata aiuto di Stato?,multiple_choice,A,A,La risposta corretta è A) Deve essere finanziata da risorse dello Stato.,Deve essere finanziata da risorse dello Stato,1.0,1,6.059981375001371
+N-750-SIM,What must be cumulatively met for an event to be characterized as an exceptional occurrence?,short,,,"Three indicators must be cumulatively met: (i) unforeseeable or difficult to foresee, (ii) significant scale/economic impact, and (iii) extraordinary.",(i) unforeseeable or difficult to foresee; (ii) significant scale/economic impact; and (iii) extraordinary,0.8608592740033374,1,6.328089125046972
+N-750-SIM,What determines the exceptional nature of the circumstances of COVID-19 as an exceptional occurrence?,multiple_choice,A,A,A,The WHO declaration of a pandemic,1.0,1,4.225140333990566
+N-750-SIM,Quali sono le date considerate per il calcolo dei danni compensabili legati all'eccezionale evento COVID-19?,short,,,"Le date considerate per il calcolo dei danni compensabili legati all'eccezionale evento COVID-19 sono:
+
+*   1° gennaio 2020
+*   31 dicembre 2022
+
+Queste date sono considerate per il calcolo dei danni compensabili legati all'eccezionale evento COVID-19, in base alla direttiva 2019/812 del Parlamento europeo e del Consiglio.",Dal 1 marzo al 31 luglio 2020,0.7371205680151682,1,10.996640041994397
+N-750-SIM,Per quali motivi la Commissione considera l'eccezionale evento COVID-19 come causa dei danni compensati dalla misura?,multiple_choice,A,C,La risposta è C.,A) Per l'imposizione di restrizioni di viaggio,0.0,0,4.872777458047494
+N-750-SIM,When was a national lockdown declared in Italy?,short,,,A national lockdown was declared on 9 March 2020.,9 March 2020,0.6956454923137724,0,5.027801042015199
+N-750-SIM,Until when did extra-EU/Schengen travel bans continue to apply?,multiple_choice,C,C,C,31 July 2020,1.0,1,4.121180792048108
+N-750-SIM,Quali danni possono essere compensati secondo le autorità italiane?,short,,,"Secondo le autorità italiane, i danni che possono essere compensati sono quelli derivanti da inadempimento alle norme di accessibilità e fruibilità dei cammini. In particolare, si tratta di:
+
+*   danni alla salute o al benessere fisico e mentale
+*   danni economici
+*   danni alla reputazione o all'immagine
+
+Inoltre, le autorità italiane possono anche considerare i seguenti fattori per determinare la compensabilità dei danni:
+
+*   la gravità del danno
+*   la durata del danno
+*   la responsabilità dell'autore del danno
+*   la capacità di riparazione del dolo
+
+In generale, le autorità italiane tendono a considerare i danni come una conseguenza diretta dell'inadempimento alle norme di accessibilità e fruibilità dei cammini.",I danni direttamente attribuibili alle misure restrittive che hanno impedito ai beneficiari di svolgere le proprie attività economiche nel periodo di compensazione.,0.7994272104852101,1,18.489577875006944
+N-750-SIM,Quali danni possono essere compensati durante il periodo delle restrizioni di viaggio extra EU/Schengen?,multiple_choice,D,A,"La risposta corretta è:
+
+A) Danni dovuti a restrizioni interne
+
+Le restrizioni di viaggio extra EU/Schengen si riferiscono alle misure adottate dai governi per limitare il traffico di persone e la circolazione dei veicoli all'interno dell'Unione Europea, in particolare nei paesi che non fanno parte della Schengen. Queste restrizioni possono comportare limitazioni alle libertà individuali, come ad esempio l'imposizione di test PCR o vaccinazioni, il divieto di viaggio per certe categorie di persone e la limitazione delle attività turistiche.
+
+I danni che possono essere compensati durante questo periodo sono quelli dovuti a restrizioni interne, ovvero i danni causati dalle misure adottate dal governo per proteggere la salute pubblica e prevenire la diffusione della pandemia.
+
+Le altre opzioni non sono corrette perché:
+
+* B) I danni dovuti a cancellazioni di prenotazioni possono essere compensati solo se le cancellazioni sono state causate da azioni dell'operatore turistico o del governo, ma non necessariamente dai propri limiti di viaggio.
+* C) Le restrizioni di viaggio intra EU/Schengen non si applicano ai paesi che fanno parte della Schengen e quindi non possono essere considerate come una causa di danni.
+* D) Le restrizioni di viaggio extra EU/Schengen sono già inclusi nella categoria delle restrizioni interne, quindi non è necessario specificarle ulteriormente.",Danni dovuti a restrizioni di viaggio extra EU/Schengen,0.0,0,30.48045379202813
+N-750-SIM,"Quali articoli sono stati introdotti nel Decreto Legislativo 30 luglio 1999, n. 300 dal decreto-legge 1° marzo 2021, n. 22?",short,,,"Non sono riuscito a trovare informazioni sul Decreto Legislativo 30 luglio 1999, n. 300 e sul decreto-legge 1° marzo 2021, n. 22 che includono l'introduzione di nuovi articoli.
+
+Tuttavia, posso suggerirti alcuni passaggi per trovare le informazioni che cerchi:
+
+1. Controlla il sito web ufficiale del Parlamento Italiano o del Ministero dell'Interno per vedere se sono stati pubblicati i testi dei decreti.
+2. Cerca su database di leggi e normative online, come ad esempio il Portale delle Leggi (legislative.it) o il sito web del Ministero della Giustizia.
+3. Contatta direttamente l'ufficio di rappresentanza del Parlamento Italiano o del Ministero dell'Interno per chiedere informazioni sulle modifiche apportate al Decreto Legislativo 30 luglio 1999, n. 300.
+
+Spero che questi suggerimenti ti siano stati utili!","54-bis, 54-ter e 54-quater",0.3907172079947503,0,22.067175125004724
+N-750-SIM,"Quale organo è stato istituito con il decreto-legge 1° marzo 2021, n. 22?",multiple_choice,C,C,La risposta è C) Ministero del Turismo.,Ministero del Turismo,1.0,1,5.693860874976963
+N-750-SIM,Come è ridenominato il Ministero per i Beni e le Attività Culturali e per il Turismo?,short,,,"Il Ministero per i Beni e le Attività Culturali e per il Turismo è stato riamministrato come ""Ministero per i Beni e le Attività Culturali""",Ministero della Cultura,0.7290687553744468,1,7.282606667024083
+N-750-SIM,Quale organismo istituisce il dispositivo per la ripresa e la resilienza?,multiple_choice,B,C,La risposta è C) Piano Nazionale di Ripresa e Resilienza.,Regolamento (UE),0.0,0,5.692670666961931
+N-750-SIM,Quali sono gli obiettivi che si intendono raggiungere tramite il TDH?,short,,,"Gli obiettivi del TDH (Servizio di Tutela delle Persone con Disabilità) sono:
+
+1. garantire l'accessibilità e la fruizione di tutti gli ambienti, servizi e attività per le persone con disabilità.
+2. promuovere la inclusione sociale e culturale delle persone con disabilità.
+3. fornire informazioni e supporto alle persone con disabilità per aiutarle a partecipare alla vita sociale e culturale.
+
+In particolare, gli obiettivi del TDH sono:
+
+* garantire l'accessibilità di tutti i percorsi turistici e sentieri
+* fornire informazioni dedicate alle persone con disabilità sulle strutture ricettive, ristorative, farmacie, negozi e market
+* promuovere la fruizione di tutti gli ambienti culturali (musei, chiese, ecc.)
+* garantire l'accessibilità di mezzi di trasporto e servizi di supporto alle persone con disabilità.","incrementare i flussi, le destinazioni e la spesa, aumentando la qualità dell’offerta e relativa visibilità dei punti di interesse turistici in Italia (POI); valorizzare l’esistente complesso di risorse e beni digitali - ad esempio i portali regionali - senza sovrapporsi, offrendo in aggiunta soluzioni per l’ottimizzazione dei costi; rafforzare il ruolo delle risorse digitali del TDH, definendoli come veri e propri punti di riferimento istituzionali per la ricerca di informazioni inerenti ai punti di interesse rispetto alla moltitudine di turisti nazionali ed internazionali; coinvolgere l’intero sistema turistico italiano mediante un approccio libero da vincoli (open source) che raccolga informazioni sia in ingresso che in uscita per tutti gli attori coinvolti; fidelizzare gli utenti (e quindi, potenziali turisti) attraverso proposte personalizzate rispetto alle loro esigenze",0.7894057027552109,1,20.405661750002764
+N-750-SIM,Qual è uno degli obiettivi che si intendono raggiungere tramite il TDH?,multiple_choice,A,A,A) Aumentare la qualità dell’offerta turistica in Italia,Aumentare la qualità dell’offerta turistica in Italia,1.0,1,5.731364459032193
+N-750-SIM,Qual è l'obiettivo dell'iniziativa TDH?,short,,,"L'obiettivo dell'iniziativa TDH (Turismo per Tutti) è quello di promuovere il turismo accessibile e fruibile per tutti, inclusi coloro con disabilità o esigenze specifiche. L'approccio culturale vincente prevede l'accessibilità come fattore di qualità della propria offerta, in modo da attrarre nuovi camminatori e migliorare la soddisfazione di tutti i partecipanti.","Il rilancio di 'Italia.it', arricchito con nuovi contenuti prodotti internamente e in collaborazione con le Regioni e Province Autonome, ma anche attraverso integrazioni con partner in ambito Turistico.",0.6610707037990733,0,11.852353666967247
+N-750-SIM,Chi ha il compito di coordinare l'intero Ecosistema turistico italiano?,multiple_choice,A,B,"La risposta corretta è:
+
+B) ENIT - Agenzia Nazionale per il Turismo",Il Ministero del Turismo,0.0,0,5.979327375011053
+N-750-SIM,Qual è l'obiettivo della Piattaforma di Integrazione all'interno del TDH?,short,,,L'obiettivo della Piattaforma di Integrazione all'interno del TDH è quello di integrare o modificare alcuni elementi non essenziali della direttiva 2005/36/CE.,Supportare l'interoperabilità tra applicazioni e servizi sia esterni che interni al TDH.,0.7108710228767745,1,7.762713291973341
+N-750-SIM,Qual è uno dei servizi esterni previsti dalla Piattaforma di Integrazione?,multiple_choice,D,C,La risposta è C) Dati di quinta parte.,Dati di terza parte,0.0,0,5.37672029202804
+N-750-SIM,Qual è la finalità dell'Ecosistema TDH022?,short,,,"La finalità dell'Ecosistema TDH022 è quella di diventare un Standard Digitale a livello Nazionale, preposto allo scambio di dati e contenuti sia ""aperti"" che ""chiusi"" tra i partecipanti, svolgendo altresì un ruolo di interfaccia di integrazione tra il TDH e gli altri sistemi.",Lo scambio di dati e contenuti sia 'aperti' che 'chiusi' tra i partecipanti.,0.8173993112853543,1,9.888475999992806
+N-750-SIM,Quali funzioni possono svolgere gli operatori aderenti all'Ecosistema TDH022?,multiple_choice,B,D,Gli operatori aderenti all'Ecosistema TDH022 possono svolgere funzioni di erogazione di servizi.,Erogare servizi,0.0,0,6.381337166996673
+N-750-SIM,Quali sono alcuni degli obiettivi garantiti dalle Linee Guida Ecosistema TDH022?,short,,,"Gli obiettivi garantiti dalle Linee Guida Ecosistema TDH022 sono:
+
+*   Garantire l'accessibilità e la fruizione di cammini per tutti, indipendentemente dalla loro abilità fisica o mentale;
+*   Promuovere la sensibilizzazione e la formazione degli operatori del settore sui temi dell'inclusione e della accessibilità;
+*   Sviluppare contenuti formativi che differenziano i ruoli e mansioni, in particolare per quanto riguarda la progettazione di ambienti fisici/virtuali e servizi accessibili e fruibili per tutti.","adeguata evoluzione della tecnologia, aderenza alle indicazioni del Quadro Europeo di Interoperabilità (EIF), adeguatezza alle esigenze informativo/tecniche delle amministrazioni e dei suoi utenti, adozione da parte degli Enti pubblici e dei collaboratori privati interessati, ontologie e tassonomie uniformi per la classificazione e l’organizzazione dei contenuti, adozione di adeguati livelli di sicurezza",0.6708538525548541,0,14.260216958995443
+N-750-SIM,Quali sono alcune delle caratteristiche delle Linee Guida Ecosistema TDH022?,multiple_choice,C,A,"Le caratteristiche delle Linee Guida Ecosistema TDH022 sono:
+
+*   Evoluzione della tecnologia (A)
+*   Sviluppo sostenibile (B)
+*   Interoperabilità dei sistemi informatici (C)
+
+Non è presente l'opzione D) Accesso gratuito.",Interoperabilità dei sistemi informatici,0.0,0,8.918556582997553
+N-750-SIM,Chi emana le Linee Guida Ecosistema TDH022?,short,,,Il Direttore Generale della Direzione Generale della Valorizzazione e della Promozione Turistica del Ministero del Turismo.,Il Direttore Generale della Direzione Generale della Valorizzazione e della Promozione Turistica del Ministero del Turismo.,0.9999999989999999,1,6.748384792008437
+N-750-SIM,Cosa definiscono le Linee Guida Ecosistema TDH022?,multiple_choice,A,D,Le Linee Guida Ecosistema TDH022 definiscono i contesti di interazione all'interno dell'Ecosistema TDH022.,I contesti di interazione all'interno dell'Ecosistema TDH022,0.0,0,6.618056750041433
+N-750-SIM,Dove vengono pubblicate le Linee Guida Ecosistema TDH022?,short,,,Le Linee Guida Ecosistema TDH022 vengono pubblicate sul sito web dell'ente responsabile.,"Nel portale istituzionale del Ministero del Turismo, sezione Normativa e nel portale “docs Italia” gestito dal Dipartimento istituito per effetto del Decreto del Presidente del Consiglio dei Ministri (DPCM) del 19 giugno 2019.",0.6109503501504632,0,6.2304509580135345
+N-750-SIM,Come avvengono i trattamenti di dati personali nell’Ecosistema TDH022?,multiple_choice,A,A,"La risposta corretta è:
+
+A) Tramite il portale Italia.it e la relativa app",Tramite il portale Italia.it e la relativa app,1.0,1,5.981140083051287
+N-750-SIM,Quali sono le finalità per le quali i dati personali raccolti dal Ministero e dagli operatori aderenti possono essere utilizzati?,short,,,"I dati personali raccolti dal Ministero e dagli operatori aderenti possono essere utilizzati per:
+
+*   gestire l'accessibilità e la fruibilità dei cammini
+*   migliorare la soddisfazione di tutti i camminatori
+*   attrarre nuovi camminatori
+*   creare un effetto moltiplicatore con il camminatore con disabilità e con esigenze specifiche",Esclusivamente per le specifiche finalità per le quali sono stati raccolti,0.6541272395268419,0,11.013664875004906
+N-750-SIM,Quali misure devono essere adottate per garantire l'utilizzo di procedure matematiche e statistiche adeguate nei processi decisionali automatizzati?,multiple_choice,D,D,"La risposta corretta è D) Adozione di misure idonee.
+
+Secondo la direttiva, le autorità competenti devono adottare misure per garantire l'utilizzo di procedure matematiche e statistiche adeguate nei processi decisionali automatizzati. Ciò include l'uso di strumenti di diritto privato, l'estensione e ottimizzazione dell'utilizzo delle tecnologie dell'informazione e della comunicazione, la conformità ai principi di sussidiarietà e il rispetto della protezione dei dati personali.
+
+Le opzioni A) Informativa dettagliata agli interessati, B) Riduzione del numero di decisioni automatizzate e C) Utilizzo di procedure casuali non sono direttamente correlate alle misure da adottare per garantire l'utilizzo di procedure matematiche e statistiche adeguate.",Adozione di misure idonee,1.0,1,18.480410958989523
+N-750-SIM,Quali sono i principi che devono essere rispettati per il trattamento dei dati personali secondo il decreto citato?,short,,,"I principi che devono essere rispettati per il trattamento dei dati personali secondo il decreto citato sono:
+
+1.  Rispetto della norma sulla protezione dei dati personali stabilite dalla direttiva 95/46/CE del Parlamento europeo e del Consiglio, del 24 ottobre 1995.
+2.  Rispetto delle norme sulla tutela della vita privata nel settore delle comunicazioni elettroniche stabilita dalla direttiva 2002/58/CE del Parlamento europeo e del Consiglio, del 12 luglio 2002.
+3.  Garantia di sicurezza dei dati personali adeguato ai rischi per i diritti e le libertà degli interessati.
+4.  Adozione di misure tecniche e organizzative necessarie a garantire un livello di sicurezza dei dati personali adeguato ai rischi per i diritti e le libertà degli interessati.
+5.  Rispetto delle norme sulla protezione dei dati personali stabilite dalla direttiva 2002/58/CE del Parlamento europeo e del Consiglio, del 12 luglio 2002.
+6.  Garantia di integrità e riservatezza dei dati personali.
+7.  Adozione di misure tecniche e organizzative necessarie a garantire un livello di sicurezza dei dati personali adeguato ai rischi per i diritti e le libertà degli interessati.
+8.  Rispetto delle norme sulla protezione dei dati personali stabilite dalla direttiva 95/46/CE del Parlamento europeo e del Consiglio, del 24 ottobre 1995.
+9.  Garantia di sicurezza dei dati personali adeguato ai rischi per i diritti e le libertà degli interessati.
+10. Adozione di misure tecniche e organizzative necessarie a garantire un livello di sicurezza dei dati personali adeguato ai rischi per i diritti e le libertà degli interessati.
+
+Questi sono solo alcuni dei principi che devono essere rispettati per il trattamento dei dati personali secondo il decreto citato.","Principio di limitazione della finalità, principio di minimizzazione dei dati, principio di limitazione della conservazione, principio di integrità e riservatezza",0.6574405220991671,0,37.959761833015364
+N-750-SIM,Chi è il titolare dei trattamenti di dati personali nell'ambito dell'Ecosistema TDH022 secondo il decreto citato?,multiple_choice,C,C,La risposta è C) Ministero del Turismo.,Ministero del Turismo,1.0,1,5.421268542006146
+N-750-SIM,Quali misure devono essere adottate in caso di trasferimenti di dati personali verso un Paese terzo o un’organizzazione internazionale?,short,,,"Secondo l'articolo 44 della direttiva 2005/36/CE, le autorità competenti dello Stato membro d'origine devono adottare misure per garantire che i dati personali siano protetti e trattati in modo conforme alle norme sulla protezione dei dati personali. Ciò significa che le autorità competenti devono:
+
+* Utilizzare il sistema IMI (Informazione Medica Europea) per gestire i dati personali;
+* Garantire la sicurezza e la confidenzialità dei dati personali;
+* Adottare misure di protezione per garantire l'integrità, la disponibilità e la riservatezza dei dati personali;
+* Informare il paziente o il beneficiario dei dati personali trattati e fornirgli informazioni sulla destinazione e sulle eventuali condivisioni dei dati.
+
+Inoltre, secondo l'articolo 45 della direttiva 2005/36/CE, le autorità competenti dello Stato membro d'origine devono anche garantire che i dati personali siano trattati in modo conforme alle norme sulla protezione dei dati personali quando vengono trasferiti verso un Paese terzo o un'organizzazione internazionale. Ciò significa che le autorità competenti devono:
+
+* Verificare se il Paese terzo o l'organizzazione internazionale dispone di un livello di protezione adeguato per i dati personali;
+* Garantire che i dati personali siano trattati in modo conforme alle norme sulla protezione dei dati personali;
+* Adottare misure per garantire la sicurezza e la confidenzialità dei dati personali durante il trasferimento.
+
+In sintesi, le autorità competenti dello Stato membro d'origine devono adottare misure per garantire che i dati personali siano trattati in modo conforme alle norme sulla protezione dei dati personali, sia all'interno dell'Unione che quando vengono trasferiti verso un Paese terzo o un'organizzazione internazionale.","Misure adeguate a garantire la conformità agli artt. 44 e ss. del Regolamento (UE) 2016/679, assicurando il rispetto delle garanzie contenute negli strumenti di trasferimento prescelti per ciascun trasferimento.",0.5336120123295471,0,37.4431908330298

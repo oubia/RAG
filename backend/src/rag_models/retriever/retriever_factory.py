@@ -59,6 +59,8 @@ class Retrieval_Factory:
                 search_type="mmr",
                 search_kwargs={"k": 10, "lambda_mult": 0.5},
             )
+
+            
         return self.vectorstore.as_retriever(
             search_type="similarity", search_kwargs={"k": 10}
         )
