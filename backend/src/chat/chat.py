@@ -2,8 +2,8 @@ import json
 from src.rag_models.retriever.retriever_factory import Retrieval_Factory
 from src.rag_models.vectorestore.vectorstore_factory import VectorStoreFactory
 from src.utils.prompts.prompt import general_prompt
-
-
+import logging
+logger = logging.getLogger(__name__)
 class Chat:
 
     def __init__(
@@ -34,7 +34,7 @@ class Chat:
                 vectorstore=self.vectorstore,
                 chunk_size=self.chunk_size,
             )
-
+            logger.info(f"Retrieving with {self.retriever_type} method")
             retriever_methods = {
                 "Similarity-research": retrieval_handler.answer_with_similarity,
                 "Contextual-Compression": retrieval_handler.answer_with_compression,

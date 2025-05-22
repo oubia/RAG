@@ -76,12 +76,32 @@ class Retrieval_Factory:
         from langchain.retrievers.document_compressors import LLMChainExtractor
 
         try:
+            from langchain.retrievers.document_compressors.base import BaseDocumentCompressor
+            from typing import List
+            from pydantic import BaseModel
+
+            class TopNSliceCompressor(BaseDocumentCompressor, BaseModel):
+                top_n: int = 10
+
+                model_config = {"arbitrary_types_allowed": True}
+
+                def compress_documents(
+                    self,
+                    documents: List[Document],
+                    *args,             
+                    query: str | None = None,
+                    **kwargs,             
+                ) -> List[Document]:
+                    return documents[: self.top_n]
+
+            slice_filter = TopNSliceCompressor(top_n=10)
+
             splitter = RecursiveCharacterTextSplitter(
                 chunk_size    = int(self.chunk_size) ,
                 chunk_overlap = int(self.chunk_size * 0.1)   
-            )
+            )   
 
-            compressor = DocumentCompressorPipeline(transformers=[splitter])
+            compressor = DocumentCompressorPipeline(transformers=[splitter, slice_filter] )
 
 
             return ContextualCompressionRetriever(
@@ -102,11 +122,7 @@ class Retrieval_Factory:
         n_queries: int = 4,         
         top_k    : int = 10,           
     ) -> "MultiQueryRetriever":
-        """
-        • Uses the LLM to generate `n_queries` reformulations of the user question.
-        • Performs similarity search in your *chunk* collection for each reformulation.
-        • Merges and deduplicates, then returns at most `top_k` chunks.
-        """
+
         from langchain.retrievers.multi_query import MultiQueryRetriever
 
         base = self.vectorstore.as_retriever(
