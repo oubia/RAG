@@ -1,0 +1,632 @@
+id,question,question_type,gold_choice,pred_choice,model_answer,gold_answer,similarity,correct,latency
+N-750-HYB,Chi ha ideato il progetto 'Cammini Aperti'?,short,,,"Non è possibile rispondere alla domanda ""Chi ha ideato il progetto 'Cammini Aperti'?"" in quanto non è stata fornita alcuna informazione sul progetto. Tuttavia, posso dirti che il progetto ""Cammini Aperti"" è un progetto di promozione turistica italiano che mira a valorizzare e promuovere i camminetti e le sentiere in Italia, offrendo una rete di percorsi per gli appassionati di trekking e di esplorazione della natura.",Regione Umbria,0.5606084460374445,0,13.491447165957652
+N-750-HYB,Quali Regioni sono coinvolte nel progetto 'Cammini Aperti'?,multiple_choice,B,B,La risposta è B) Umbria.,Umbria,1.0,1,5.9376091660233214
+N-750-HYB,Qual è lo scopo del Vademecum?,short,,,"Lo scopo del Vademecum è fornire informazioni puntuali e corrette sui punti di interesse in Italia, in modo da favorire la nascita di una piattaforma che offra queste informazioni e portare un ulteriore beneficio in termini di visibilità sui motori di ricerca.",Il Vademecum propone un metodo di lavoro per tutti quegli operatori che vogliono confrontarsi col tema dell’accessibilità e fruibilità di un cammino per persone con disabilità e con esigenze specifiche.,0.7237792007837891,1,10.065222374978475
+N-750-HYB,"Secondo l'Organizzazione Mondiale della Sanità, come viene definita la disabilità?",multiple_choice,C,C,La risposta è C) Una relazione tra persone con menomazioni e barriere.,Una relazione tra persone con menomazioni e barriere,1.0,1,6.884197250008583
+N-750-HYB,Quali sono i facilitatori che sono di supporto alle persone con disabilità?,short,,,"I facilitatori che sono di supporto alle persone con disabilità sono:
+
+1. **Interpreti**: aiutano le persone con disabilità a comunicare in un'altra lingua o in un formato diverso.
+2. **Aiuto alla navigazione**: aiutano le persone con disabilità a muoversi nel spazio e a utilizzare gli strumenti e le tecnologie.
+3. **Supporto emotivo**: offrono conforto, ascolto e supporto emotivo alle persone con disabilità.
+4. **Aiuto alla gestione della salute**: aiutano le persone con disabilità a gestire la loro salute e a utilizzare i servizi sanitari.
+5. **Aiuto all'accessibilità**: aiutano le persone con disabilità ad accedere a luoghi, servizi e attività che altrimenti sarebbero inaccessibili.
+
+Questi facilitatori possono essere:
+
+* Familiari o amici
+* Colleghi o compagni di lavoro
+* Professionisti come terapeuti, assistenti sociali o consulenti
+* Organizzazioni no profit o associazioni di sostegno
+
+È importante notare che ogni persona con disabilità ha bisogno di un supporto personalizzato e adattato alle sue esigenze specifiche.","Ad esempio: ascensori, un linguaggio facile da leggere e capire, un caregiver, ecc.",0.6697452061631405,0,25.893009957973845
+N-750-HYB,Qual è uno dei tipi di barriere che possono essere erette e diventare ostacoli per le persone con disabilità?,multiple_choice,D,D,"La risposta corretta è D) Barriere fisiche. Le barriere fisiche sono ostacoli che possono essere presenti nell'ambiente fisico, come ad esempio scale, gradini, porte strette o superfici irregolari, che possono rendere difficile l'accesso e la navigazione per le persone con disabilità.
+
+Le altre opzioni non sono corrette:
+
+* Le barriere emotive (A) sono ostacoli psicologici che possono essere presenti nell'ambiente sociale o emotivo, come ad esempio pregiudizi o stereotipi.
+* Le barriere economiche (B) sono ostacoli finanziari che possono essere presenti nella società, come ad esempio la mancanza di accesso a risorse o servizi.
+* Le barriere linguistiche (C) sono ostacoli comunicativi che possono essere presenti nell'ambiente linguistico, come ad esempio la mancanza di accesso a informazioni o servizi in una lingua specifica.",Barriere fisiche,1.0,1,21.932536708074622
+N-750-HYB,Qual è una delle tipologie principali di disabilità menzionate nel testo?,short,,,"La risposta è ""Disabilità visiva"". Il testo menziona ""disabilità"" in generale, ma non specifica le tipologie. Tuttavia, nella parte finale del testo, viene menzionata la ""disabilità visiva"" come una delle tipologie di disabilità menzionate nel contesto della protezione dei dati personali (Regolamento UE 2016/679).",Disabilità motoria,0.6884305880594634,0,11.911940207937732
+N-750-HYB,Qual è una delle tipologie di supporti menzionati per compensare la riduzione parziale o totale della capacità di eseguire un'attività dovuta alla disabilità motoria?,multiple_choice,D,D,La risposta è D) Sedia a ruote elettrica o manuale.,Sedia a ruote elettrica o manuale,1.0,1,6.685979750007391
+N-750-HYB,Quali sono i due ordini di problemi che possono sorgere a causa della disabilità visiva?,short,,,"I due ordini di problemi che possono sorgere a causa della disabilità visiva sono:
+
+1. Problemi di navigazione e accesso alle informazioni: la disabilità visiva può rendere difficile l'accesso a informazioni, documenti e risorse online, nonché la navigazione su internet.
+2. Problemi di comprensione e interpretazione dei dati: la disabilità visiva può rendere difficile la comprensione e l'interpretazione dei dati visuali, come ad esempio grafici, diagrammi e immagini.",Difficoltà di orientamento e mobilità; difficoltà di interpretazione dei messaggi e delle comunicazioni,0.6876815550603043,0,13.83879937499296
+N-750-HYB,Qual è una delle modalità di comunicazione utilizzate dalle persone con disabilità uditiva?,multiple_choice,B,B,La risposta è B) Lettura labiale.,Lettura labiale,1.0,1,6.244189625023864
+N-750-HYB,Quali sono le 4 grandi tipologie di esigenze dell'essere umano menzionate nel testo?,short,,,"Le 4 grandi tipologie di esigenze dell'essere umano menzionate nel testo sono:
+
+1. Formazione
+2. Istruzione teorica
+3. Servizi
+4. Informazioni","Motorie, visive, uditive, intellettive-relazionali",0.4894138861419489,0,7.956898667034693
+N-750-HYB,Quali sono alcune delle tipologie di esigenze specifiche menzionate nel testo?,multiple_choice,A,C,La risposta è C) Persone con disabilità visiva.,Persone con allergie alimentari,0.0,0,6.280588999972679
+N-750-HYB,Qual è la prima azione indispensabile da porre in essere per lavorare sull'accessibilità e fruibilità di un cammino?,short,,,"La prima azione indispensabile per lavorare sull'accessibilità e fruibilità di un cammino è quella di identificare gli ostacoli e le barriere che impediscono l'accesso o la fruizione del cammino. Questo può essere fatto attraverso un'analisi dettagliata del percorso, delle sue caratteristiche e delle esigenze dei suoi utenti.",Acquisire dati sull’accessibilità e fruibilità del cammino,0.8201749316596834,1,11.297704000025988
+N-750-HYB,Qual è uno dei diversi ambiti su cui occorre lavorare per migliorare l'accessibilità e fruibilità di un cammino?,multiple_choice,B,B,"La risposta corretta è:
+
+B) La filiera delle persone coinvolte
+
+L'accessibilità e la fruibilità di un cammino dipendono anche dalla comprensione della filiera delle persone coinvolte, ovvero dalle diverse parti che contribuiscono al percorso, come gli amministratori locali, i gestori del cammino, le organizzazioni turistiche, i visitatori e altri. La collaborazione e la comunicazione tra queste parti sono fondamentali per garantire un'esperienza di viaggio inclusiva e accessibile per tutti.
+
+In questo contesto, il protocollo di comunicazione standard tra l'Ecosistema TDH022 e il mondo esterno è particolarmente importante per garantire che le diverse parti lavorino insieme per migliorare l'accessibilità e la fruibilità del cammino.",La filiera delle persone coinvolte,1.0,1,19.80005462502595
+N-750-HYB,Quali sono i principali aspetti della logistica di un cammino?,short,,,"I principali aspetti della logistica di un cammino sono:
+
+1.  **Trasporto**: quali mezzi di trasporto si possono utilizzare e quali sono le loro caratteristiche di accessibilità e fruibilità per le persone con disabilità?
+2.  **Percorsi/tracciati/sentieri**: quali sono le loro caratteristiche di accessibilità e fruibilità?
+3.  **Segnaletica di orientamento lungo il percorso**: è accessibile anche alle persone con disabilità? Fornisce informazioni dedicate alle persone con disabilità?
+4.  **Punti acqua potabile lungo il cammino**: quali sono le loro caratteristiche di accessibilità e fruibilità?
+5.  **Strutture ricettive, ristorative, farmacie, negozi e market**: quali sono le loro caratteristiche di accessibilità e fruibilità?
+6.  **Strutture culturali (musei, chiese, ecc)**: quali sono le loro caratteristiche di accessibilità e fruibilità?","Tra i principali aspetti della logistica di un cammino possiamo elencare come arrivare al punto di partenza del cammino, come ripartire una volta arrivati a destinazione, i percorsi/tracciati/sentieri, la segnaletica di orientamento lungo il percorso e i punti acqua potabile.",0.7729769937414883,1,24.057439708034508
+N-750-HYB,Quali sono le azioni possibili in merito agli aspetti logistici del cammino?,short,,,"Le azioni possibili in merito agli aspetti logistici del cammino sono:
+
+1.  Identificare i principali motori di ricerca e analizzare le loro caratteristiche per comprendere come il TDH può essere ottimizzato per migliorare la visibilità dei contenuti.
+2.  Definire gli obiettivi logistici del cammino, ad esempio, aumentare la visibilità dei contenuti, migliorare l'esperienza utente e raggiungere un pubblico più ampio.
+3.  Sviluppare una strategia di ottimizzazione per i motori di ricerca, che possa includere tecniche come il keyword research, il link building e la creazione di contenuti di alta qualità.
+4.  Identificare le risorse necessarie per implementare la strategia logistica, ad esempio personale, tecnologia e budget.
+5.  Creare un piano di azione dettagliato che includa gli obiettivi, le strategie e le risorse necessarie per raggiungere gli obiettivi logistici del cammino.
+
+Queste sono solo alcune delle azioni possibili in merito agli aspetti logistici del cammino. È importante notare che ogni situazione è unica e quindi è necessario adattare la strategia alle esigenze specifiche del progetto.",Le azioni possibili sono mappare le caratteristiche di accessibilità e fruibilità dei punti elencati e fornire informazioni utili ai camminatori con disabilità.,0.7209379499460827,1,27.057955750031397
+N-750-HYB,"Qual è un suggerimento per chi offre escursioni, camminate, attività didattiche e culturali?",short,,,"L'escursionista può offrire la propria attività attraverso il sito web del Tourismo Digitale Hub (TDH) utilizzando le funzionalità di ""Punti di interesse"" (POI), che consentono di creare e gestire i propri contenuti, come ad esempio le escursioni, camminate, attività didattiche e culturali.",Utilizzare un semplice accorgimento in fase di raccolta delle iscrizioni chiedendo se parteciperanno persone con disabilità e quali esigenze hanno.,0.6594105356298045,0,10.830982082989067
+N-750-HYB,"Per essere accessibili alle persone con disabilità, quali requisiti tecnico-informatici devono rispettare i siti web, app e social media?",multiple_choice,A,A,La risposta è A) Seguire le Linee Guida per l'Accessibilità dei Contenuti Web 2.2.,Seguire le Linee Guida per l'Accessibilità dei Contenuti Web 2.2,1.0,1,7.118176041985862
+N-750-HYB,Quali principi dovrebbero ispirare le informazioni di servizio fornite ai camminatori con disabilità e con esigenze specifiche?,short,,,"I principi che dovrebbero ispirare le informazioni di servizio fornite ai camminatori con disabilità e con esigenze specifiche sono:
+
+1.  Accessibilità: le informazioni di servizio devono essere accessibili a tutti, indipendentemente dalla loro capacità fisica o mentale.
+2.  Chiarezza: le informazioni di servizio devono essere chiare e facili da comprendere, utilizzando un linguaggio semplice e evitando termini tecnici o complessi.
+3.  Completitudine: le informazioni di servizio devono essere complete e aggiornate, fornendo tutte le informazioni necessarie per aiutare i camminatori con disabilità e con esigenze specifiche a pianificare il loro viaggio in modo sicuro e efficiente.
+4.  Uso di tecnologie accessibili: le informazioni di servizio devono essere accessibili anche alle persone con disabilità, utilizzando tecnologie come la lettura del testo, l'accessibilità ai dispositivi mobili e la compatibilità con assistenti vocali.
+5.  Rispetto della privacy: le informazioni di servizio devono rispettare la privacy dei camminatori con disabilità e con esigenze specifiche, evitando di raccogliere o utilizzare dati personali senza il loro consenso.
+
+Questi principi dovrebbero ispirare le informazioni di servizio fornite ai camminatori con disabilità e con esigenze specifiche, garantendo che siano accessibili, chiare, complete, utilizzino tecnologie accessibili e rispettino la privacy.","Non esprimere giudizi qualitativi e generici su percorsi e strutture, fornire informazioni oggettive, precise, aggiornate, affidabili, chiare.",0.6937187124538448,0,31.88388233294245
+N-750-HYB,A chi si riferiscono le questioni riguardanti la capacità di produrre contenuti accessibili e fruibili per tutti?,multiple_choice,D,D,La risposta è D.,Sia agli operatori esterni che agli addetti interni,1.0,1,6.077657583984546
+N-750-HYB,Qual è il termine corretto da utilizzare per definire una persona con disabilità secondo l'Organizzazione Mondiale della Sanità?,short,,,"La risposta corretta è: ""Persona con disabilità"" o semplicemente ""Persona con disabilità"".",persona con disabilità,0.8310787669454104,1,7.296644208021462
+N-750-HYB,Qual è uno degli elementi importanti da evitare nella comunicazione/promozione rivolta ai camminatori con disabilità e con esigenze specifiche?,multiple_choice,B,B,La risposta è B) Ritrarre la persona con disabilità in contesti assistenzialistici.,Ritrarre la persona con disabilità in contesti assistenzialistici,1.0,1,6.984721792046912
+N-750-HYB,Quali sono le fonti normative citate nel testo riguardo al riconoscimento delle qualifiche professionali?,short,,,"Le fonti normative citate nel testo sono:
+
+* Legge 7 agosto 1990, n. 241 ""Nuove norme in materia di procedimento amministrativo e di diritto di accesso ai documenti amministrativi""
+* Legge 14 gennaio 1994, n. 20 recante disposizioni in materia di giurisdizione e controllo della Corte dei Conti
+* Decreto legislativo 30 luglio 1999, n. 300","La direttiva 2013/55/UE, il regolamento (UE) n. 1024/2012, la direttiva 2005/36/CE e il decreto legislativo 9 novembre 2007, n. 206.",0.7752161018248815,1,12.213121750042774
+N-750-HYB,Quando è stata adottata la deliberazione del Consiglio dei ministri?,multiple_choice,C,A,La risposta è A) 13 novembre 2015.,20 gennaio 2016,0.0,0,6.090808792039752
+N-750-HYB,Cosa disciplina il presente decreto secondo l'articolo 1?,short,,,"Il presente decreto disciplina il decreto legislativo n. 303 del 30 luglio 1999, che stabilisce l'ordinamento della Presidenza del Consiglio dei Ministri, a norma dell'articolo 11 della L. 15 marzo 1997, n. 59.",Il riconoscimento delle qualifiche professionali già acquisite in uno o più Stati membri dell'Unione europea.,0.6341082447386639,0,9.488855917006731
+N-750-HYB,Quali organi parlamentari devono esprimere parere sugli schemi dei decreti legislativi?,short,,,"I deputati e i senatori della Camera dei diputati e del Senato della Repubblica, rispettivamente.",Camera dei deputati e Senato della Repubblica,0.8885413995440452,1,6.890511207981035
+N-750-HYB,Quali sono le spese previste nei decreti legislativi recanti attuazione delle direttive?,multiple_choice,A,D,La risposta è D) Spese previste per l'adempimento degli obblighi di attuazione delle direttive.,Spese non contemplate da leggi vigenti e che non riguardano l'attivita' ordinaria delle amministrazioni statali o regionali,0.0,0,7.319391916971654
+N-750-HYB,Quando scade il termine di recepimento per la direttiva 2013/35/UE?,short,,,Il termine di recepimento per la direttiva 2013/35/UE è il 31 dicembre 2020.,1° luglio 2016,0.5514861339776276,0,7.04689716710709
+N-750-HYB,A quale direttiva si riferisce il termine di recepimento del 4 settembre 2015?,multiple_choice,C,B,La risposta è B) 2012/25/UE.,2013/40/UE,0.0,0,5.391328625031747
+N-750-HYB,Quando scade il termine di recepimento della direttiva 2013/55/UE?,short,,,Il termine di recepimento della direttiva 2013/55/UE scade il 31 dicembre 2020.,18 gennaio 2016,0.4389355774304797,0,6.873749167076312
+N-750-HYB,A cosa si riferisce la direttiva 2013/56/UE del Parlamento europeo e del Consiglio del 20 novembre 2013?,multiple_choice,A,C,La direttiva 2013/56/UE del Parlamento europeo e del Consiglio del 20 novembre 2013 si riferisce alle norme fondamentali di sicurezza per i prodotti elettrici senza fili.,Rifiuti di pile e accumulatori,0.0,0,8.290377792087384
+N-750-HYB,Quando scade il termine di recepimento della direttiva 2014/17/UE?,short,,,Il termine di recepimento della direttiva 2014/17/UE scade il 18 giugno 2022.,21 marzo 2016,0.48768952440130275,0,7.386934333015233
+N-750-HYB,A quale regolamento la direttiva 2014/27/UE si allinea?,multiple_choice,A,B,La risposta è B) Direttiva 2008/48/CE.,Regolamento (CE) n. 1272/2008,0.0,0,5.927321374998428
+N-750-HYB,Quando scade il termine di recepimento per la direttiva 2014/32/UE?,short,,,"Il termine di recepimento per la direttiva 2014/32/UE è scaduto nel 2021. La direttiva 2014/32/UE, nota come ""Regolamento sulla sicurezza energetica"", stabilisce norme per la sicurezza energetica delle impianti e dei sistemi di installazione di apparecchi elettrici, elettromeccanici e elettronici. Il Regolamento è entrato in vigore il 19 luglio 2017 e ha un termine di recepimento di cinque anni dalla sua entrata in vigore, cioè fino al 19 luglio 2022.",19 aprile 2016,0.5325440163055297,0,14.78860679094214
+N-750-HYB,Qual è l'obiettivo della direttiva 2014/50/UE del Parlamento europeo e del Consiglio?,multiple_choice,B,C,L'obiettivo della direttiva 2014/50/UE del Parlamento europeo e del Consiglio è quello di migliorare la mobilità dei lavoratori tra Stati membri.,Migliorare la mobilità dei lavoratori tra Stati membri,0.0,0,8.278865874977782
+N-750-HYB,Quando scade il termine di recepimento della direttiva 2014/53/UE?,short,,,Il termine di recepimento della direttiva 2014/53/UE è il 18 giugno 2021.,12 giugno 2016,0.6032681459116244,0,7.072210292099044
+N-750-HYB,A cosa si riferisce la direttiva 2014/56/UE del Parlamento europeo e del Consiglio del 16 aprile 2014?,multiple_choice,A,B,La risposta è B) Fatturazione elettronica negli appalti pubblici.,Revisioni legali dei conti annuali,0.0,0,6.308770125033334
+N-750-HYB,Quando scade il termine di recepimento della direttiva 2014/59/UE?,short,,,Il termine di recepimento della direttiva 2014/59/UE scade il 31 dicembre 2021.,31 dicembre 2014,0.7098098390156845,1,6.546138250036165
+N-750-HYB,A cosa si riferisce la direttiva 2014/65/UE del Parlamento europeo e del Consiglio?,multiple_choice,A,C,La direttiva 2014/65/UE del Parlamento europeo e del Consiglio si riferisce ai mercati degli strumenti finanziari.,Mercati degli strumenti finanziari,0.0,0,6.969586791004986
+N-750-HYB,Quando scade il termine di recepimento della direttiva 2011/96/UE?,short,,,Il termine di recepimento della direttiva 2011/96/UE scade il 28 luglio 2022.,31 dicembre 2015,0.511440693820682,0,7.021859999978915
+N-750-HYB,A cosa si riferisce la direttiva 2014/95/UE del Parlamento europeo e del Consiglio?,multiple_choice,C,C,La risposta è C) Comunicazione di informazioni non finanziarie.,Comunicazione di informazioni non finanziarie,1.0,1,5.77106829197146
+N-750-HYB,Quando scade il termine di recepimento per la direttiva 2014/104/UE?,short,,,"Il termine di recepimento per la direttiva 2014/104/UE è scaduto nel 2021. La direttiva 2014/104/UE, nota come ""Diretiva sulla gestione dei dati personali"", stabilisce norme per la protezione dei dati personali e la loro gestione nelle organizzazioni europee.
+
+In particolare, la direttiva richiede che le organizzazioni europee implementino misure di sicurezza per proteggere i dati personali e garantire la loro confidenzialità. Il termine di recepimento è stabilito a 27 mesi dalla data di entrata in vigore della direttiva, cioè il 15 giugno 2018.
+
+Quindi, il termine di recepimento per la direttiva 2014/104/UE scadde nel 2021.",27 dicembre 2016,0.5376706117975344,0,17.819364042021334
+N-750-HYB,Quando è stata pubblicata la direttiva 2013/55/UE?,short,,,La direttiva 2013/55/UE è stata pubblicata il 27 luglio 2022.,28 dicembre 2013,0.6583696989610248,0,6.160258416086435
+N-750-HYB,In che data è stata pubblicata la direttiva 2005/36/CE?,multiple_choice,A,A,La risposta è A) 30 settembre 2005.,30 settembre 2005,1.0,1,5.5778360000113025
+N-750-HYB,Che direttiva del Parlamento europeo e del Consiglio è stata modificata dalla direttiva 2013/55/UE?,short,,,La direttiva 2013/55/UE è stata modificata dalla direttiva 2014/56/UE.,La direttiva 2005/36/CE,0.7361742250710157,1,7.15577375004068
+N-750-HYB,Qual è uno dei principali obiettivi della tessera professionale europea?,multiple_choice,A,A,"La risposta corretta è:
+
+A) Semplificare il processo di riconoscimento delle qualifiche professionali
+
+La tessera professionale europea è un documento che consente ai professionisti di lavorare in altri Stati membri dell'Unione Europea, senza dover ripetere gli esami o le prove per ottenere la licenza. Uno dei principali obiettivi della tessera professionale europea è semplificare il processo di riconoscimento delle qualifiche professionali, in modo da facilitare la mobilità lavorativa tra i paesi membri.
+
+Le altre opzioni sono incorrecte:
+
+* B) Introdurre restrizioni all'accesso alle professioni legali: la tessera professionale europea è progettata per facilitare l'accesso alle professioni, non per introdurre restrizioni.
+* C) Aumentare i costi per i professionisti: la tessera professionale europea è progettata per ridurre gli ostacoli e le barriere per i professionisti, non per aumentarne i costi.
+* D) Limitare la mobilità temporanea: la tessera professionale europea è progettata per facilitare la mobilità lavorativa a lungo termine, non solo la mobilità temporanea.",Semplificare il processo di riconoscimento delle qualifiche professionali,1.0,1,26.508584666997194
+N-750-HYB,Quali sono le ore di studio equivalenti a un credito ECTS?,short,,,"Le ore di studio equivalenti a un credito ECTS variano a seconda del paese e dell'istituzione universitaria, ma in generale, 1 credito ECTS è equivalente a circa 25-30 ore di studio. Tuttavia, è importante notare che questo valore può variare notevolmente da un corso all'altro e da un istituto all'altro.
+
+In Italia, ad esempio, la legge 240/2005 stabilisce che 1 credito ECTS è equivalente a circa 25-30 ore di studio. Tuttavia, è importante verificare le specifiche ore di studio per ciascun corso e istituzione.
+
+Ecco una tabella approssimativa delle ore di studio equivalenti a un credito ECTS in Italia:
+
+* Corso di laurea triennale: 600-720 ore (circa 25-30 ore/credito)
+* Corso di laurea magistrale: 900-1080 ore (circa 27-36 ore/credito)
+* Corso di dottorato: 1200-1440 ore (circa 33-48 ore/credito)
+
+È importante notare che queste sono solo approssimazioni e che le ore di studio effettive possono variare notevolmente da un corso all'altro.",25-30 ore,0.47054484439525407,0,26.268745957990177
+N-750-HYB,Per quanti crediti ECTS di norma sono richiesti per completare un anno accademico?,multiple_choice,D,B,La risposta è B) 30 crediti.,60 crediti,0.0,0,6.020870083943009
+N-750-HYB,Quali attività dovrebbero svolgere i punti nazionali di contatto secondo il testo?,short,,,"I punti nazionali di contatto dovrebbero svolgere le seguenti attività:
+
+1.  Creare una piattaforma web dedicata, che consenta il collegamento dell'intero Ecosistema turistico al fine di valorizzare, integrare e favorire la propria offerta.
+2.  Progettare e implementare una Piattaforma di Integrazione per la gestione dell'intero ciclo di vita delle interfacce di programmazione che ha l'obiettivo di supportare l'interoperabilità tra applicazioni e servizi sia esterni che interni al TDH.
+3.  Gestire i dati di seconda parte (es. Regioni), dati di terza parte (es Enti Privati e Pubblici integrativi rispetto al sistema nazionale) e dati geografici.
+4.  Creare valore per tutti gli attori coinvolti nella turismo italiana, mettendo in relazione tra loro gli interessi della persona (turista), le destinazioni e l'offerta prima, durante e dopo l'esperienza turistica.",Centri di assistenza focalizzati sulle attività di consulenza e assistenza ai cittadini,0.6964254968354653,0,22.504052125033922
+N-750-HYB,Qual è l'eccezione alla quale la presente direttiva non si applica?,short,,,"La presente direttiva non si applica alle seguenti eccezioni:
+
+1.  La direttiva non si applica alle attività di turismo che svolgono in aree geografiche non abitate o in zone di alta montagna.
+2.  La direttiva non si applica alle attività di turismo che richiedono la presenza umana in aree di alta sicurezza, come ad esempio le aree di confine internazionali o le aree di alta sicurezza militare.
+3.  La direttiva non si applica alle attività di turismo che svolgono in aree di alta tecnologia o di ricerca scientifica.
+
+Queste eccezioni sono previste dall'articolo 2, comma 4 della legge.",Ai notai nominati con atto ufficiale della pubblica amministrazione.,0.6962209932994454,0,17.78848579095211
+N-750-HYB,Per quanto tempo è valida la tessera professionale europea?,short,,,La tessera professionale europea è valida per un periodo di 5 anni.,La tessera professionale europea è valida sull’intero territorio di tutti gli Stati membri ospitanti interessati per tutto il tempo in cui il rispettivo titolare conserva il diritto di esercitare.,0.8296847931194423,1,6.157378374948166
+N-750-HYB,Quali informazioni sono contenute nel fascicolo IMI per accertare il diritto del titolare all'esercizio della professione?,multiple_choice,B,B,"Le informazioni contenute nel fascicolo IMI per accertare il diritto del titolare all'esercizio della professione sono:
+
+B) Professione e qualifiche formali.",Professione e qualifiche formali,1.0,1,8.102325209067203
+N-750-HYB,Per quali professioni è richiesta una dichiarazione della conoscenza della lingua necessaria all'esercizio della professione nello Stato membro ospitante?,short,,,"Secondo l'articolo 53, la dichiarazione della conoscenza della lingua necessaria all'esercizio della professione nello Stato membro ospitante è richiesta per le seguenti professioni:
+
+*   I professionisti che beneficiano del riconoscimento delle qualifiche professionali possiedono la conoscenza delle lingue necessarie all'esercizio della professione nello Stato membro ospitante.
+*   Uno Stato membro assicura che controlli effettuati da un'autorità competente o sotto la sua supervisione per controllare il rispetto dell'obbligo di cui al paragrafo 1 siano limitati alla conoscenza di una lingua ufficiale dello Stato membro ospitante o di una lingua amministrativa dello Stato membro ospitante, a condizione che quest'ultima sia anche una delle lingue ufficiali dell'Unione.
+*   I controlli svolti a norma del paragrafo 2 possono essere imposti se la professione da praticarsi ha ripercussioni sul mercato lavorativo.",Per le professioni che hanno implicazioni per la sicurezza dei pazienti.,0.7020965630005204,1,24.474251374951564
+N-750-HYB,Quali sono le condizioni per cui l'autorità competente dello Stato membro ospitante può richiedere un tirocinio di adattamento o una prova attitudinale?,multiple_choice,A,A,"La risposta corretta è:
+
+A) Il richiedente ha completato una formazione in materie sostanzialmente diverse da quelle coperte dal titolo di formazione richiesto nello Stato membro ospitante.",Il richiedente ha completato una formazione in materie sostanzialmente diverse da quelle coperte dal titolo di formazione richiesto nello Stato membro ospitante.,1.0,1,9.837125000078231
+N-750-HYB,Quante ore di insegnamento teorico e clinico sono richieste per la formazione di infermiere responsabile dell'assistenza generale?,short,,,12 anni di istruzione generale o superamento di un esame di livello equivalente.,Almeno 4 600 ore,0.4027039644687005,0,7.120188832981512
+N-750-HYB,Qual è il requisito di base per l'ammissione alla formazione di infermiere responsabile dell'assistenza generale secondo l'articolo 31?,multiple_choice,A,A,La risposta è A) Diploma di scuola superiore.,Diploma di scuola superiore,1.0,1,6.402546292054467
+N-750-HYB,Quali sono le competenze che un infermiere responsabile dell'assistenza generale deve acquisire?,short,,,"Secondo l'articolo 33 bis del Decreto Legislativo 30 luglio 1999, n. 300, un infermiere responsabile dell'assistenza generale deve acquisire le seguenti competenze:
+
+*   conoscenza e competenza paragonabile a quella degli infermieri in possesso delle qualifiche di cui alla lista per la Polonia, al punto 5.2.2 dell'allegato V.
+*   una solida base di istruzione generale prima di iniziare la propria formazione.
+*   un livello di conoscenza e competenza paragonabile a quello degli infermieri in possesso delle qualifiche rumene di infermiere responsabile dell'assistenza generale.","Le competenze che un infermiere responsabile dell'assistenza generale deve acquisire includono la capacità di individuare autonomamente le cure infermieristiche necessarie, di lavorare efficacemente con altri operatori sanitari, di orientare individui verso stili di vita sani, di avviare misure immediate per il mantenimento in vita e di fornire consigli e supporto alle persone bisognose di cure, tra gli altri.",0.7589648954431224,1,17.115317624993622
+N-750-HYB,Qual è uno dei requisiti minimi di formazione per un infermiere che deve essere riconosciuto dagli Stati membri?,multiple_choice,B,C,La risposta è C.,B) Aver conseguito un diploma di infermiere e ostetrica presso un liceo medico,0.0,0,6.575613333028741
+N-750-HYB,Quali sono le conoscenze richieste per l'igiene degli animali?,short,,,"Le conoscenze richieste per l'igiene degli animali includono:
+
+*   Conoscenza delle normative sanitarie e igieniche relative all'igiene degli animali
+*   Conoscenza delle tecniche di pulizia e disinfezione degli animali
+*   Conoscenza delle condizioni di vita e di trattamento degli animali per garantire la loro salute e il benessere
+*   Conoscenza delle malattie e dei parassiti che possono colpire gli animali e delle misure da adottare per prevenirle o trattarle
+*   Conoscenza delle normative relative alla gestione degli animali in ambienti pubblici o privati","Conoscenze dell'igiene e della tecnologia per ottenere, fabbricare e immettere in commercio i mangimi animali o i prodotti alimentari di origine animale destinati al consumo umano.",0.7991562477703322,1,16.66143400000874
+N-750-HYB,Quando deve avere luogo il tirocinio professionale secondo il testo?,short,,,"Secondo il testo, il tirocinio professionale deve avere luogo ""a tempo pieno o a tempo parziale per un periodo equivalente"" al ciclo di studi completato.",Dopo il completamento dei primi tre anni di insegnamento accademico.,0.6226936572523674,0,8.624791832990013
+N-750-HYB,Quali condizioni devono rispettare i quadri comuni di formazione?,multiple_choice,A,A,"La risposta corretta è:
+
+A) Essere basati sui livelli dell'EQF",Essere basati sui livelli dell'EQF,1.0,1,6.8910633330233395
+N-750-HYB,Quali sono le attività professionali soggette a limitazioni temporanee o permanenti in uno Stato membro?,short,,,"Le attività professionali soggette a limitazioni temporanee o permanenti in uno Stato membro sono quelle che, secondo l'articolo 10 del trattato, non dovrebbero imporre a un cittadino di uno Stato membro di acquisire qualifiche che esso in genere si limita a definire soltanto in termini di diplomi rilasciati nel suo sistema nazionale d'insegnamento.","Attività professionali come medico, dentista, infermiere, veterinario, farmacista, ecc.",0.6433238976721057,0,12.449931083014235
+N-750-HYB,Quali sono le professioni regolamentate elencate nell'articolo 56 bis soggette a limitazioni o divieti temporanei o permanenti?,multiple_choice,C,A,"Le professioni regolamentate elencate nell'articolo 56 bis soggette a limitazioni o divieti temporanei o permanenti sono:
+
+*   Ingegnere
+*   Avvocato
+*   Medico
+*   Architetto",Medico,0.0,0,9.26006245892495
+N-750-HYB,Quali informazioni devono trasmettere le autorità competenti agli Stati membri ospitanti?,short,,,"Le autorità competenti degli Stati membri ospitanti devono trasmettere l'attestato relativo alla natura e alla durata dell'attività, rilasciato dall'autorità o dall'organismo competente dello Stato membro d'origine o dello Stato membro da cui proviene il cittadino straniero.",Tutte le informazioni pertinenti su singoli casi ai centri di assistenza negli Stati membri ospitanti,0.7230882637422437,1,11.177939540939406
+N-750-HYB,Entro quale termine un atto delegato entra in vigore se né il Parlamento europeo né il Consiglio sollevano obiezioni?,multiple_choice,B,B,La risposta è B) 2 mesi.,2 mesi,1.0,1,6.211708374903537
+N-750-HYB,Quali informazioni devono essere fornite al consumatore in tempo utile prima che sia vincolato da un contratto o da un'offerta?,short,,,"Le informazioni da fornire al consumatore in tempo utile prima che sia vincolato da un contratto o da un'offerta sono:
+
+1.  Il prezzo totale del servizio o dell'opera
+2.  Le modalità di pagamento e le scadenze
+3.  La descrizione dettagliata dei servizi o delle opere offerte
+4.  Le condizioni di annullamento o di modifica del contratto
+5.  Le informazioni relative alle garanzie e ai diritti del consumatore",Informazioni accurate e sufficienti secondo le modalità previste dall'art. 71 del decreto legislativo.,0.6536342495103977,0,13.643518665921874
+N-750-HYB,Qual è il periodo concesso al consumatore per recedere dal contratto di multiproprietà?,short,,,Il periodo concesso al consumatore per recedere dal contratto di multiproprietà è di 14 giorni di calendario.,Quattordici giorni,0.5411674970937201,0,6.967612333013676
+N-750-HYB,Dove possono essere reperiti i codici di condotta sottoscritti dall'operatore?,short,,,I codici di condotta sottoscritti dall'operatore possono essere reperiti presso il sito web del Dipartimento per la Trasformazione Digitale.,Non è specificato nel testo.,0.5298464608762927,0,7.445386833045632
+N-750-HYB,Quali sono le restrizioni alla possibilità del consumatore di godere dei diritti acquisiti?,multiple_choice,D,D,La risposta è D) Tutte le precedenti.,Tutte le precedenti,1.0,1,6.133810417028144
+N-750-HYB,Quali costi il consumatore non dovrà sostenere diversi da quelli specificati nel contratto?,short,,,"Secondo l'articolo 76, il consumatore non dovrà sostenere i seguenti costi diversi da quelli specificati nel contratto:
+
+*   Pagamenti che non sono conformi al piano di pagamento periodico concordato;
+*   Quote di affiliazione che non sono ripartite in rate annuali di pari valore.",Il consumatore non dovrà sostenere costi od obblighi diversi da quelli specificati nel contratto.,0.8169155112680454,1,10.56374887493439
+N-750-HYB,Quando può esercitare il diritto di recesso il consumatore?,multiple_choice,B,B,La risposta corretta è B) Entro quattordici giorni di calendario dalla conclusione del contratto.,Entro quattordici giorni di calendario dalla conclusione del contratto,1.0,1,7.765256750048138
+N-750-HYB,Chi può esercitare le funzioni amministrative in materia di turismo secondo il testo?,short,,,"Secondo il testo, le funzioni amministrative in materia di turismo possono essere esercitate dalle seguenti persone:
+
+*   Il Ministro del Turismo
+*   L'Assessorato al Turismo
+*   Le Regioni
+*   Gli Enti Locali",Presidente del Consiglio dei Ministri o Ministro delegato,0.6903198950540038,0,9.851582083967514
+N-750-HYB,Quali sono esempi di strutture ricettive alberghiere e paralberghiere menzionate nel testo?,multiple_choice,A,B,L'opzione B) Bed and breakfast in forma imprenditoriale è la risposta corretta.,Villaggi-albergo,0.0,0,7.048647999996319
+N-750-HYB,Quali sono le strutture ricettive extralberghiere composte da camere ubicate in più appartamenti nello stesso stabile?,short,,,"Le strutture ricettive extralberghiere composte da camere ubicate in più appartamenti nello stesso stabile sono indicate come ""B&B"" (Bed and Breakfast).",Gli esercizi di affittacamere.,0.605704306950448,0,7.936434000032023
+N-750-HYB,Quali sono i requisiti assicurati nelle strutture ricettive all'aperto?,short,,,"Non sono riuscito a trovare informazioni sulla domanda ""Quali sono i requisiti assicurati nelle strutture ricettive all'aperto?"" nella richiesta di assistenza fornita. Tuttavia, posso cercare di fornire una risposta generale.
+
+Le strutture ricettive all'aperto, come ad esempio le tende o i campeggi, possono avere requisiti specifici in termini di sicurezza e igiene per garantire la salute e il benessere dei clienti. Alcuni dei requisiti assicurati nelle strutture ricettive all'aperto potrebbero includere:
+
+*   Un piano di emergenza per gestire situazioni di emergenza come incendi o problemi di salute.
+*   Un sistema di igiene e pulizia adeguato per mantenere la pulizia e l'igiene delle strutture.
+*   Equipaggiamento di sicurezza, come ad esempio estintori, luci e segnalazioni di emergenza.
+*   Regole e linee guida per la gestione del personale e della clientela.
+*   Un piano di gestione dei rifiuti e dell'impatto ambientale.
+
+Tuttavia, è importante notare che i requisiti specifici possono variare a seconda della regione, del tipo di struttura e delle normative locali. È sempre meglio consultare le autorità competenti o un esperto per ottenere informazioni più precise e aggiornate.
+
+Se hai una domanda specifica su strutture ricettive all'aperto, sarò felice di cercare di aiutarti!",a) la sorveglianza continua della struttura ricettiva durante i periodi di apertura; b) la continua presenza all'interno della struttura ricettiva del responsabile o di un suo delegato; c) la copertura assicurativa per i rischi di responsabilità civile a favore dei clienti.,0.7543243611853658,1,31.249573291977867
+N-750-HYB,Qual è una delle categorie di turismo definite nel testo?,short,,,"La categoria di turismo definita nel testo è ""Turismo Pubblico Integrativo"".",turismo della montagna,0.6506092333611144,0,6.3391124999616295
+N-750-HYB,Qual è l'obiettivo principale del Fondo buoni vacanze menzionato nel testo?,multiple_choice,C,D,La risposta è D) Incrementare i flussi turistici.,Sostenere le fasce sociali più deboli,0.0,0,6.045099875074811
+N-750-HYB,Qual è uno degli elementi che possono costituire un pacchetto turistico?,short,,,"Uno degli elementi che possono costituire un pacchetto turistico sono:
+
+*   Trasporti
+*   Alloggio
+*   Attività ricreative e culturali",Alloggio,0.530891183190077,0,7.657963583944365
+N-750-HYB,Quali informazioni devono essere fornite al turista prima dell'inizio del viaggio?,multiple_choice,A,A,"Le informazioni che devono essere fornite al turista prima dell'inizio del viaggio sono:
+
+A) Orari e località di sosta intermedia
+
+Queste informazioni sono essenziali per garantire la sicurezza e il benessere del turista durante il viaggio.",Orari e località di sosta intermedia,1.0,1,10.010120874969289
+N-750-HYB,Quali sono le condizioni previste per la durata minima di una locazione adibita ad attività alberghiere?,short,,,"Le condizioni previste per la durata minima di una locazione adibita ad attività alberghiere sono stabilite dalle Regioni e dalle Province autonome, tenuto conto della disposizione di cui all’articolo 15, comma 1.",La durata della locazione non può essere inferiore a nove anni.,0.6253197782939002,0,10.172415832988918
+N-750-HYB,Quali sono le attività considerate di interesse turistico per la durata minima delle locazioni?,multiple_choice,A,C,"Le attività considerate di interesse turistico per la durata minima delle locazioni sono:
+
+C) Aziende di soggiorno ed altri organismi di promozione turistica",Agenzie di viaggio e turismo,0.0,0,8.872114000027068
+N-750-HYB,Qual è la struttura di supporto delle politiche del Governo nell'area funzionale relativa al settore turismo?,short,,,"L'area funzionale relativa al settore turismo è gestita dal Ministero per i Beni e le Attività Culturali e per il Turismo (in seguito, ""Ministero del Turismo""), che è l'ente responsabile della politica turistica nazionale. Il Ministero del Turismo è strutturato in diversi dipartimenti e uffici, tra cui:
+
+*   Dipartimento per la Trasformazione Digitale
+*   Ufficio di Diretta Collaborazione
+*   Organismo Indipendente di Valutazione della Performance
+
+Il Ministero del Turismo è anche responsabile della gestione dell'Ecosistema TDH022, che è una piattaforma digitale per lo scambio di dati e contenuti tra gli attori del settore turismo. L'Ecosistema TDH022 si pone come Standard Digitale a livello Nazionale, preposto allo scambio di dati e contenuti sia ""aperti"" (open data) che ""chiusi"" (private data) tra i partecipanti.
+
+Inoltre, il Ministero del Turismo è anche responsabile della gestione delle politiche turistiche nazionali, comprese la promozione del settore turismo, la gestione dei dati e contenuti relativi al turismo, e la valutazione della performance del settore turismo.
+
+In sintesi, l'area funzionale relativa al settore turismo è gestita dal Ministero per i Beni e le Attività Culturali e per il Turismo, che è responsabile della politica turistica nazionale e dell'Ecosistema TDH022.",Il Dipartimento per lo sviluppo e la competitività del turismo.,0.7899358139445121,1,32.85850345902145
+N-750-HYB,Quanti livelli comprende l'attestazione di cui all'articolo 63?,short,,,Tre.,"Tre livelli: medaglia di bronzo, medaglia d'argento e medaglia d'oro.",0.5634609194998511,0,5.725127791054547
+N-750-HYB,"Cosa sono state apportate al decreto legislativo 6 febbraio 2007, n. 30, e successive modificazioni?",short,,,"Secondo il testo fornito, sono state apportate le seguenti modifiche al decreto legislativo 6 febbraio 2007, n. 30, e successive modificazioni:
+
+1. L'articolo 14, commi 14, 15 e 18.
+2. Il Regolamento di organizzazione del Ministero del Turismo, degli uffici di diretta collaborazione e dell'Organismo indipendente di valutazione della performance.
+3. Il codice del consumo.
+4. L'articolo 1, comma 19-bis.
+
+Queste modifiche sembrano essere state apportate per rafforzare il ruolo del Ministero del Turismo e dell'Ecosistema turistico italiano, promuovendo la ricerca di informazioni inerenti ai punti di interesse turisticamente interessanti.","Le seguenti modificazioni: a) all'articolo 3, comma 2, lettera b), b) all'articolo 5, comma 5, c) all'articolo 9",0.7639049283971668,1,18.087130291969515
+N-750-HYB,"Cosa deve attestare la documentazione ufficiale ai sensi dell'articolo 3, comma 2, lettera b?",short,,,La documentazione ufficiale deve attestare che il titolare di una qualifica professionale è stato soggetto a misure compensative.,L'esistenza di una stabile relazione con il cittadino dell'Unione,0.5704851484843491,0,7.755653667030856
+N-750-HYB,A chi si applica il presente decreto legislativo?,short,,,"Il presente decreto legislativo si applica a tutti gli attori coinvolti nell'ambito del Ministero del Turismo, degli uffici di diretta collaborazione e dell'Organismo indipendente di valutazione della performance.","Il presente decreto legislativo si applica a qualsiasi cittadino dell'Unione che si rechi o soggiorni in uno Stato membro diverso da quello di cui ha la cittadinanza, nonché ai suoi familiari.",0.7550255356659797,1,9.18827845796477
+N-750-HYB,"In base all'art. 3 del decreto legislativo n. 30 del 6 febbraio 2007, chi può beneficiare delle disposizioni del decreto?",multiple_choice,D,D,La risposta è D.,Cittadini dell'Unione che si recano o soggiornano in uno Stato membro diverso da quello di cui hanno la cittadinanza e ai loro familiari,1.0,1,5.845327167073265
+N-750-HYB,Chi può essere considerato familiare di un cittadino dell'Unione per il diritto di soggiorno?,short,,,"Il familiare di un cittadino dell'Unione per il diritto di soggiorno è:
+
+*   Spouse (coniuge)
+*   Compagne di vita
+*   Figli adottivi o adottati
+*   Figli biologici
+*   Padri e madri adottivi o adottati
+*   Madri e padri biologici",Ogni altro familiare che è a carico o convive con il cittadino dell'Unione nel paese di provenienza.,0.7706445447844701,1,10.334399624960497
+N-750-HYB,Quali sono le condizioni per considerare il partner di un cittadino dell'Unione come familiare per il diritto di soggiorno?,multiple_choice,C,C,La risposta è C) Deve avere una relazione stabile debitamente attestata.,Deve avere una relazione stabile debitamente attestata,1.0,1,7.112585167051293
+N-750-HYB,Quando viene rilasciata l'attestazione di iscrizione anagrafica?,short,,,"Non è possibile rispondere alla domanda in base alle informazioni fornite. La domanda sembra essere una semplice affermazione o un'espressione di opinione, ma non contiene una domanda specifica che possa essere risposta con un ""quando"" o un numero. Se si desidera sapere quando viene rilasciata l'attestazione di iscrizione anagrafica, è necessario fornire più contesto o informazioni per poter fornire una risposta precisa.",immediatamente trascorsi tre mesi dall'ingresso,0.5864766830301614,0,13.145282665966079
+N-750-HYB,Cosa deve produrre il cittadino dell'Unione per l'iscrizione anagrafica secondo il testo?,multiple_choice,C,B,La risposta è B) Documento di identità.,Documentazione attestante l'attivita' lavorativa,0.0,0,6.15843104198575
+N-750-HYB,"Quali sono i requisiti richiesti per l'iscrizione ai sensi dell'art. 7, comma 1, lettera b)?",short,,,"I requisiti richiesti per l'iscrizione ai sensi dell'art. 7, comma 1, lettera b), sono:
+
+*   avere acquisito le conoscenze, le abilità o le competenze mancanti;
+*   dimostrare tali acquisizioni mediante una prova attitudinale.",Titolarità di una assicurazione sanitaria ovvero di altro titolo idoneo a coprire tutti i rischi nel territorio nazionale,0.5494910800619215,0,9.557617999962531
+N-750-HYB,Quali risorse economiche possono dimostrare i cittadini dell'Unione?,short,,,"I cittadini dell'Unione possono dimostrare le seguenti risorse economiche:
+
+1.  **Risorse finanziarie**: i cittadini possono dimostrare la disponibilità di fondi per sostenere il proprio progetto o attività, ad esempio attraverso la presentazione di un piano finanziario dettagliato.
+2.  **Risorse umane**: i cittadini possono dimostrare la disponibilità di competenze e esperienze necessarie per portare a termine il proprio progetto o attività, ad esempio attraverso la presentazione di una carta professionale o un curriculum.
+3.  **Risorse materiali**: i cittadini possono dimostrare la disponibilità di risorse materiali necessarie per portare a termine il proprio progetto o attività, ad esempio attraverso la presentazione di un piano di acquisto o una descrizione dettagliata delle risorse necessarie.
+4.  **Risorse tecnologiche**: i cittadini possono dimostrare la disponibilità di strumenti e tecnologie necessarie per portare a termine il proprio progetto o attività, ad esempio attraverso la presentazione di un piano di acquisto o una descrizione dettagliata delle risorse tecnologiche necessarie.
+5.  **Risorse immateriali**: i cittadini possono dimostrare la disponibilità di conoscenze e esperienze necessarie per portare a termine il proprio progetto o attività, ad esempio attraverso la presentazione di una carta professionale o un curriculum.
+
+Queste sono solo alcune delle risorse economiche che i cittadini dell'Unione possono dimostrare. È importante notare che ogni caso è unico e richiede una valutazione specifica delle risorse disponibili.",Risorse economiche sufficienti a non gravare sul sistema di assistenza pubblica,0.5544196692179472,0,35.55629570805468
+N-750-HYB,Cosa devono presentare i familiari del cittadino dell'Unione europea che non hanno un autonomo diritto di soggiorno per l'iscrizione anagrafica?,multiple_choice,B,A,La risposta è A) Certificato di nascita.,Dichiarazione di reddito,0.0,0,6.136874165968038
+N-750-HYB,Quali documenti sono richiesti per l'iscrizione anagrafica del familiare cittadino dell'Unione?,short,,,"I documenti richiesti per l'iscrizione anagrafica del familiare cittadino dell'Unione sono:
+
+*   Documento di identità
+*   Carta di soggiorno
+*   Dichiarazione di residenza","Un documento di identità o il passaporto in corso di validità, un documento rilasciato dall'autorità competente del Paese di origine o provenienza che attesti la qualità di familiare, l'attestato della richiesta d'iscrizione anagrafica del familiare cittadino dell'Unione e documentazione ufficiale attestante l'esistenza di una stabile relazione con il cittadino dell'Unione.",0.8262455351581237,1,8.415766416001134
+N-750-HYB,Qual è uno dei documenti richiesti per attestare la qualità di familiare a carico del cittadino dell'Unione?,multiple_choice,B,B,La risposta è B) Certificato di nascita.,Certificato di nascita,1.0,1,6.095709291053936
+N-750-HYB,Cosa devono richiedere i familiari del cittadino dell'Unione non aventi la cittadinanza di uno Stato membro dopo tre mesi dall'ingresso nel territorio nazionale?,short,,,"I familiari del cittadino dell'Unione non aventi la cittadinanza di uno Stato membro devono richiedere una tessera professionale europea ai sensi dell'articolo 16, 21, 49 bis e 49 ter entro un mese a decorrere dalla data di ricezione della domanda trasmessa dallo Stato membro d'origine.",La «Carta di soggiorno di familiare di un cittadino dell'Unione»,0.6955550124577007,0,10.717892416985705
+N-750-HYB,Chi trasmette le richieste di iscrizioni anagrafiche dei familiari del cittadino dell'Unione che non hanno la cittadinanza di uno Stato membro alla Questura competente per territorio?,multiple_choice,A,B,La risposta è B) La Questura competente per territorio.,Le amministrazioni comunali,0.0,0,6.355095625040121
+N-750-HYB,Quali documenti sono richiesti per il rilascio della Carta di soggiorno?,short,,,"Non sono riuscito a trovare informazioni sulla ""Carta di soggiorno"" nel testo fornito. Tuttavia, posso darti alcune informazioni generali sui documenti richiesti per il rilascio della Carta di soggiorno in Italia.
+
+In generale, per ottenere una Carta di soggiorno in Italia è necessario presentare diversi documenti, tra cui:
+
+*   Un passaporto valido
+*   Una copia del biglietto aereo o del biglietto ferroviario che conferma l'ingresso in Italia
+*   Una copia della prenotazione di alloggio
+*   Una copia della prenotazione di viaggio
+*   Un documento di identità (ad esempio, un passaporto o una patente di guida)
+*   Un certificato di salute (in alcuni casi)
+
+Tuttavia, è importante notare che i documenti richiesti possono variare a seconda della tipologia di soggiorno e del tipo di visa richiesta.
+
+Se hai bisogno di informazioni più specifiche o aggiornate, ti consiglio di consultare il sito web dell'Autorità delle Frontiere e della Migrazione (AFM) italiana o di contattare direttamente l'ambasciata o il console italiano presso la tua località.","Il passaporto o documento equivalente in corso di validità, un documento rilasciato dall'autorità competente del Paese di origine o provenienza che attesti la qualità di familiare, e l'attestato della ...",0.7537047855469543,1,25.687275542062707
+N-750-HYB,Cosa deve attestare il documento rilasciato dall'autorità competente del Paese di origine o provenienza per il rilascio della Carta di soggiorno?,multiple_choice,C,C,La risposta è C) La qualità di familiare.,La qualità di familiare,1.0,1,6.079531750059687
+N-750-HYB,Quanti esemplari della fotografia dell'interessato devono essere presentati?,short,,,"Non sono riuscito a trovare informazioni sulla domanda. Se puoi fornire ulteriori dettagli o chiarire la domanda, sarò felice di aiutarti.",Quattro,0.4911337782677365,0,7.623415417037904
+N-750-HYB,Quanto dura la validità della carta di soggiorno di familiare di un cittadino dell'Unione?,multiple_choice,B,A,La risposta è A) Due anni.,Cinque anni,0.0,0,5.7712080830242485
+N-750-HYB,Di quanto è gratuito il rilascio della carta di soggiorno?,short,,,"Non sono riuscito a trovare una risposta alla tua domanda. Tuttavia, posso fornirti alcune informazioni generali sulla carta di soggiorno e i costi associati al suo rilascio.
+
+In Italia, la carta di soggiorno è un documento che viene emesso ai turisti che soggiornano nel paese per una durata inferiore a 90 giorni. Il rilascio della carta di soggiorno non è gratuito e può essere richiesto con un costo.
+
+Secondo l'art. 22, comma 2, del Codice dell'amministrazione tributaria (C.A.T.), il rilascio della carta di soggiorno è soggetto a un contributo che varia in base alla durata del soggiorno:
+
+*   per soggiorni fino a 90 giorni: € 3
+*   per soggiorni superiori a 90 giorni: € 15
+
+Il contributo può essere pagato in contanti o con un bonifico bancario.
+
+Inoltre, è importante notare che il rilascio della carta di soggiorno può essere richiesto anche da parte di cittadini italiani che soggiornano all'estero e vogliono ottenere una copia della carta di identità. In questo caso, il costo del rilascio della carta di soggiorno è di € 3.
+
+È importante verificare le informazioni più aggiornate con l'ambulatorio di servizi per turisti o la delegazione del Ministero dell'interno presso l'ambasciata italiana in cui si è registrato.","Il rilascio della carta di soggiorno è gratuito, salvo il rimborso del costo degli stampati e del materiale usato per il documento.",0.8094432345878956,1,29.518700542044826
+N-750-HYB,Chi può essere allontanato in conformità all'art. 183-ter?,multiple_choice,B,B,La risposta è B) Cittadini di uno Stato membro dell'Unione europea.,Cittadini di uno Stato membro dell'Unione europea,1.0,1,6.622791958972812
+N-750-HYB,Qual è il decreto legislativo che approva il Codice in materia di protezione dei dati personali?,short,,,"Il decreto legislativo che approva il Codice in materia di protezione dei dati personali è il Decreto Legislativo 13 giugno 2018, n. 101, noto come ""Codice Garantista"".","Il decreto legislativo 30 giugno 2003, n. 196",0.7475737771410687,1,8.231786375050433
+N-750-HYB,Quando è stata istituita la professione sanitaria di odontoiatra?,short,,,Non sono riuscito a trovare informazioni sulla data di istituzione della professione sanitaria di odontoiatra.,24 luglio 1985,0.42115887957418713,0,6.929252499947324
+N-750-HYB,Cosa disciplina il presente decreto legislativo?,short,,,"Il presente decreto legislativo disciplina la creazione di una piattaforma per la gestione dell'intero ciclo di vita delle interfacce di programmazione, con l'obiettivo di supportare l'interoperabilità tra applicazioni e servizi sia esterni che interni alla piattaforma.",Il riconoscimento per l'accesso alle professioni regolamentate e il loro esercizio.,0.6835756702486976,0,9.979820667067543
+N-750-HYB,Quali sono le attività riservate alla professione notarile?,multiple_choice,D,A,"Le attività riservate alla professione notarile sono:
+
+*   Attività di redazione e conservazione dei documenti notariali;
+*   Attività di consulenza e rappresentanza dei clienti in materia di diritto civile, commerciale e tributario;
+*   Attività di gestione delle attività notariali, comprese la gestione dei fondi e le pratiche contabili.",Attività riservate alla professione notarile,0.0,0,11.744540833053179
+N-750-HYB,Dove può esercitare la professione corrispondente il titolare delle qualifiche?,short,,,"Il titolare delle qualifiche professionali può esercitare la professione corrispondente in uno Stato membro, salvo diverso accordo tra gli Stati membri.",Nello Stato membro di origine.,0.7714254848395363,1,8.208185541909188
+N-750-HYB,Chi conferisce al Presidente della Repubblica il potere di promulgare le leggi?,multiple_choice,D,B,La risposta è B) Il Parlamento.,La Costituzione,0.0,0,5.8425162909552455
+N-750-HYB,Entro quanto tempo il Governo è delegato ad adottare i decreti legislativi per dare attuazione alle direttive comprese nell'elenco di cui all'allegato B?,short,,,Entro 24 mesi dalla scadenza del termine di cui al comma 12.,diciotto mesi,0.5545790785965744,0,6.1353255830472335
+N-750-HYB,Qual è la procedura se il termine per l'espressione del parere parlamentare scade nei trenta giorni che precedono la scadenza dei termini previsti ai commi 1 o 5 o successivamente?,multiple_choice,A,C,La risposta è C.,I decreti sono emanati anche in mancanza del parere,0.0,0,5.010192958987318
+N-750-HYB,Quanti giorni sono stati prorogati gli schemi dei decreti legislativi?,short,,,Gli schemi dei decreti legislativi sono stati prorogati di 22 giorni.,novanta giorni,0.4754302496924164,0,6.395911583909765
+N-750-HYB,Qual è l'organo al quale il Governo deve ritrasmettere i testi corredati dei necessari elementi integrativi di informazione?,multiple_choice,B,D,La risposta è D) Commissioni parlamentari competenti.,Camere,0.0,0,5.711819582968019
+N-750-HYB,Qual è la direttiva del 2000 che istituisce un quadro per l'azione comunitaria in materia di acque?,short,,,La direttiva del 2000 che istituisce un quadro per l'azione comunitaria in materia di acque è la Direttiva 2000/60/CE.,2000/60/CE del Parlamento europeo e del Consiglio,0.7772470704889272,1,7.37390120793134
+N-750-HYB,A quale direttiva si riferisce la modifica della direttiva 90/435/CEE concernente il regime fiscale comune applicabile alle società madri e figlie di Stati membri diversi?,multiple_choice,B,B,La risposta è B) 2003/123/CE.,2003/123/CE,1.0,1,6.032035499927588
+N-750-HYB,Qual è la direttiva del 29 aprile 2004 che modifica la direttiva 96/48/CE del Consiglio relativa all'interoperabilità del sistema ferroviario transeuropeo ad alta velocità?,short,,,La direttiva del 29 aprile 2004 che modifica la direttiva 96/48/CE del Consiglio relativa all'interoperabilità del sistema ferroviario transeuropeo ad alta velocità è la direttiva 2004/36/CE.,2004/50/CE,0.5837352270011036,0,8.953457250026986
+N-750-HYB,Di cosa tratta la direttiva 2004/81/CE del Consiglio del 29 aprile 2004?,multiple_choice,B,C,La direttiva 2004/81/CE del Consiglio del 29 aprile 2004 tratta il tema dell'indennizzo delle vittime di reato.,Titolo di soggiorno per cittadini di paesi terzi coinvolti in azioni di favoreggiamento dell'immigrazione illegale,0.0,0,7.731661583064124
+N-750-HYB,Quando è stata adottata la direttiva 2004/108/CE del Parlamento europeo e del Consiglio?,short,,,La direttiva 2004/108/CE del Parlamento europeo e del Consiglio è stata adottata il 15 novembre 2004.,15 dicembre 2004,0.6070827239641452,0,7.497938374988735
+N-750-HYB,Di cosa tratta la direttiva 2004/113/CE del Consiglio del 13 dicembre 2004?,multiple_choice,C,C,La direttiva 2004/113/CE del Consiglio del 13 dicembre 2004 si occupa di armonizzazione degli obblighi di trasparenza.,Trattamento paritario tra uomini e donne,1.0,1,7.8275218340568244
+N-750-HYB,Quando è stata pubblicata la direttiva 2005/36/CE?,short,,,La direttiva 2005/36/CE è stata pubblicata nella Gazzetta ufficiale dell'Unione europea il 20 novembre 2013.,30 settembre 2005,0.545091330460005,0,7.666001042001881
+N-750-HYB,In quale data è stata pubblicata la direttiva 89/48/CEE?,multiple_choice,A,A,La direttiva 89/48/CEE è stata pubblicata il 24 gennaio 1989. La risposta corretta è A) 24 gennaio 1989.,24 gennaio 1989,1.0,1,7.762335291015916
+N-750-HYB,Quando è stata pubblicata la direttiva 98/21/CE?,short,,,La direttiva 98/21/CE è stata pubblicata il 17 marzo 1998.,5 maggio 1998,0.6508456850007955,0,6.6247771250782534
+N-750-HYB,In quale data è stata pubblicata la direttiva 85/614/CEE?,multiple_choice,B,C,La direttiva 85/614/CEE è stata pubblicata il 21 agosto 1985.,31 dicembre 1985,0.0,0,6.326168459025212
+N-750-HYB,"Dove è pubblicata la legge 8 novembre 1984, n. 750?",short,,,"La legge 8 novembre 1984, n. 750 è stata pubblicata nella Gazzetta Ufficiale delle Comunità Europee (GUCE).","Gazzetta Ufficiale 10 novembre 1984, n. 310",0.7879012815225845,1,7.575374583015218
+N-750-HYB,In che data sono pubblicate le direttive 85/432/CEE e 85/433/CEE?,multiple_choice,A,A,La risposta è A) 24 settembre 1985.,24 settembre 1985,1.0,1,6.275754250003956
+N-750-HYB,Qual è l'organo che ha espresso parere il 13 gennaio 2011?,short,,,Il Ministero del Turismo.,Il Consiglio di Stato,0.6385099285416352,0,5.459307207958773
+N-750-HYB,Chi ha adottato la preliminare deliberazione del Consiglio dei Ministri il 19 ottobre 2010?,multiple_choice,D,C,La risposta è C) La Conferenza unificata.,Il Consiglio dei Ministri,0.0,0,5.954625290934928
+N-750-HYB,Chi ha proposto l'approvazione del codice della normativa statale in tema di ordinamento e mercato del turismo?,short,,,Il Ministro dei Lavori e delle Politiche Sociali.,"Il Presidente del Consiglio dei Ministri, il Ministro per il turismo, il Ministro per la semplificazione normativa e il Ministro dello sviluppo economico.",0.7604950658822661,1,6.080346124945208
+N-750-HYB,Chi ha adottato la deliberazione del Consiglio dei Ministri?,multiple_choice,A,A,La risposta è A) Presidente del Consiglio dei Ministri.,Presidente del Consiglio dei Ministri,1.0,1,6.138686917023733
+N-750-HYB,Quali sono i principi e criteri direttivi specifici per le singole materie per l'esercizio delle deleghe legislative?,short,,,"I principi e criteri direttivi specifici per le singole materie per l'esercizio delle deleghe legislative sono stabiliti dall'articolo 17, comma 3, della legge 23 agosto 1988, n. 400, che prevede che ""le deleghe legislative vengono esercitate in base ai principi e criteri direttivi specifici per le singole materie"".
+
+In particolare, l'articolo 17, comma 3, della legge 23 agosto 1988, n. 400, stabilisce che:
+
+*   ""Le deleghe legislative vengono esercitate in base ai principi e criteri direttivi specifici per le singole materie"";
+*   ""I principi e criteri direttivi specifici per le singole materie sono stabiliti dal Parlamento, con la sua risoluzione del 23 agosto 1988, n. 400, in base alle indicazioni del Consiglio europeo del 20 giugno 1989"";
+*   ""I principi e criteri direttivi specifici per le singole materie sono applicati dalle autorità competenti, in base alle disposizioni legislative vigenti"".
+
+In sintesi, i principi e criteri direttivi specifici per le singole materie per l'esercizio delle deleghe legislative sono stabiliti dal Parlamento, con la sua risoluzione del 23 agosto 1988, n. 400, in base alle indicazioni del Consiglio europeo del 20 giugno 1989, e sono applicati dalle autorità competenti, in base alle disposizioni legislative vigenti.","Salvi i principi e i criteri direttivi specifici per le singole materie, stabiliti con la legge annuale di semplificazione e riassetto normativo.",0.7726843349359338,1,30.359269790933467
+N-750-HYB,Chi conferisce al Presidente della Repubblica il potere di promulgare le leggi?,multiple_choice,D,A,La risposta è A) Il Parlamento.,La Costituzione,0.0,0,6.514660875080153
+N-750-HYB,Entro quanti giorni deve avvenire la determinazione dei principi fondamentali nelle materie di legislazione concorrente?,short,,,"Non sono riuscito a trovare una risposta alla domanda. La richiesta sembra essere stata troncata o non è stata completa. Se puoi fornire ulteriori informazioni o chiarire la richiesta, sarò felice di aiutarti ulteriormente.",Nel termine di novanta giorni,0.5976189725156182,0,8.824545833980665
+N-750-HYB,Quali interventi amministrativi autorizzatori devono essere eliminati secondo il testo?,multiple_choice,B,A,A) Interventi a fini di tutela dell'ambiente,Misure di condizionamento della libertà contrattuale,0.0,0,5.517557375016622
+N-750-HYB,Qual è uno dei termini utilizzati per indicare un atto che non implica discrezionalità amministrativa?,short,,,"Il termine ""atto"" è uno degli elementi fondamentali del diritto amministrativo, ma non necessariamente implica discrezionalità amministrativa. In particolare, l'articolo 17, comma 3 della legge 23 agosto 1988, n. 400 stabilisce che ""l'atto amministrativo è un atto composto da una formula di richiesta o di autorizzazione, accompagnata da motivazione, con la quale si esercita un potere attribuito all'amministrazione"".",licenza,0.4243766661214912,0,12.689016291988082
+N-750-HYB,Quali sono le funzioni amministrative non direttamente rivolte alla regolazione ai fini dell'incentivazione della concorrenza?,multiple_choice,B,C,La risposta è C) Eliminazione dei limiti all'accesso e all'esercizio delle attività economiche.,Protezione di interessi primari,0.0,0,7.066174709005281
+N-750-HYB,Per cosa sono promossi gli interventi di autoregolazione secondo il testo?,short,,,"Gli interventi di autoregolazione sono stati promossi per valorizzare, integrare e favorire la propria offerta del turismo italiano verso l'Italia con la relativa offerta italiana (erogata da diversi attori), mettendo in relazione tra loro gli interessi della persona (turista), le destinazioni e l'offerta prima, durante e dopo l'esperienza turistica.",Standard qualitativi e certificazioni di conformita',0.5907641643338574,0,11.250228291959502
+N-750-HYB,Quali sono i modelli di regolazione definiti dalle amministrazioni competenti?,multiple_choice,D,D,La risposta è D) Tutti i precedenti.,Tutti i precedenti,1.0,1,5.3255401669302955
+N-750-HYB,Quali sono i principi fondamentali di attribuzione delle funzioni secondo gli stessi criteri da parte delle regioni?,short,,,"I principi fondamentali di attribuzione delle funzioni secondo gli stessi criteri da parte delle regioni, come stabilito nell'articolo 2, comma 1 della legge 23 agosto 1988, n. 400, sono i seguenti:
+
+*   La competenza è attribuita in base alla materia;
+*   La materia è determinata dallo statuto dell'autonomia regionale;
+*   L'attribuzione delle funzioni è effettuata in base alle esigenze della Regione e del territorio.",Determinazione dei principi fondamentali di attribuzione delle funzioni secondo gli stessi criteri da parte delle regioni nelle materie di competenza legislativa concorrente.,0.8173048488073289,1,12.735344749991782
+N-750-HYB,Quali sono i principi che i decreti legislativi e i regolamenti devono seguire secondo il testo?,multiple_choice,D,D,La risposta è D) Semplificazione dei procedimenti amministrativi.,Semplificazione dei procedimenti amministrativi,1.0,1,5.997437749989331
+N-750-HYB,Qual è uno degli obiettivi della semplificazione e accelerazione delle procedure amministrative?,short,,,Uno degli obiettivi della semplificazione e accelerazione delle procedure amministrative è favorire la nascita di una piattaforma che offra informazioni puntuali e corrette sui punti di interesse in Italia.,aggiornamento delle procedure,0.6152262681530842,0,8.376157167018391
+N-750-HYB,"Qual è uno degli obiettivi della conformazione ai principi di sussidiarietà, differenziazione e adeguatezza?",multiple_choice,D,D,La risposta è D) conformazione ai principi di sussidiarietà.,conformazione ai principi di sussidiarietà,1.0,1,5.808866916922852
+N-750-HYB,Quali sono i criteri che regolano i rapporti tra i soggetti istituzionali e i soggetti interessati?,short,,,"I criteri che regolano i rapporti tra i soggetti istituzionali (ad esempio, lo Stato, le amministrazioni pubbliche) e i soggetti interessati (ad esempio, gli individui, le organizzazioni) sono stabiliti da una serie di norme legislative, regolamentari e giuridiche. Ecco alcuni dei criteri più importanti:
+
+1. **Principio di uguaglianza**: Tutti i soggetti interessati devono essere trattati in modo uguale e non discriminato, indipendentemente dalla loro nazionalità, etnia, sesso, religione, orientamento sessuale, disabilità o altre caratteristiche personali.
+2. **Principio di trasparenza**: Le amministrazioni pubbliche devono essere trasparenti nelle loro azioni e decisioni, fornendo informazioni chiare e accessibili ai soggetti interessati.
+3. **Principio di partecipazione**: I soggetti interessati hanno il diritto di partecipare alle decisioni che li riguardano, attraverso canali di consultazione e di rappresentanza adeguati.
+4. **Principio di protezione dei dati personali**: Le amministrazioni pubbliche devono proteggere i dati personali dei soggetti interessati, garantendo la loro sicurezza e la loro privacy.
+5. **Principio di responsabilità**: Le amministrazioni pubbliche sono responsabili delle loro azioni e decisioni, e devono essere in grado di rispondere alle conseguenze negative che possono derivare dalle loro azioni.
+
+Questi criteri sono stabiliti da una serie di norme legislative e regolamentari, tra cui:
+
+* La legge 23 agosto 1988, n. 400, che stabilisce le norme per la protezione dei dati personali
+* La legge 7 agosto 1990, n. 241, che stabilisce le norme per il procedimento amministrativo e il diritto di accesso ai documenti amministrativi
+* Il decreto legislativo 30 luglio 1999, n. 300, che stabilisce le norme per la protezione dei dati personali e la sicurezza delle informazioni
+* La legge 14 gennaio 1994, n. 20, che stabilisce le norme per la giurisdizione e il controllo della Corte dei Conti
+
+Inoltre, i criteri di rapporto tra soggetti istituzionali e interessati sono anche stabiliti da norme europee, come ad esempio:
+
+* La direttiva 2016/680 del Parlamento europeo e del Consiglio, che stabilisce le norme per la protezione dei dati personali nella gestione delle informazioni relative ai soggetti fisici
+* La direttiva 2004/38/CE, che stabilisce le norme per il diritto di circolazione dei lavoratori all'interno dell'Unione europea
+
+Queste norme legislative e regolamentari sono state adottate per garantire la protezione dei diritti e delle libertà dei soggetti interessati, e per promuovere una gestione più efficiente e trasparente delle relazioni tra lo Stato e i suoi cittadini.","Autonomia, leale collaborazione, responsabilità e tutela dell'affidamento",0.5664296482161603,0,56.05080533307046
+N-750-HYB,Quali sono i principi e criteri direttivi per la permanenza in vigore delle disposizioni legislative?,short,,,"I principi e criteri direttivi per la permanenza in vigore delle disposizioni legislative statali anteriori al 1° gennaio 1970, di cui si ritiene indispensabile la permanenza in vigore, sono stabiliti dall'articolo 14 della legge 28 novembre 2005, n. 246.
+
+Secondo tale articolo, le disposizioni legislative statali anteriori al 1° gennaio 1970 che non siano state abrogate o modificate da una legge successiva possono rimanere in vigore fino a quando non saranno state sostituite da una norma di riforma.
+
+In particolare, l'articolo 14 stabilisce che:
+
+* le disposizioni legislative statali anteriori al 1° gennaio 1970 che non siano state abrogate o modificate da una legge successiva possono rimanere in vigore;
+* tali disposizioni devono essere interpretate in conformità con la normativa europea e internazionale;
+* le autorità competenti devono garantire l'adeguamento delle disposizioni legislative statali anteriori al 1° gennaio 1970 alle esigenze della società e dell'economia.
+
+In sintesi, i principi e criteri direttivi per la permanenza in vigore delle disposizioni legislative statali anteriori al 1° gennaio 1970 sono:
+
+* La permanenza in vigore delle disposizioni legislative statali anteriori al 1° gennaio 1970 fino a quando non saranno state sostituite da una norma di riforma;
+* L'interpretazione delle disposizioni legislative statali anteriori al 1° gennaio 1970 in conformità con la normativa europea e internazionale;
+* L'adeguamento delle disposizioni legislative statali anteriori al 1° gennaio 1970 alle esigenze della società e dell'economia.","a) esclusione delle disposizioni oggetto di abrogazione tacita o implicita; b) esclusione delle disposizioni che abbiano esaurito la loro funzione o siano prive di effettivo contenuto normativo o siano comunque obsolete; c) identificazione delle disposizioni la cui abrogazione comporterebbe lesione dei diritti costituzionali; d) identificazione delle disposizioni indispensabili per la regolamentazione di ciascun settore, anche utilizzando a tal fine le procedure di analisi e verifica dell'impatto della regolazione; e) organizzazione delle disposizioni da mantenere in vigore per settori omogenei o per materie, secondo il contenuto precettivo di ciascuna di esse; f) garanzia della coerenza giuridica, logica e sistematica della normativa; g) identificazione delle disposizioni la cui abrogazione comporterebbe effetti anche indiretti sulla finanza pubblica; h) identificazione delle disposizioni contenute nei decreti ricognitivi, emanati ai sensi dell'articolo 1, comma 4, della legge 5 giugno 2003, n. 131, aventi per oggetto i principi fondamentali della legislazione dello Stato nelle materie previste dall'articolo 117, terzo comma, della Costituzione.",0.8107065437498775,1,34.72165370802395
+N-750-HYB,"Quando possono essere emanate disposizioni integrative, di riassetto o correttive?",short,,,"Le disposizioni integrative, di riassetto o correttive possono essere emanate quando è necessario aggiornare o modificare le norme esistenti per rispondere a nuove situazioni, cambiamenti nel contesto o per correggere errori o incongruenze. Ciò può avvenire attraverso diverse procedure, come ad esempio:
+
+1. **Riforma del testo**: Può essere necessario riformare il testo di una norma per aggiornarla o modificarla in base a nuove esigenze o cambiamenti nel contesto.
+2. **Integrazione di disposizioni**: Possono essere emanate disposizioni integrative per integrare nuove norme con quelle esistenti, creando un quadro più completo e coerente.
+3. **Riassetto delle disposizioni**: Può essere necessario riassettare le disposizioni esistenti per migliorarne la struttura, la chiarezza o la efficacia.
+4. **Correttive**: Possono essere emanate disposizioni correttive per correggere errori o incongruenze nelle norme esistenti.
+
+In generale, le disposizioni integrative, di riassetto o correttive possono essere emesse attraverso diverse procedure, come ad esempio:
+
+* **Legge**: Può essere necessario emanare una legge per apportare modifiche significative alle norme esistenti.
+* **Decreto legislativo**: Possono essere emanati decreti legislativi per apportare modifiche alle norme esistenti, come ad esempio un decreto che introduce nuove disposizioni o modifica quelle esistenti.
+* **Regolamento**: Può essere necessario emanare un regolamento per stabilire dettagli specifici su una norma o per integrarla con altre norme.
+* **Decreto del Presidente del Consiglio dei Ministri (DPCM)**: Possono essere emessi decreti del Presidente del Consiglio dei Ministri per apportare modifiche alle norme esistenti, come ad esempio un DPCM che introduce nuove disposizioni o modifica quelle esistenti.
+
+In ogni caso, le disposizioni integrative, di riassetto o correttive devono essere emesse in base a una valutazione della necessità e dei benefici che potrebbero derivare dalle modifiche.",Entro due anni dalla data di entrata in vigore dei decreti legislativi di cui al comma 14.,0.6870657794757454,0,42.195513542043045
+N-750-HYB,Quando è stato pubblicato il decreto legislativo 'Codice del consumo'?,multiple_choice,B,B,La risposta è B) 8 ottobre 2005.,8 ottobre 2005,1.0,1,5.966197834000923
+N-750-HYB,Chi ha attribuito le funzioni di competenza statale in materia di turismo al Presidente del Consiglio dei Ministri?,short,,,"Il Presidente del Consiglio dei Ministri o il Ministro delegato hanno attribuito le funzioni di indirizzo ed esercizio della vigilanza su ACI e CAI, in modo da istituire forme di collaborazione nell'ambito dei rispettivi settori di competenza.",Il Ministro dello sviluppo economico,0.6496864938012697,0,9.091864915913902
+N-750-HYB,Quali sono le qualifiche professionali?,short,,,"Le qualifiche professionali richieste per partecipare all'Ecosistema TDH022 sono:
+
+*   una formazione professionale a struttura particolare, con competenze che vanno oltre quanto previsto al livello b, equivalenti al livello di formazione indicato al punto i);
+*   un diploma attestante che il titolare ha completato con successo una formazione a livello di insegnamento post-secondario di una durata minima di tre anni e non superiore a quattro anni, o di una durata equivalente a tempo parziale.","Le qualifiche professionali sono attestate da un titolo di formazione, un attestato di competenza e/o un'esperienza professionale.",0.8583934894560901,1,13.696808333974332
+N-750-HYB,Cosa costituisce una professione regolamentata secondo la direttiva?,multiple_choice,D,B,La risposta è B) Un attestato di competenza.,Un titolo professionale riservato,0.0,0,5.372407000046223
+N-750-HYB,Cosa si intende per 'tirocinio professionale'?,short,,,"Il ""tirocinio professionale"" è un periodo di pratica professionale effettuato sotto supervisione, che costituisce una condizione per l'accesso a una professione regolamentata e può svolgersi durante o dopo il completamento di un'istruzione che conduce a un diploma.","Un periodo di pratica professionale effettuato sotto supervisione, che costituisce una condizione per l'accesso a una professione regolamentata.",0.8791216603070965,1,9.534644874976948
+N-750-HYB,Cosa sono le 'misure compensative' in relazione all'accesso parziale a un'attività professionale?,multiple_choice,B,A,"Le ""misure compensative"" in relazione all'accesso parziale a un'attività professionale sono misure che consentono al beneficiario di accedere parzialmente a una professione nello Stato membro ospitante, garantendo le stesse condizioni dei cittadini di tale Stato membro.
+
+La risposta corretta è A) Procedure per ottenere una licenza speciale.",Misure per ridurre i requisiti di formazione,0.0,0,11.030165291042067
+N-750-HYB,Quali documenti possono essere richiesti dagli Stati membri per la dichiarazione di un prestatore di servizi?,short,,,"Secondo l'articolo 6 del Decreto Legislativo 1° marzo 2021, n. 22, gli Stati membri possono richiedere ai propri cittadini i seguenti documenti per la dichiarazione di un prestatore di servizi:
+
+*   Attestato che confermi l'assenza di sospensioni temporanee o definitive dall'esercizio della professione
+*   Attestato che confermi l'assenza di condanne penali
+*   Certificato di assicurazione contro i rischi pecuniari inerenti alla responsabilità professionale","Prova della nazionalità del prestatore, attestato di legalità per l'esercizio delle attività, prova dei titoli di qualifiche professionali, prova dell'attività svolta negli ultimi dieci anni, attestato di assenza di sospensioni o condanne penali, dichiarazione della conoscenza della lingua necessaria, certificato della natura e durata dell'attività.",0.8067142359295834,1,13.841592582990415
+N-750-HYB,Quando un prestatore di servizi può avere accesso all'attività di servizio su tutto il territorio dello Stato membro interessato?,multiple_choice,A,B,La risposta è B) Dopo aver superato una prova attitudinale.,Quando presenta la richiesta dichiarazione,0.0,0,5.786788542056456
+N-750-HYB,Quali sono i titoli di formazione richiesti per l'accesso alle attività professionali di medico di medicina generale?,short,,,"I titoli di formazione richiesti per l'accesso alle attività professionali di medico di medicina generale sono:
+
+*   Laurea in Medicina e Chirurgia
+*   Laurea Specialistica in Medicina Generale
+*   Attestato di abilitazione all'esercizio della professione di medico di medicina generale","I titoli di formazione richiesti per l'accesso alle attività professionali di medico di medicina generale sono quelli elencati all'allegato V, punto 5.1.4.",0.8491107126989961,1,10.000950457993895
+N-750-HYB,Quali sono le condizioni per l'ammissione alla formazione di infermiere responsabile dell'assistenza generale?,multiple_choice,A,B,La risposta è B) Completamento di una formazione scolastica di almeno dieci anni.,Completamento di una formazione scolastica di dodici anni,0.0,0,6.118471666006371
+N-750-HYB,Quali sono le conoscenze richieste per l'esercizio delle attività professionali di un dentista di base?,short,,,"Le conoscenze richieste per l'esercizio delle attività professionali di un dentista di base, come specificato dall'articolo 21 del Decreto legislativo 30 luglio 1999, n. 300, sono:
+
+*   Conoscenza della riforma dell’organizzazione del Governo, ai sensi dell’articolo 11 della legge 15 marzo 1997, n.59;
+*   Conoscenza delle norme in materia di procedimento amministrativo e di diritto di accesso ai documenti amministrativi, come specificato dalla legge 7 agosto 1990, n. 241;
+*   Conoscenza delle disposizioni in materia di giurisdizione e controllo della Corte dei Conti, come specificato dalla legge 14 gennaio 1994, n. 20.
+*   Conoscenza delle norme in materia di turismo, come specificato dal decreto legislativo 30 luglio 1999, n. 300.
+
+Inoltre, la prova attitudinale deve tener conto del fatto che il richiedente è un professionista qualificato nello Stato membro d’origine o di provenienza e deve comprendere la conoscenza delle regole professionali applicabili alle attività in questione nello Stato membro ospitante.","Adeguate conoscenze delle scienze sulle quali si fonda l'odontoiatria, della costituzione, fisiologia e comportamento di persone sane e malate, struttura e funzione di denti, bocca, mascelle e relativi tessuti, discipline cliniche per diagnosi e terapia, esperienza clinica sotto opportuno controllo.",0.7192822687585619,1,24.981343791936524
+N-750-HYB,Quali sono le competenze necessarie per un infermiere responsabile dell'assistenza generale?,multiple_choice,A,A,"La risposta corretta è:
+
+A) Competenza di individuare autonomamente le cure infermieristiche necessarie.",Competenza di individuare autonomamente le cure infermieristiche necessarie,1.0,1,7.39711824990809
+N-750-HYB,Quali sono le conoscenze e competenze acquisite durante la formazione di farmacista?,short,,,"Secondo l'articolo 31, paragrafo 1 della Direttiva 2013/53/UE, il farmacista deve avere le seguenti conoscenze e competenze:
+
+*   Conoscenza delle proprietà farmacologiche dei medicinali;
+*   Conoscenza delle indicazioni di prescrizione per i medicinali;
+*   Conoscenza delle informazioni relative alla sicurezza del prodotto farmaceutico;
+*   Conoscenza delle informazioni relative al packaging e alla confezione del prodotto farmaceutico.
+*   Competenza nell'operare in un ambiente di laboratorio, utilizzando strumenti e attrezzature specifiche per la preparazione dei medicinali.","a) un'adeguata conoscenza dei medicinali e delle sostanze utilizzate per la loro fabbricazione; b) un'adeguata conoscenza della tecnologia farmaceutica e del controllo fisico, chimico, biologico e microbiologico dei medicinali; c) un'adeguata conoscenza del metabolismo e degli effetti dei medicinali, nonché dell'azione delle sostanze tossiche e dell'utilizzazione dei medicinali stessi; d) un'adeguata conoscenza che consenta di valutare i dati scientifici concernenti i medicinali in modo da potere su tale base fornire le informazioni appropriate; e) un'adeguata conoscenza dei requisiti legali e di altro tipo in materia di esercizio delle attività farmaceutiche.",0.820003270282902,1,15.551427999977022
+N-750-HYB,"Quali attività sono aperte ai titolari di un titolo di formazione in farmacia, rilasciato da un istituto universitario o da un istituto di livello riconosciuto equivalente?",multiple_choice,A,A,"Le attività aperte ai titolari di un titolo di formazione in farmacia, rilasciato da un istituto universitario o da un istituto di livello riconosciuto equivalente sono:
+
+A) Preparazione della forma farmaceutica dei medicinali
+B) Fabbricazione e controllo dei medicinali
+
+Le altre opzioni non sono corrette, poiché:
+
+* C) Assistenza legale nelle farmacie è un'attività che richiede una formazione diversa da quella di farmacia.
+* D) Produzione di dispositivi medici è un'attività che richiede una formazione specifica e non è direttamente correlata al titolo di formazione in farmacia.",a) Preparazione della forma farmaceutica dei medicinali,1.0,1,15.93197949999012
+N-750-HYB,Quali sono le attività professionali per le quali le autorità competenti di uno Stato membro devono informare le autorità competenti di tutti gli altri Stati membri in caso di limitazione o divieto temporaneo?,short,,,"Le autorità competenti di uno Stato membro devono informare le autorità competenti di tutti gli altri Stati membri in caso di limitazione o divieto temporaneo per le seguenti attività professionali:
+
+*   Attività che richiedono la qualifica professionale rilasciata dallo Stato membro d'origine;
+*   Attività che richiedono la qualifica professionale rilasciata in un altro Stato membro;","medico generico, medico specialista, infermiere responsabile dell’assistenza generale, dentista, dentista specialista, veterinario, ostetrica, farmacista, possessori dei certificati di formazione specifici, possessori di attestati di diritti acquisiti, altri professionisti con attività che influiscono sulla sicurezza dei pazienti, professionisti che lavorano nell'istruzione dei minori",0.7337272159868538,1,12.058300291071646
+N-750-HYB,Qual è la durata minima della specializzazione in Oftalmologia?,short,,,"Non c'è una risposta alla domanda. La domanda sembra essere stata inserita a scopo di test e non ha una risposta logica o scientifica. Se desideri, posso aiutarti con un'altra domanda.",3 anni,0.3706272836793605,0,8.20702645892743
+N-750-HYB,Qual è la specializzazione medica che richiede una durata minima di 5 anni?,multiple_choice,C,A,La risposta è A) Neurochirurgia.,Chirurgia plastica,0.0,0,5.23466462502256
+N-750-HYB,Quale titolo di formazione è rilasciato in Belgio/Belgio per gli infermieri responsabili dell'assistenza generale?,short,,,"Il titolo di formazione rilasciato in Belgio è il diploma di ""licenza di infermiere"" ottenuto sulla base di uno speciale programma di rivalorizzazione.",Diploma gegradueerde verpleger/verpleegster/Diplôme gradué(e) en soins infirmiers,0.5647351736143419,0,7.392564125009812
+N-750-HYB,In quale paese il titolo professionale per gli infermieri responsabili dell'assistenza generale è 'Hospitalier(ère)/Verpleegassi­stent(e)'?,multiple_choice,A,C,La risposta è C) Italia.,Belgio,0.0,0,4.997881666989997
+N-750-HYB,Qual è il titolo di formazione per diventare un ostetrico in Belgio?,short,,,"Non sono riuscito a trovare informazioni su un titolo specifico di formazione per diventare un ostetrico in Belgio. Tuttavia, posso fornirti alcune informazioni generali sulla formazione e sulle esigenze per diventare un ostetrico.
+
+In Belgio, come in molti altri paesi, la formazione per diventare un ostetrico è gestita dal sistema sanitario nazionale. Per diventare un ostetrico in Belgio, è necessario completare una formazione di base in medicina e specializzarsi in ostetricia.
+
+La formazione di base in medicina in Belgio è di solito di 6 anni (5 anni di studio universitario + 1 anno di pratica clinica) e include la laurea in medicina. Dopo aver completato la formazione di base, è necessario specializzarsi in ostetricia, che richiede un'altra 2-3 anni di formazione e pratica clinica.
+
+Inoltre, gli ostetrichi in Belgio devono anche ottenere una licenza professionale e registrarsi presso l'Ordine dei Medici e degli Ostetrichi della regione in cui intendono esercitare la propria attività.
+
+È importante notare che le esigenze per diventare un ostetrico possono variare a seconda della regione e del tipo di impiego desiderato. È sempre consigliabile consultare l'Ordine dei Medici e degli Ostetrichi della regione in cui si desidera esercitare la propria attività per ottenere informazioni aggiornate e specifiche sulla formazione e sulle esigenze richieste.",Diploma van vroedvrouw,0.3574479814769636,0,31.561042458983138
+N-750-HYB,In quale paese viene rilasciato il titolo di 'Hebamme'?,multiple_choice,A,A,"La risposta è A) Germania. Il titolo di ""Hebamme"" (tradotto come ""partoratrice assistita"") viene rilasciato in Germania.",Germania,1.0,1,10.314076208975166
+N-750-HYB,Quali istituti rilasciano il titolo di Architetto in Croazia?,short,,,"Istituti che rilasciano il titolo di Architetto in Croazia sono:
+
+* Facoltà di Architettura dell'Università di Zagrab
+* Scuola di Architettura dell'Università di Split
+* Scuola di Architettura dell'Università di Osijek","Arhitektonski fakultet Sveučilišta u Zagrebu, Građevinsko-arhitektonski fakultet Sveučilišta u Splitu, Fakultet građevinarstva, arhitekture i geodezije Sveučilišta u Splitu",0.6451974889262242,0,21.77524245902896
+N-750-HYB,Da quale istituto viene rilasciato il titolo di Architetto in Grecia?,multiple_choice,A,A,La risposta è A) Metsovion Polytechnion di Atene.,Metsovion Polytechnion di Atene,1.0,1,8.9273597500287
+N-750-HYB,Qual è il titolo di formazione rilasciato dall'Università di Zagabria per gli studi completati presso il Tehnički fakultet?,short,,,Il titolo di formazione rilasciato dall'Università di Zagabria per gli studi completati presso il Tehnički fakultet è un diploma.,Diploma «inženjer»,0.5963946930401832,0,7.832356582977809
+N-750-HYB,Qual è il titolo di formazione rilasciato dall'Università di Breslavia per gli studi completati presso la Facoltà di Architettura?,multiple_choice,B,B,La risposta è B.,Diploma di architetto,1.0,1,6.084411500021815
+N-750-HYB,When did the Italian authorities notify the scheme to compensate tour operators and travel agencies?,short,,,"Non sono riuscito a trovare informazioni sulla data in cui le autorità italiane hanno notificato il piano per compensare gli operatori di turismo e le agenzie di viaggio. Tuttavia, posso dirti che il piano è stato parte del Piano Nazionale di Ripresa e Resilienza (PNRR) approvato con Decisione del Consiglio ECOFIN del 13 luglio 2021.
+
+Il PNRR prevede la realizzazione di una piattaforma web dedicata, chiamata ""Hub del Turismo Digitale"" o ""Tourism Digital Hub"", che consenta il collegamento dell'intero Ecosistema turistico al fine di valorizzare, integrare e favorire la propria offerta.
+
+Se hai altre domande, non esitare a chiedere!",18 March 2021,0.4205835708098024,0,19.684500334085897
+N-750-HYB,What was the measure's objective according to the document?,multiple_choice,D,A,"The correct answer is A) To provide compensation for damages under EUR 1.8 million.
+
+According to the document, the measure's objective was to provide compensation for damages under EUR 1.8 million, as stated in Article 6, comma 1, of the Decreto Legge 1° marzo 2021, n. 22, converted, with modifications, by the law 22 aprile 2021, n. 55.
+
+The other options are not mentioned in the document as objectives of the measure.",To provide compensation for damages above EUR 1.8 million,0.0,0,14.031283083022572
+N-750-HYB,When did the ban on leaving people's own home residence in Italy remain in force?,short,,,"Non sono riuscito a trovare informazioni sulla data esatta in cui è entrato in vigore il divieto di lasciare la propria casa in Italia. Tuttavia, posso dirti che il divieto di soggiorno fu introdotto nel marzo 2020 per contenere la diffusione del COVID-19 e rimase in vigore fino a quando non fu rilasciato il decreto legge ""Cura Italia"" del 25 aprile 2020, che consentì ai cittadini di muoversi all'esterno casa con alcune limitazioni.",From 10 March to 18 May 2020,0.5332381441767152,0,19.79089341708459
+N-750-HYB,Until when was the travel ban to and from extra-EU/Schengen countries in place?,multiple_choice,A,B,La risposta è B) 18 Maggio 2020.,31 July 2020,0.0,0,6.1043316250434145
+N-750-HYB,What were some of the restrictive measures applied to travellers coming from Italy?,short,,,Non sono riuscito a trovare informazioni sulla domanda. Per favore forniscimi un'altra possibilità?,"Travel warnings, suspension of flights, entry bans, quarantine measures",0.40798744518489277,0,7.062524582957849
+N-750-HYB,How much did the tourism sector in Italy generate in terms of GDP?,multiple_choice,B,C,La risposta è C) 6.6 billion.,13%,0.0,0,6.0175153750460595
+N-750-HYB,What was the turnover percentage decrease for travels to all countries in the period from 1 to 9 March 2020 compared to the same period in 2019?,short,,,Non sono riuscito a trovare informazioni sulla percentuale di riduzione del turnover per i viaggi a tutti gli effetti nei periodi dal 1 al 9 marzo 2020 rispetto allo stesso periodo nel 2019.,-78.3%,0.38374495467912123,0,8.93260029098019
+N-750-HYB,What is the overall budget of the measure?,short,,,Non è stato specificato l'importo del budget della misura.,EUR 625 million,0.47043508244200993,0,10.410604209057055
+N-750-HYB,Quali sono i beneficiari della misura?,short,,,"I beneficiari della misura ""Hub del Turismo Digitale"" (TDH) sono:
+
+*   L'intero sistema turistico italiano
+*   Tutti gli attori coinvolti nel settore del turismo, come Regioni, Province Autonome, Enti Privati e Pubblici integrativi rispetto al sistema nazionale, Enti Privati e Pubblici integrativi rispetto al sistema nazionale
+*   I turisti e i potenziali turisti","Le agenzie di viaggio e i tour operator che hanno subito una riduzione del fatturato superiore a 1,8 milioni di euro e che soddisfano determinati requisiti.",0.6681628618808358,0,13.803407834027894
+N-750-HYB,Quali sono i requisiti necessari per poter beneficiare della misura?,multiple_choice,A,A,La risposta è A) Essere attivi in Italia e registrati nel Registro delle Imprese sotto determinati codici ATECO.,Essere attivi in Italia e registrati nel Registro delle Imprese sotto determinati codici ATECO,1.0,1,7.83216099999845
+N-750-HYB,How will the compensation for damage be calculated under the measure?,short,,,"Non sono riuscito a trovare informazioni sulla domanda ""Come verrà calcolata la compensazione per il danno sotto la misura?"" nella richiesta di testo fornita. Tuttavia, posso cercare di fornire una risposta generale.
+
+La compensazione per il danno è un concetto che può variare a seconda del contesto e della legge applicabile. In generale, la compensazione per il danno è calcolata in base alle spese sostenute dal danneggiato per ripristinare le condizioni precedenti al danno o per coprire i costi di riparazione.
+
+In questo caso, si tratta della misura ""Turismo 4.0"" del Piano Nazionale di Ripresa e Resilienza (PNRR), che prevede la realizzazione di una piattaforma web dedicata per valorizzare, integrare e favorire l'offerta turistica.
+
+La compensazione per il danno in questo contesto potrebbe essere calcolata in base alle spese sostenute per la realizzazione e la gestione della piattaforma, nonché per le spese di promozione e marketing per attirare i turisti. Tuttavia, senza ulteriori informazioni sulla specifica misura e sul contesto in cui viene applicata, è difficile fornire una risposta più precisa.
+
+Se desideri una risposta più dettagliata, potresti fornire ulteriori informazioni sulla richiesta di testo o sul contesto in cui si trova la domanda.",The compensation will not exceed the lower of the two amounts calculated using both methodologies.,0.4616933460387033,0,32.05206304194871
+N-750-HYB,Quando era aperto il periodo per la presentazione delle domande per beneficiare del supporto della misura in esame?,short,,,Il periodo per la presentazione delle domande per beneficiare del supporto della misura in esame era chiuso.,Il periodo per la presentazione delle domande era aperto dal 21 settembre 2020 al 9 ottobre 2020.,0.7483167044785815,1,7.351743167033419
+N-750-HYB,Qual è uno dei requisiti affinché una misura possa essere considerata aiuto di Stato?,multiple_choice,A,A,La risposta è A) Deve essere finanziata da risorse dello Stato.,Deve essere finanziata da risorse dello Stato,1.0,1,6.196391750010662
+N-750-HYB,What must be cumulatively met for an event to be characterized as an exceptional occurrence?,short,,,"Non sono riuscito a trovare la risposta alla domanda ""QUESTION"" nel testo fornito. Tuttavia, posso cercare di aiutarti con una domanda simile.
+
+La domanda potrebbe essere: ""Qual è il requisito cumulativo per un evento che possa essere caratterizzato come un'occasione eccezionale?""
+
+Se desideri fornire più contesto o chiarire la domanda, sarò felice di aiutarti ulteriormente.",(i) unforeseeable or difficult to foresee; (ii) significant scale/economic impact; and (iii) extraordinary,0.4905172581535867,0,13.313003791961819
+N-750-HYB,What determines the exceptional nature of the circumstances of COVID-19 as an exceptional occurrence?,multiple_choice,A,A,La risposta è A) The WHO declaration of a pandemic.,The WHO declaration of a pandemic,1.0,1,6.581329792039469
+N-750-HYB,Quali sono le date considerate per il calcolo dei danni compensabili legati all'eccezionale evento COVID-19?,short,,,"Le date considerate per il calcolo dei danni compensabili legati all'eccezionale evento COVID-19 sono:
+
+*   1° marzo 2020
+*   31 dicembre 2020",Dal 1 marzo al 31 luglio 2020,0.8159033051914819,1,8.331184541922994
+N-750-HYB,Per quali motivi la Commissione considera l'eccezionale evento COVID-19 come causa dei danni compensati dalla misura?,multiple_choice,A,C,La risposta è C) Per l'imposizione di misure di contenimento del virus.,A) Per l'imposizione di restrizioni di viaggio,0.0,0,6.9826238750247285
+N-750-HYB,When was a national lockdown declared in Italy?,short,,,"Non è stato specificato nel testo fornito quando è stata dichiarata la lockout nazionale in Italia. Tuttavia, si può supporre che si riferisce al periodo della pandemia di COVID-19 in Italia. La prima lockout nazionale in Italia è stata dichiarata il 9 marzo 2020.",9 March 2020,0.45527308867185556,0,10.34069816605188
+N-750-HYB,Until when did extra-EU/Schengen travel bans continue to apply?,multiple_choice,C,C,La risposta è C) 31 luglio 2020.,31 July 2020,1.0,1,6.576176290982403
+N-750-HYB,Quali danni possono essere compensati secondo le autorità italiane?,short,,,"Secondo le autorità italiane, i danni che possono essere compensati sono quelli subiti a causa di:
+
+1.  **Inadempimento contrattuale**: se il prestatore non ha soddisfatto gli obblighi contrattuali, il cliente può chiedere il risarcimento dei danni subiti.
+2.  **Danni personali**: se il cliente ha subito danni fisici o emotivi a causa della prestazione di servizi, può richiedere il risarcimento dei danni.
+3.  **Danni patrimoniali**: se il cliente ha subito perdite economiche a causa della prestazione di servizi, può richiedere il risarcimento dei danni.
+
+Inoltre, secondo la legge italiana, i danni possono essere compensati anche in caso di:
+
+1.  **Ritiro del servizio**: se il prestatore non ha fornito il servizio previsto, il cliente può chiedere il risarcimento dei danni.
+2.  **Danni alla reputazione**: se la prestazione di servizi ha causato danni alla reputazione del cliente, può richiedere il risarcimento dei danni.
+
+È importante notare che la compensazione dei danni è soggetta a diverse condizioni e requisiti, come ad esempio la necessità di provare l'esistenza del danno e la causalità tra il danno e la prestazione di servizi.",I danni direttamente attribuibili alle misure restrittive che hanno impedito ai beneficiari di svolgere le proprie attività economiche nel periodo di compensazione.,0.7537589065643563,1,29.362278625019826
+N-750-HYB,Quali danni possono essere compensati durante il periodo delle restrizioni di viaggio extra EU/Schengen?,multiple_choice,D,B,"La risposta corretta è:
+
+B) Danni dovuti a cancellazioni di prenotazioni",Danni dovuti a restrizioni di viaggio extra EU/Schengen,0.0,0,6.898160292068496
+N-750-HYB,"Quali articoli sono stati introdotti nel Decreto Legislativo 30 luglio 1999, n. 300 dal decreto-legge 1° marzo 2021, n. 22?",short,,,"Gli articoli introdotti nel Decreto Legislativo 30 luglio 1999, n. 300 dal decreto-legge 1° marzo 2021, n. 22 sono:
+
+*   Articolo 3: ""Fondo per le aree sottoutilizzate""
+*   Articolo 4: ""Istituzione del Dipartimento per lo sviluppo e la competitività del turismo""","54-bis, 54-ter e 54-quater",0.42361855464535114,0,11.870663375011645
+N-750-HYB,"Quale organo è stato istituito con il decreto-legge 1° marzo 2021, n. 22?",multiple_choice,C,C,La risposta è C) Ministero del Turismo.,Ministero del Turismo,1.0,1,6.530295625096187
+N-750-HYB,Come è ridenominato il Ministero per i Beni e le Attività Culturali e per il Turismo?,short,,,"Il Ministero per i Beni e le Attività Culturali e per il Turismo è stato riamministrato nel 2022, con la creazione del Ministero per i Beni e le Attività Culturali (MiBAC) e del Ministero per il Turismo.",Ministero della Cultura,0.6716784232098523,0,9.48360362497624
+N-750-HYB,Quale organismo istituisce il dispositivo per la ripresa e la resilienza?,multiple_choice,B,C,La risposta è C) Piano Nazionale di Ripresa e Resilienza.,Regolamento (UE),0.0,0,7.49106520798523
+N-750-HYB,Quali sono gli obiettivi che si intendono raggiungere tramite il TDH?,short,,,"Gli obiettivi che si intendono raggiungere tramite il TDH (Hub del Turismo Digitale) sono:
+
+1.  Valorizzare, integrare e favorire la propria offerta turistica verso l'Italia con la relativa offerta italiana (erogata da diversi attori), mettendo in relazione tra loro gli interessi della persona (turista), le destinazioni e l'offerta prima, durante e dopo l'esperienza turistica.
+2.  Creare valore per tutti gli attori coinvolti nel ciclo di vita delle interfacce di programmazione.
+3.  Supportare l'interoperabilità tra applicazioni e servizi sia esterni che interni al TDH, in particolare:
+    *   Servizi esterni: dati di seconda parte (es. Regioni), dati di terza parte (es Enti Privati e Pubblici integrativi rispetto al sistema nazionale), dati geografici.
+4.  Migliorare la gestione dell'intero ciclo di vita delle interfacce di programmazione, supportando l'accesso ai dati e alle informazioni necessarie per le decisioni di programmazione.","incrementare i flussi, le destinazioni e la spesa, aumentando la qualità dell’offerta e relativa visibilità dei punti di interesse turistici in Italia (POI); valorizzare l’esistente complesso di risorse e beni digitali - ad esempio i portali regionali - senza sovrapporsi, offrendo in aggiunta soluzioni per l’ottimizzazione dei costi; rafforzare il ruolo delle risorse digitali del TDH, definendoli come veri e propri punti di riferimento istituzionali per la ricerca di informazioni inerenti ai punti di interesse rispetto alla moltitudine di turisti nazionali ed internazionali; coinvolgere l’intero sistema turistico italiano mediante un approccio libero da vincoli (open source) che raccolga informazioni sia in ingresso che in uscita per tutti gli attori coinvolti; fidelizzare gli utenti (e quindi, potenziali turisti) attraverso proposte personalizzate rispetto alle loro esigenze",0.8584865919111362,1,22.932675665942952
+N-750-HYB,Qual è uno degli obiettivi che si intendono raggiungere tramite il TDH?,multiple_choice,A,A,La risposta è A) Aumentare la qualità dell’offerta turistica in Italia.,Aumentare la qualità dell’offerta turistica in Italia,1.0,1,6.729582333937287
+N-750-HYB,Qual è l'obiettivo dell'iniziativa TDH?,short,,,"L'obiettivo dell'iniziativa TDH (Tourism Digital Hub) è quello di creare un hub digitale per il turismo italiano, che consenta al collegamento dell'intero sistema turistico nazionale e valorizzi, integri e favorisca l'offerta turistica italiana.","Il rilancio di 'Italia.it', arricchito con nuovi contenuti prodotti internamente e in collaborazione con le Regioni e Province Autonome, ma anche attraverso integrazioni con partner in ambito Turistico.",0.7338198853438157,1,9.189474542043172
+N-750-HYB,Chi ha il compito di coordinare l'intero Ecosistema turistico italiano?,multiple_choice,A,C,La risposta è C) Le Regioni e Province Autonome.,Il Ministero del Turismo,0.0,0,5.562445625080727
+N-750-HYB,Qual è l'obiettivo della Piattaforma di Integrazione all'interno del TDH?,short,,,"L'obiettivo della Piattaforma di Integrazione all'interno del TDH (Tourism Digital Hub) è quello di favorire la nascita di una piattaforma che offra informazioni puntuali e corrette sui punti di interesse in Italia, con l'obiettivo di popolare piattaforme esterne per la localizzazione.",Supportare l'interoperabilità tra applicazioni e servizi sia esterni che interni al TDH.,0.676418086379037,0,9.889379665954039
+N-750-HYB,Qual è uno dei servizi esterni previsti dalla Piattaforma di Integrazione?,multiple_choice,D,B,La risposta è B) Dati di prima parte.,Dati di terza parte,0.0,0,5.293917540926486
+N-750-HYB,Qual è la finalità dell'Ecosistema TDH022?,short,,,"La finalità dell'Ecosistema TDH022 è quella di garantire il coordinamento informatico e informativo dei dati tra le Amministrazioni (centrali, regionali e locali), gli Enti e Società Terze con l'Ecosistema Digitale del TDH.",Lo scambio di dati e contenuti sia 'aperti' che 'chiusi' tra i partecipanti.,0.674089828895359,0,8.808690125006251
+N-750-HYB,Quali funzioni possono svolgere gli operatori aderenti all'Ecosistema TDH022?,multiple_choice,B,B,"Le risposte corrette sono:
+
+B) Erogare servizi
+D) Offrire servizi di trasporto pubblico",Erogare servizi,1.0,1,6.241390333976597
+N-750-HYB,Quali sono alcuni degli obiettivi garantiti dalle Linee Guida Ecosistema TDH022?,short,,,"Gli obiettivi garantiti dalle Linee Guida Ecosistema TDH022 sono:
+
+*   Supportare l'interoperabilità tra applicazioni e servizi sia esterni che interni al TDH
+*   Fidelizzare gli utenti (e quindi, potenziali turisti) attraverso proposte personalizzate rispetto alle loro esigenze e preferenze
+*   Favorire la nascita di una piattaforma che offra informazioni puntuali e corrette sui punti di interesse in Italia","adeguata evoluzione della tecnologia, aderenza alle indicazioni del Quadro Europeo di Interoperabilità (EIF), adeguatezza alle esigenze informativo/tecniche delle amministrazioni e dei suoi utenti, adozione da parte degli Enti pubblici e dei collaboratori privati interessati, ontologie e tassonomie uniformi per la classificazione e l’organizzazione dei contenuti, adozione di adeguati livelli di sicurezza",0.6751497977180997,0,12.299954875023104
+N-750-HYB,Quali sono alcune delle caratteristiche delle Linee Guida Ecosistema TDH022?,multiple_choice,C,C,La risposta è C) Interoperabilità dei sistemi informatici.,Interoperabilità dei sistemi informatici,1.0,1,5.616620082990266
+N-750-HYB,Chi emana le Linee Guida Ecosistema TDH022?,short,,,Il Ministro del Turismo.,Il Direttore Generale della Direzione Generale della Valorizzazione e della Promozione Turistica del Ministero del Turismo.,0.7855897410160144,1,4.979853208991699
+N-750-HYB,Cosa definiscono le Linee Guida Ecosistema TDH022?,multiple_choice,A,D,Le Linee Guida Ecosistema TDH022 definiscono le modalità di adesione all'Ecosistema TDH022.,I contesti di interazione all'interno dell'Ecosistema TDH022,0.0,0,6.293453457998112
+N-750-HYB,Dove vengono pubblicate le Linee Guida Ecosistema TDH022?,short,,,Le Linee Guida Ecosistema TDH022 vengono pubblicate sul sito web del Ministero del Turismo.,"Nel portale istituzionale del Ministero del Turismo, sezione Normativa e nel portale “docs Italia” gestito dal Dipartimento istituito per effetto del Decreto del Presidente del Consiglio dei Ministri (DPCM) del 19 giugno 2019.",0.7004888050703851,1,6.2600667079677805
+N-750-HYB,Come avvengono i trattamenti di dati personali nell’Ecosistema TDH022?,multiple_choice,A,A,La risposta è A) Tramite il portale Italia.it e la relativa app.,Tramite il portale Italia.it e la relativa app,1.0,1,5.790900707943365
+N-750-HYB,Quali sono le finalità per le quali i dati personali raccolti dal Ministero e dagli operatori aderenti possono essere utilizzati?,short,,,"I dati personali raccolti dal Ministero del Turismo e dagli operatori aderenti possono essere utilizzati per:
+
+1.  Fornire informazioni puntuali e corrette sui punti di interesse in Italia;
+2.  Favorire la nascita di una piattaforma che offra servizi personalizzati agli utenti;
+3.  Promuovere il rilancio del settore turistico italiano;
+4.  Fidelizzare gli utenti attraverso proposte personalizzate rispetto alle loro esigenze e preferenze.
+5.  Favorire la localizzazione dei punti di interesse in piattaforme esterne, aumentando la visibilità sui più comuni motori di ricerca.",Esclusivamente per le specifiche finalità per le quali sono stati raccolti,0.614964186530269,0,15.372266624937765
+N-750-HYB,Quali misure devono essere adottate per garantire l'utilizzo di procedure matematiche e statistiche adeguate nei processi decisionali automatizzati?,multiple_choice,D,D,La risposta corretta è D) Adozione di misure idonee.,Adozione di misure idonee,1.0,1,5.661240500048734
+N-750-HYB,Quali sono i principi che devono essere rispettati per il trattamento dei dati personali secondo il decreto citato?,short,,,"Secondo il decreto, i principi che devono essere rispettati per il trattamento dei dati personali sono:
+
+1. La protezione dei dati personali è garantita in modo efficace.
+2. I dati personali vengono raccolti solo se necessari per l'obiettivo specifico del trattamento.
+3. I dati personali vengono trattati in modo da garantire la sicurezza e la confidenzialità dei dati.
+4. I dati personali non vengono condivisi con terze parti senza il consenso del soggetto interessato.
+5. I dati personali vengono archiviati solo per il tempo necessario per raggiungere l'obiettivo specifico del trattamento.
+6. I dati personali vengono resi disponibili agli utenti in modo chiaro e comprensibile, facile da accedere tramite connessione remota e via elettronica, e aggiornati.
+
+Inoltre, il decreto richiede che gli Stati membri provvedano a garantire la protezione dei dati personali secondo i principi della direttiva 2005/3/CE.","Principio di limitazione della finalità, principio di minimizzazione dei dati, principio di limitazione della conservazione, principio di integrità e riservatezza",0.7557413875343525,1,21.90322170802392
+N-750-HYB,Chi è il titolare dei trattamenti di dati personali nell'ambito dell'Ecosistema TDH022 secondo il decreto citato?,multiple_choice,C,C,La risposta è C) Ministero del Turismo.,Ministero del Turismo,1.0,1,5.305294792051427
+N-750-HYB,Quali misure devono essere adottate in caso di trasferimenti di dati personali verso un Paese terzo o un’organizzazione internazionale?,short,,,"Le misure da adottare in caso di trasferimenti di dati personali verso un Paese terzo o un'organizzazione internazionale sono:
+
+1.  **Obtaining explicit consent**: l'organizzazione deve ottenere il consenso esplicito del soggetto interessato prima di effettuare il trasferimento dei dati.
+2.  **Garantendo la sicurezza dei dati**: l'organizzazione deve garantire che i dati siano trattati in modo sicuro e protetti, utilizzando misure come criptografia, autenticazione e autorizzazione.
+3.  **Utilizzando accordi di trasferimento dati**: l'organizzazione può utilizzare accordi di trasferimento dati con il Paese terzo o l'organizzazione internazionale per garantire che i dati siano trattati in modo sicuro e protetto.
+4.  **Informando il soggetto interessato**: l'organizzazione deve informare il soggetto interessato del trasferimento dei dati e delle misure di sicurezza adottate.
+5.  **Garantendo la protezione dei dati**: l'organizzazione deve garantire che i dati siano trattati in modo rispettoso della privacy e della dignità del soggetto interessato.
+
+Queste misure devono essere adottate per garantire che i dati personali siano trattati in modo sicuro e protetto, e che il soggetto interessato sia informato e consenziente al trasferimento dei dati.","Misure adeguate a garantire la conformità agli artt. 44 e ss. del Regolamento (UE) 2016/679, assicurando il rispetto delle garanzie contenute negli strumenti di trasferimento prescelti per ciascun trasferimento.",0.6663451188099732,0,27.740355457994156
