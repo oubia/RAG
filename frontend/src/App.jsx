@@ -50,8 +50,8 @@ const App = () => {
   const [selectedChunkSize, setselectedChunkSize] = useState('750');
   const chunksize = ['750',"250"];
 
-  const [selectedapproachRetriever, setselectedapproachRetriever] = useState('Similarity-research');
-  const retrieverOptions = ['Similarity-research', 'Contextual-Compression', 'Answer-With-Multiquery','Hybrid-fusion'];
+  const [selectedapproachRetriever, setselectedapproachRetriever] = useState('Hybrid-fusion');
+  const retrieverOptions = ['Hybrid-fusion','Similarity-research', 'Contextual-Compression', 'Answer-With-Multiquery'];
 
   const handleLLMChange = (e) => { 
     setselectedapproach(e.target.value);

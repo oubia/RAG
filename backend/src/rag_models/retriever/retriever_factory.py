@@ -1,23 +1,25 @@
 import asyncio
 from typing import AsyncGenerator
-
+from typing import List 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.retrievers import (
     ContextualCompressionRetriever,
     EnsembleRetriever,
     BM25Retriever,
 )
+from langchain_core.retrievers import BaseRetriever 
 from langchain_community.document_compressors.rankllm_rerank import RankLLMRerank
 from langchain.schema import HumanMessage, AIMessage, Document
 from langchain.prompts import ChatPromptTemplate
 
 class Retrieval_Factory:
 
-    def __init__(self, llm, vectorstore, chat_history: list | None = None, chunk_size: int = 750):
+    def __init__(self, llm, vectorstore, chat_history: list | None = None, chunk_size: int = 750, max_retrievals: int = 10):
         self.llm = llm
         self.vectorstore = vectorstore
         self.chunk_size = chunk_size
         self.chat_history = chat_history or []
+        self.max_retrievals = max_retrievals
 
     def load_raw_documents(self,csv_dir="D:\homy\S9\data-text-mining\RAG_Embeddings\data\output_csvs\output_csvs"):
         import os, pandas as pd
@@ -78,12 +80,32 @@ class Retrieval_Factory:
         from langchain.retrievers.document_compressors import LLMChainExtractor
 
         try:
+            from langchain.retrievers.document_compressors.base import BaseDocumentCompressor
+            from typing import List
+            from pydantic import BaseModel
+
+            class TopNSliceCompressor(BaseDocumentCompressor, BaseModel):
+                top_n: int = 10
+
+                model_config = {"arbitrary_types_allowed": True}
+
+                def compress_documents(
+                    self,
+                    documents: List[Document],
+                    *args,             
+                    query: str | None = None,
+                    **kwargs,             
+                ) -> List[Document]:
+                    return documents[: self.top_n]
+
+            slice_filter = TopNSliceCompressor(top_n=10)
+
             splitter = RecursiveCharacterTextSplitter(
                 chunk_size    = int(self.chunk_size) ,
                 chunk_overlap = int(self.chunk_size * 0.1)   
-            )
+            )   
 
-            compressor = DocumentCompressorPipeline(transformers=[splitter])
+            compressor = DocumentCompressorPipeline(transformers=[splitter, slice_filter] )
 
 
             return ContextualCompressionRetriever(
@@ -104,11 +126,7 @@ class Retrieval_Factory:
         n_queries: int = 4,         
         top_k    : int = 10,           
     ) -> "MultiQueryRetriever":
-        """
-        • Uses the LLM to generate `n_queries` reformulations of the user question.
-        • Performs similarity search in your *chunk* collection for each reformulation.
-        • Merges and deduplicates, then returns at most `top_k` chunks.
-        """
+
         from langchain.retrievers.multi_query import MultiQueryRetriever
 
         base = self.vectorstore.as_retriever(
@@ -129,7 +147,8 @@ class Retrieval_Factory:
             include_original = True,     
             
         )
-        return mqr
+        return SliceRetriever(base_retriever=mqr, k=self.max_retrievals)
+        #return mqr
 
 
             
@@ -153,7 +172,7 @@ class Retrieval_Factory:
                 include=["documents", "metadatas"],
                 limit=10,         
             ) or {}
-
+            print(len(results), "results found in vectorstore")
             docs_list  = results.get("documents") or []
             metas_list = results.get("metadatas") or []
 
@@ -173,7 +192,9 @@ class Retrieval_Factory:
                 retrievers=[dense, bm25],
                 weights=[alpha, 1 - alpha],
             )
-            return hybrid
+            #return hybrid
+            return SliceRetriever(base_retriever=hybrid, k=self.max_retrievals)
+
 
         except Exception as err:
             import logging, traceback
@@ -207,6 +228,7 @@ class Retrieval_Factory:
         )
 
         response = await qa_chain.ainvoke(query)
+        print(f"[DEBUG] final_docs = {len(response['source_documents'])}")
         answer = response.get("answer", "")
 	    
         source_docs = response.get("source_documents", [])
@@ -270,3 +292,29 @@ class Retrieval_Factory:
         )
         async for chunk in self.converse(query, prompt_template, retriever):
             yield chunk
+
+
+
+
+class SliceRetriever(BaseRetriever):
+    """Wrap any retriever and return only the first *k* docs."""
+    base_retriever: BaseRetriever
+    k: int = 10
+
+    # ---- sync ----
+    def _get_relevant_documents(
+        self, query: str, *, run_manager=None, **kwargs
+    ) -> List[Document]:
+        docs = self.base_retriever._get_relevant_documents(
+            query, run_manager=run_manager, **kwargs  # type: ignore
+        )
+        return docs[: self.k]
+
+    # ---- async ----
+    async def _aget_relevant_documents(
+        self, query: str, *, run_manager=None, **kwargs
+    ) -> List[Document]:
+        docs = await self.base_retriever._aget_relevant_documents(
+            query, run_manager=run_manager, **kwargs  # type: ignore
+        )
+        return docs[: self.k]
