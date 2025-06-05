@@ -1,0 +1,99 @@
+id,k,question_type,question,gold_choice,pred_choice,model_answer,gold_answer,similarity,correct,latency
+MQ_k8,8,multiple_choice,Quali Regioni sono coinvolte nel progetto 'Cammini Aperti'?,B,B,B,Umbria,,1,11.045166667026933
+MQ_k8,8,multiple_choice,"Secondo l'Organizzazione Mondiale della Sanità, come viene definita la disabilità?",C,D,D) Una barriera comportamentale ed ambientale.,Una relazione tra persone con menomazioni e barriere,,0,11.719338624970987
+MQ_k8,8,multiple_choice,Qual è uno dei tipi di barriere che possono essere erette e diventare ostacoli per le persone con disabilità?,D,D,D) Barriere fisiche,Barriere fisiche,,1,11.015408292005304
+MQ_k8,8,multiple_choice,Qual è una delle tipologie di supporti menzionati per compensare la riduzione parziale o totale della capacità di eseguire un'attività dovuta alla disabilità motoria?,D,D,D),Sedia a ruote elettrica o manuale,,1,11.877267749980092
+MQ_k8,8,multiple_choice,Qual è una delle modalità di comunicazione utilizzate dalle persone con disabilità uditiva?,B,B,B),Lettura labiale,,1,12.463015707966406
+MQ_k8,8,multiple_choice,Quali sono alcune delle tipologie di esigenze specifiche menzionate nel testo?,A,C,C,Persone con allergie alimentari,,0,11.406571250001434
+MQ_k8,8,multiple_choice,Qual è uno dei diversi ambiti su cui occorre lavorare per migliorare l'accessibilità e fruibilità di un cammino?,B,D,D) La qualità dell'accoglienza,La filiera delle persone coinvolte,,0,11.64434054098092
+MQ_k8,8,multiple_choice,"Per essere accessibili alle persone con disabilità, quali requisiti tecnico-informatici devono rispettare i siti web, app e social media?",A,A,A,Seguire le Linee Guida per l'Accessibilità dei Contenuti Web 2.2,,1,14.465788792003877
+MQ_k8,8,multiple_choice,A chi si riferiscono le questioni riguardanti la capacità di produrre contenuti accessibili e fruibili per tutti?,D,D,D,Sia agli operatori esterni che agli addetti interni,,1,11.265953874972183
+MQ_k8,8,multiple_choice,Qual è uno degli elementi importanti da evitare nella comunicazione/promozione rivolta ai camminatori con disabilità e con esigenze specifiche?,B,A,A,Ritrarre la persona con disabilità in contesti assistenzialistici,,0,12.604394582973327
+MQ_k8,8,multiple_choice,Quando è stata adottata la deliberazione del Consiglio dei ministri?,C,D,D) 25 ottobre 2012,20 gennaio 2016,,0,11.510928458999842
+MQ_k8,8,multiple_choice,Quali sono le spese previste nei decreti legislativi recanti attuazione delle direttive?,A,D,D) Spese previste per l'adempimento degli obblighi di attuazione delle direttive.,Spese non contemplate da leggi vigenti e che non riguardano l'attivita' ordinaria delle amministrazioni statali o regionali,,0,16.510072708013467
+MQ_k8,8,multiple_choice,A quale direttiva si riferisce il termine di recepimento del 4 settembre 2015?,C,D,D) 2013/48/UE,2013/40/UE,,0,13.028906124993227
+MQ_k8,8,multiple_choice,A cosa si riferisce la direttiva 2013/56/UE del Parlamento europeo e del Consiglio del 20 novembre 2013?,A,B,B,Rifiuti di pile e accumulatori,,0,11.543372458952945
+MQ_k8,8,multiple_choice,A quale regolamento la direttiva 2014/27/UE si allinea?,A,A,A,Regolamento (CE) n. 1272/2008,,1,12.65855258301599
+MQ_k8,8,multiple_choice,Qual è l'obiettivo della direttiva 2014/50/UE del Parlamento europeo e del Consiglio?,B,B,B,Migliorare la mobilità dei lavoratori tra Stati membri,,1,11.500240750028752
+MQ_k8,8,multiple_choice,A cosa si riferisce la direttiva 2014/56/UE del Parlamento europeo e del Consiglio del 16 aprile 2014?,A,A,A,Revisioni legali dei conti annuali,,1,11.796679416031111
+MQ_k8,8,multiple_choice,A cosa si riferisce la direttiva 2014/65/UE del Parlamento europeo e del Consiglio?,A,A,A,Mercati degli strumenti finanziari,,1,11.504649957991205
+MQ_k8,8,multiple_choice,A cosa si riferisce la direttiva 2014/95/UE del Parlamento europeo e del Consiglio?,C,B,B,Comunicazione di informazioni non finanziarie,,0,11.050326166965533
+MQ_k8,8,multiple_choice,In che data è stata pubblicata la direttiva 2005/36/CE?,A,A,A) 30 settembre 2005,30 settembre 2005,,1,11.863915249996353
+MQ_k8,8,multiple_choice,Qual è uno dei principali obiettivi della tessera professionale europea?,A,A,A) Semplificare il processo di riconoscimento delle qualifiche professionali.,Semplificare il processo di riconoscimento delle qualifiche professionali,,1,14.768235708004795
+MQ_k8,8,multiple_choice,Per quanti crediti ECTS di norma sono richiesti per completare un anno accademico?,D,B,B) 30 crediti.,60 crediti,,0,12.718917583057191
+MQ_k8,8,multiple_choice,Cosa dovrebbero fare gli Stati membri riguardo ai professionisti che non sono più abilitati a esercitare la loro professione?,C,D,D.,Allertare le autorità competenti di altri Stati membri,,0,13.086863124975935
+MQ_k8,8,multiple_choice,Quali informazioni sono contenute nel fascicolo IMI per accertare il diritto del titolare all'esercizio della professione?,B,D,D) Data e luogo di vacanza.,Professione e qualifiche formali,,0,12.172340916993562
+MQ_k8,8,multiple_choice,Quali sono le condizioni per cui l'autorità competente dello Stato membro ospitante può richiedere un tirocinio di adattamento o una prova attitudinale?,A,B,B,Il richiedente ha completato una formazione in materie sostanzialmente diverse da quelle coperte dal titolo di formazione richiesto nello Stato membro ospitante.,,0,16.94071320904186
+MQ_k8,8,multiple_choice,Qual è uno dei requisiti minimi di formazione per un infermiere che deve essere riconosciuto dagli Stati membri?,B,A,A,B) Aver conseguito un diploma di infermiere e ostetrica presso un liceo medico,,0,15.120306207973044
+MQ_k8,8,multiple_choice,Quali condizioni devono rispettare i quadri comuni di formazione?,A,A,A,Essere basati sui livelli dell'EQF,,1,16.900736624957062
+MQ_k8,8,multiple_choice,Quali sono le professioni regolamentate elencate nell'articolo 56 bis soggette a limitazioni o divieti temporanei o permanenti?,C,D,D,Medico,,0,12.803520957997534
+MQ_k8,8,multiple_choice,Entro quale termine un atto delegato entra in vigore se né il Parlamento europeo né il Consiglio sollevano obiezioni?,B,B,B) 2 mesi,2 mesi,,1,12.576520624978002
+MQ_k8,8,multiple_choice,Quali sono le restrizioni alla possibilità del consumatore di godere dei diritti acquisiti?,D,D,D,Tutte le precedenti,,1,14.242304042039905
+MQ_k8,8,multiple_choice,Quando può esercitare il diritto di recesso il consumatore?,B,B,B),Entro quattordici giorni di calendario dalla conclusione del contratto,,1,11.50407083297614
+MQ_k8,8,multiple_choice,Quali sono esempi di strutture ricettive alberghiere e paralberghiere menzionate nel testo?,A,B,B,Villaggi-albergo,,0,14.028669457999058
+MQ_k8,8,multiple_choice,Cosa sono le unità abitative ammobiliate ad uso turistico?,D,D,D),Appartamenti dati in locazione ai turisti,,1,13.429355582979042
+MQ_k8,8,multiple_choice,Cosa definisce di mero supporto le strutture ricettive allestite dagli enti locali?,A,D,D,Aree di sosta,,0,12.456916042021476
+MQ_k8,8,multiple_choice,Qual è l'obiettivo principale del Fondo buoni vacanze menzionato nel testo?,C,D,D) Incrementare i flussi turistici.,Sostenere le fasce sociali più deboli,,0,11.25342887500301
+MQ_k8,8,multiple_choice,Quali informazioni devono essere fornite al turista prima dell'inizio del viaggio?,A,C,C,Orari e località di sosta intermedia,,0,11.788354334014002
+MQ_k8,8,multiple_choice,Quali sono le attività considerate di interesse turistico per la durata minima delle locazioni?,A,C,C,Agenzie di viaggio e turismo,,0,15.254761124961078
+MQ_k8,8,multiple_choice,"Quali modifiche sono state apportate all'articolo 9 del decreto legislativo 6 febbraio 2007, n. 30?",D,B,B,Sono state soppresse le parole 'con particolare riguardo alle spese afferenti all'alloggio',,0,15.609455792000517
+MQ_k8,8,multiple_choice,"In base all'art. 3 del decreto legislativo n. 30 del 6 febbraio 2007, chi può beneficiare delle disposizioni del decreto?",D,D,D,Cittadini dell'Unione che si recano o soggiornano in uno Stato membro diverso da quello di cui hanno la cittadinanza e ai loro familiari,,1,13.483001250016969
+MQ_k8,8,multiple_choice,Quali sono le condizioni per considerare il partner di un cittadino dell'Unione come familiare per il diritto di soggiorno?,C,C,C,Deve avere una relazione stabile debitamente attestata,,1,12.291111375030596
+MQ_k8,8,multiple_choice,Cosa deve produrre il cittadino dell'Unione per l'iscrizione anagrafica secondo il testo?,C,D,D,Documentazione attestante l'attivita' lavorativa,,0,11.930145708029158
+MQ_k8,8,multiple_choice,Cosa devono presentare i familiari del cittadino dell'Unione europea che non hanno un autonomo diritto di soggiorno per l'iscrizione anagrafica?,B,D,D) Documenti di identità.,Dichiarazione di reddito,,0,13.507075084024109
+MQ_k8,8,multiple_choice,Qual è uno dei documenti richiesti per attestare la qualità di familiare a carico del cittadino dell'Unione?,B,D,D),Certificato di nascita,,0,11.97102958301548
+MQ_k8,8,multiple_choice,Chi trasmette le richieste di iscrizioni anagrafiche dei familiari del cittadino dell'Unione che non hanno la cittadinanza di uno Stato membro alla Questura competente per territorio?,A,D,D,Le amministrazioni comunali,,0,15.655241667001974
+MQ_k8,8,multiple_choice,Cosa deve attestare il documento rilasciato dall'autorità competente del Paese di origine o provenienza per il rilascio della Carta di soggiorno?,C,D,D.,La qualità di familiare,,0,12.485098459001165
+MQ_k8,8,multiple_choice,Quanto dura la validità della carta di soggiorno di familiare di un cittadino dell'Unione?,B,D,D) Tre anni.,Cinque anni,,0,12.384641040989663
+MQ_k8,8,multiple_choice,Chi può essere allontanato in conformità all'art. 183-ter?,B,D,D,Cittadini di uno Stato membro dell'Unione europea,,0,11.751899250026327
+MQ_k8,8,multiple_choice,Quali sono le attività riservate alla professione notarile?,D,D,D),Attività riservate alla professione notarile,,1,13.693402750010137
+MQ_k8,8,multiple_choice,Chi conferisce al Presidente della Repubblica il potere di promulgare le leggi?,D,D,D) La Costituzione,La Costituzione,,1,10.787031499959994
+MQ_k8,8,multiple_choice,Qual è la procedura se il termine per l'espressione del parere parlamentare scade nei trenta giorni che precedono la scadenza dei termini previsti ai commi 1 o 5 o successivamente?,A,C,C,I decreti sono emanati anche in mancanza del parere,,0,14.526402999996208
+MQ_k8,8,multiple_choice,Qual è l'organo al quale il Governo deve ritrasmettere i testi corredati dei necessari elementi integrativi di informazione?,B,D,D,Camere,,0,11.382813166012056
+MQ_k8,8,multiple_choice,A quale direttiva si riferisce la modifica della direttiva 90/435/CEE concernente il regime fiscale comune applicabile alle società madri e figlie di Stati membri diversi?,B,D,D,2003/123/CE,,0,12.81559091701638
+MQ_k8,8,multiple_choice,Di cosa tratta la direttiva 2004/81/CE del Consiglio del 29 aprile 2004?,B,A,A,Titolo di soggiorno per cittadini di paesi terzi coinvolti in azioni di favoreggiamento dell'immigrazione illegale,,0,14.819677749997936
+MQ_k8,8,multiple_choice,Di cosa tratta la direttiva 2004/113/CE del Consiglio del 13 dicembre 2004?,C,A,A,Trattamento paritario tra uomini e donne,,0,13.785303083015606
+MQ_k8,8,multiple_choice,In quale data è stata pubblicata la direttiva 89/48/CEE?,A,A,A) 24 gennaio 1989,24 gennaio 1989,,1,13.43958054104587
+MQ_k8,8,multiple_choice,In quale data è stata pubblicata la direttiva 85/614/CEE?,B,A,A,31 dicembre 1985,,0,10.806507209024858
+MQ_k8,8,multiple_choice,In che data sono pubblicate le direttive 85/432/CEE e 85/433/CEE?,A,A,A) 24 settembre 1985,24 settembre 1985,,1,15.517228708020411
+MQ_k8,8,multiple_choice,Chi ha adottato la preliminare deliberazione del Consiglio dei Ministri il 19 ottobre 2010?,D,D,D) Il Consiglio dei Ministri,Il Consiglio dei Ministri,,1,14.85490595799638
+MQ_k8,8,multiple_choice,Chi ha adottato la deliberazione del Consiglio dei Ministri?,A,A,A,Presidente del Consiglio dei Ministri,,1,11.253964084025938
+MQ_k8,8,multiple_choice,Chi conferisce al Presidente della Repubblica il potere di promulgare le leggi?,D,D,D) La Costituzione,La Costituzione,,1,11.07016304199351
+MQ_k8,8,multiple_choice,Quali interventi amministrativi autorizzatori devono essere eliminati secondo il testo?,B,A,A,Misure di condizionamento della libertà contrattuale,,0,11.379883665998932
+MQ_k8,8,multiple_choice,Quali sono le funzioni amministrative non direttamente rivolte alla regolazione ai fini dell'incentivazione della concorrenza?,B,D,D,Protezione di interessi primari,,0,12.798623334034346
+MQ_k8,8,multiple_choice,Quali sono i modelli di regolazione definiti dalle amministrazioni competenti?,D,D,D) Tutti i precedenti,Tutti i precedenti,,1,11.8939841670217
+MQ_k8,8,multiple_choice,Quali sono i principi che i decreti legislativi e i regolamenti devono seguire secondo il testo?,D,D,D),Semplificazione dei procedimenti amministrativi,,1,11.303452541003935
+MQ_k8,8,multiple_choice,"Qual è uno degli obiettivi della conformazione ai principi di sussidiarietà, differenziazione e adeguatezza?",D,D,D) conformazione ai principi di sussidiarietà,conformazione ai principi di sussidiarietà,,1,13.994912458001636
+MQ_k8,8,multiple_choice,Quando è stato pubblicato il decreto legislativo 'Codice del consumo'?,B,B,B) 8 ottobre 2005,8 ottobre 2005,,1,13.706899542012252
+MQ_k8,8,multiple_choice,"Quando è stata pubblicata la legge 4 giugno 2010, n. 96?",B,D,D) 4 giugno 2010,25 giugno 2010,,0,11.786837499996182
+MQ_k8,8,multiple_choice,Cosa costituisce una professione regolamentata secondo la direttiva?,D,D,D) Un titolo professionale riservato.,Un titolo professionale riservato,,1,16.028474332997575
+MQ_k8,8,multiple_choice,Cosa sono le 'misure compensative' in relazione all'accesso parziale a un'attività professionale?,B,A,A,Misure per ridurre i requisiti di formazione,,0,12.871666875027586
+MQ_k8,8,multiple_choice,Quando un prestatore di servizi può avere accesso all'attività di servizio su tutto il territorio dello Stato membro interessato?,A,A,A,Quando presenta la richiesta dichiarazione,,1,12.509107541991398
+MQ_k8,8,multiple_choice,Quali sono le competenze necessarie per un infermiere responsabile dell'assistenza generale?,A,D,D) Competenza di valutare la qualità delle cure infermieristiche.,Competenza di individuare autonomamente le cure infermieristiche necessarie,,0,12.83533570804866
+MQ_k8,8,multiple_choice,"Quali attività sono aperte ai titolari di un titolo di formazione in farmacia, rilasciato da un istituto universitario o da un istituto di livello riconosciuto equivalente?",A,A,A,a) Preparazione della forma farmaceutica dei medicinali,,1,13.730429666989949
+MQ_k8,8,multiple_choice,Qual è la specializzazione medica che richiede una durata minima di 5 anni?,C,D,D),Chirurgia plastica,,0,12.03874370799167
+MQ_k8,8,multiple_choice,In quale paese il titolo professionale per gli infermieri responsabili dell'assistenza generale è 'Hospitalier(ère)/Verpleegassi­stent(e)'?,A,A,A) Belgio,Belgio,,1,11.218088708003052
+MQ_k8,8,multiple_choice,In quale paese viene rilasciato il titolo di 'Hebamme'?,A,B,B) Italia,Germania,,0,11.110473417036701
+MQ_k8,8,multiple_choice,Da quale istituto viene rilasciato il titolo di Architetto in Grecia?,A,A,"Non sono in grado di fornire una risposta al quesito. Il testo fornisce informazioni sulla legge italiana riguardante la disabilità, ma non contiene alcun riferimento a Grecia o ai titoli di Architetto.",Metsovion Polytechnion di Atene,,1,15.387138959020376
+MQ_k8,8,multiple_choice,Qual è il titolo di formazione rilasciato dall'Università di Breslavia per gli studi completati presso la Facoltà di Architettura?,B,B,"Non sono in grado di fornire una risposta in base al contesto fornito. Il testo fornisce informazioni su leggi e regolamenti relativi alle persone con disabilità, ma non contiene informazioni sulla formazione rilasciata dall'Università di Breslavia per gli studi completati presso la Facoltà di Architettura.",Diploma di architetto,,1,19.66478895797627
+MQ_k8,8,multiple_choice,What was the measure's objective according to the document?,D,A,A,To provide compensation for damages above EUR 1.8 million,,0,9.554431791999377
+MQ_k8,8,multiple_choice,Until when was the travel ban to and from extra-EU/Schengen countries in place?,A,B,B) 18 May 2020,31 July 2020,,0,9.455221708980389
+MQ_k8,8,multiple_choice,How much did the tourism sector in Italy generate in terms of GDP?,B,D,D) 90%,13%,,0,9.703569165954832
+MQ_k8,8,multiple_choice,What was the turnover percentage decrease for travels to Europe/Schengen in the period from 1 to 9 March 2020 compared to the same period in 2019?,A,C,C) -94.8%,-91.3%,,0,9.746675375034101
+MQ_k8,8,multiple_choice,Quali sono i requisiti necessari per poter beneficiare della misura?,A,A,A,Essere attivi in Italia e registrati nel Registro delle Imprese sotto determinati codici ATECO,,1,12.142440415977035
+MQ_k8,8,multiple_choice,Qual è uno dei requisiti affinché una misura possa essere considerata aiuto di Stato?,A,A,A,Deve essere finanziata da risorse dello Stato,,1,11.22364679101156
+MQ_k8,8,multiple_choice,What determines the exceptional nature of the circumstances of COVID-19 as an exceptional occurrence?,A,A,A,The WHO declaration of a pandemic,,1,10.151987291988917
+MQ_k8,8,multiple_choice,Per quali motivi la Commissione considera l'eccezionale evento COVID-19 come causa dei danni compensati dalla misura?,A,C,C,A) Per l'imposizione di restrizioni di viaggio,,0,11.776696584012825
+MQ_k8,8,multiple_choice,Until when did extra-EU/Schengen travel bans continue to apply?,C,C,C) 31 luglio 2020,31 July 2020,,1,9.819560958014335
+MQ_k8,8,multiple_choice,Quali danni possono essere compensati durante il periodo delle restrizioni di viaggio extra EU/Schengen?,D,A,A,Danni dovuti a restrizioni di viaggio extra EU/Schengen,,0,11.918043249985203
+MQ_k8,8,multiple_choice,"Quale organo è stato istituito con il decreto-legge 1° marzo 2021, n. 22?",C,A,La risposta è A) Ministero della Salute,Ministero del Turismo,,0,16.126260666991584
+MQ_k8,8,multiple_choice,Quale organismo istituisce il dispositivo per la ripresa e la resilienza?,B,C,C,Regolamento (UE),,0,11.618572374980431
+MQ_k8,8,multiple_choice,Qual è uno degli obiettivi che si intendono raggiungere tramite il TDH?,A,B,B) Ridurre i costi delle risorse digitali del TDH,Aumentare la qualità dell’offerta turistica in Italia,,0,13.66507329203887
+MQ_k8,8,multiple_choice,Chi ha il compito di coordinare l'intero Ecosistema turistico italiano?,A,A,A,Il Ministero del Turismo,,1,11.685451374971308
+MQ_k8,8,multiple_choice,Qual è uno dei servizi esterni previsti dalla Piattaforma di Integrazione?,D,C,C,Dati di terza parte,,0,13.03349000000162
+MQ_k8,8,multiple_choice,Quali funzioni possono svolgere gli operatori aderenti all'Ecosistema TDH022?,B,B,B,Erogare servizi,,1,10.758892374986317
+MQ_k8,8,multiple_choice,Quali sono alcune delle caratteristiche delle Linee Guida Ecosistema TDH022?,C,D,D) Accesso gratuito,Interoperabilità dei sistemi informatici,,0,13.234926167002413
+MQ_k8,8,multiple_choice,Cosa definiscono le Linee Guida Ecosistema TDH022?,A,B,B,I contesti di interazione all'interno dell'Ecosistema TDH022,,0,12.248572583019268
+MQ_k8,8,multiple_choice,Come avvengono i trattamenti di dati personali nell’Ecosistema TDH022?,A,D,D,Tramite il portale Italia.it e la relativa app,,0,11.152570957958233
+MQ_k8,8,multiple_choice,Quali misure devono essere adottate per garantire l'utilizzo di procedure matematiche e statistiche adeguate nei processi decisionali automatizzati?,D,D,D) Adozione di misure idonee.,Adozione di misure idonee,,1,12.471839708974585
+MQ_k8,8,multiple_choice,Chi è il titolare dei trattamenti di dati personali nell'ambito dell'Ecosistema TDH022 secondo il decreto citato?,C,C,C,Ministero del Turismo,,1,12.040751874970738

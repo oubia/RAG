@@ -54,7 +54,8 @@ async def chat_endpoint(message: Message):
         collection_name=settings["collection_name"],
         embedding_model_name="nomic-embed-text",
         chunk_size=int(message.selectedChunkSize),
-        retriever_type=message.selectedapproachRetriever
+        retriever_type=message.selectedapproachRetriever,
+        max_retrievals = 10,
     )
 
     async def event_generator():

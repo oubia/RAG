@@ -1,0 +1,192 @@
+id,k,question_type,question,gold_choice,pred_choice,model_answer,gold_answer,similarity,correct,latency
+MQ_k12,12,multiple_choice,Quali Regioni sono coinvolte nel progetto 'Cammini Aperti'?,B,B,La risposta è B) Umbria.,Umbria,,1,12.903114082990214
+MQ_k12,12,multiple_choice,"Secondo l'Organizzazione Mondiale della Sanità, come viene definita la disabilità?",C,D,La risposta corretta è D) Una barriera comportamentale ed ambientale.,Una relazione tra persone con menomazioni e barriere,,0,14.895883833989501
+MQ_k12,12,multiple_choice,Qual è uno dei tipi di barriere che possono essere erette e diventare ostacoli per le persone con disabilità?,D,D,La risposta corretta è D) Barriere fisiche.,Barriere fisiche,,1,12.608817917003762
+MQ_k12,12,multiple_choice,Qual è una delle tipologie di supporti menzionati per compensare la riduzione parziale o totale della capacità di eseguire un'attività dovuta alla disabilità motoria?,D,D,La risposta corretta è D) Sedia a ruote elettrica o manuale.,Sedia a ruote elettrica o manuale,,1,13.106382082973141
+MQ_k12,12,multiple_choice,Qual è una delle modalità di comunicazione utilizzate dalle persone con disabilità uditiva?,B,B,La risposta corretta è B) Lettura labiale.,Lettura labiale,,1,12.021638249978423
+MQ_k12,12,multiple_choice,Quali sono alcune delle tipologie di esigenze specifiche menzionate nel testo?,A,A,"La risposta corretta è:
+
+A) Persone con allergie alimentari
+
+Le altre opzioni non sono menzionate nel testo come tipologie di esigenze specifiche. La lista delle tipologie di esigenze specifiche menzionate nel testo include:
+
+* Persone anziane
+* Bambini piccoli
+* Donne in gravidanza
+* Persone con patologie sanitarie (ad esempio cardiopatiche, asmatiche, stomizzate, oncologiche)
+* Persone con allergie o intolleranze alimentari",Persone con allergie alimentari,,1,21.179922374954913
+MQ_k12,12,multiple_choice,Qual è uno dei diversi ambiti su cui occorre lavorare per migliorare l'accessibilità e fruibilità di un cammino?,B,A,La risposta corretta è A) Lo spazio fisico.,La filiera delle persone coinvolte,,0,14.801070458022878
+MQ_k12,12,multiple_choice,"Per essere accessibili alle persone con disabilità, quali requisiti tecnico-informatici devono rispettare i siti web, app e social media?",A,A,"Le Linee Guida per l'Accessibilità dei Contenuti Web 2.2 stabiliscono i requisiti tecnico-informatici che devono essere rispettati dai siti web, app e social media per essere accessibili alle persone con disabilità.
+
+La risposta corretta è A) Seguire le Linee Guida per l'Accessibilità dei Contenuti Web 2.2",Seguire le Linee Guida per l'Accessibilità dei Contenuti Web 2.2,,1,22.00442045798991
+MQ_k12,12,multiple_choice,A chi si riferiscono le questioni riguardanti la capacità di produrre contenuti accessibili e fruibili per tutti?,D,D,"La risposta corretta è:
+
+D) Sia agli operatori esterni che agli addetti interni",Sia agli operatori esterni che agli addetti interni,,1,14.861139000044204
+MQ_k12,12,multiple_choice,Qual è uno degli elementi importanti da evitare nella comunicazione/promozione rivolta ai camminatori con disabilità e con esigenze specifiche?,B,B,La risposta è B) Ritrarre la persona con disabilità in contesti assistenzialistici.,Ritrarre la persona con disabilità in contesti assistenzialistici,,1,14.178419500007294
+MQ_k12,12,multiple_choice,Quando è stata adottata la deliberazione del Consiglio dei ministri?,C,A,La risposta è A) 13 novembre 2015.,20 gennaio 2016,,0,12.618188333057333
+MQ_k12,12,multiple_choice,Quali sono le spese previste nei decreti legislativi recanti attuazione delle direttive?,A,D,La risposta è D) Spese previste per l'adempimento degli obblighi di attuazione delle direttive.,Spese non contemplate da leggi vigenti e che non riguardano l'attivita' ordinaria delle amministrazioni statali o regionali,,0,17.53947616601363
+MQ_k12,12,multiple_choice,A quale direttiva si riferisce il termine di recepimento del 4 settembre 2015?,C,B,La risposta è B) 2012/25/UE.,2013/40/UE,,0,12.834370374970604
+MQ_k12,12,multiple_choice,A cosa si riferisce la direttiva 2013/56/UE del Parlamento europeo e del Consiglio del 20 novembre 2013?,A,C,La direttiva 2013/56/UE del Parlamento europeo e del Consiglio del 20 novembre 2013 si riferisce alle norme fondamentali di sicurezza per gli utensili elettrici senza fili.,Rifiuti di pile e accumulatori,,0,17.81976708304137
+MQ_k12,12,multiple_choice,A quale regolamento la direttiva 2014/27/UE si allinea?,A,A,La risposta è A) Regolamento (CE) n. 1272/2008.,Regolamento (CE) n. 1272/2008,,1,12.926713416993152
+MQ_k12,12,multiple_choice,Qual è l'obiettivo della direttiva 2014/50/UE del Parlamento europeo e del Consiglio?,B,B,"L'obiettivo della direttiva 2014/50/UE del Parlamento europeo e del Consiglio è:
+
+B) Migliorare la mobilità dei lavoratori tra Stati membri",Migliorare la mobilità dei lavoratori tra Stati membri,,1,15.367141083988827
+MQ_k12,12,multiple_choice,A cosa si riferisce la direttiva 2014/56/UE del Parlamento europeo e del Consiglio del 16 aprile 2014?,A,C,La direttiva 2014/56/UE del Parlamento europeo e del Consiglio del 16 aprile 2014 si riferisce alle misure per agevolare l'esercizio dei diritti dei lavoratori.,Revisioni legali dei conti annuali,,0,15.986217875033617
+MQ_k12,12,multiple_choice,A cosa si riferisce la direttiva 2014/65/UE del Parlamento europeo e del Consiglio?,A,C,La direttiva 2014/65/UE del Parlamento europeo e del Consiglio si riferisce ai mercati degli strumenti finanziari.,Mercati degli strumenti finanziari,,0,14.21078454196686
+MQ_k12,12,multiple_choice,A cosa si riferisce la direttiva 2014/95/UE del Parlamento europeo e del Consiglio?,C,C,La direttiva 2014/95/UE del Parlamento europeo e del Consiglio si riferisce alla comunicazione di informazioni non finanziarie.,Comunicazione di informazioni non finanziarie,,1,13.748381582961883
+MQ_k12,12,multiple_choice,In che data è stata pubblicata la direttiva 2005/36/CE?,A,A,La risposta è A) 30 settembre 2005.,30 settembre 2005,,1,14.11971854197327
+MQ_k12,12,multiple_choice,Qual è uno dei principali obiettivi della tessera professionale europea?,A,A,"La risposta corretta è:
+
+A) Semplificare il processo di riconoscimento delle qualifiche professionali.",Semplificare il processo di riconoscimento delle qualifiche professionali,,1,13.317257374990731
+MQ_k12,12,multiple_choice,Per quanti crediti ECTS di norma sono richiesti per completare un anno accademico?,D,D,La risposta è D) 60 crediti.,60 crediti,,1,13.490375125024002
+MQ_k12,12,multiple_choice,Quali informazioni sono contenute nel fascicolo IMI per accertare il diritto del titolare all'esercizio della professione?,B,B,"Le informazioni contenute nel fascicolo IMI per accertare il diritto del titolare all'esercizio della professione sono:
+
+B) Professione e qualifiche formali",Professione e qualifiche formali,,1,14.99116287502693
+MQ_k12,12,multiple_choice,Quali sono le condizioni per cui l'autorità competente dello Stato membro ospitante può richiedere un tirocinio di adattamento o una prova attitudinale?,A,B,"La risposta corretta è:
+
+B) La professione regolamentata nello Stato membro ospitante include attività professionali mancanti nella corrispondente professione nello Stato membro di origine del richiedente.",Il richiedente ha completato una formazione in materie sostanzialmente diverse da quelle coperte dal titolo di formazione richiesto nello Stato membro ospitante.,,0,18.50923349999357
+MQ_k12,12,multiple_choice,Qual è il requisito di base per l'ammissione alla formazione di infermiere responsabile dell'assistenza generale secondo l'articolo 31?,A,A,"Il requisito di base per l'ammissione alla formazione di infermiere responsabile dell'assistenza generale secondo l'articolo 31 è:
+
+A) Diploma di scuola superiore",Diploma di scuola superiore,,1,15.354448165977374
+MQ_k12,12,multiple_choice,Qual è uno dei requisiti minimi di formazione per un infermiere che deve essere riconosciuto dagli Stati membri?,B,B,La risposta è B.,B) Aver conseguito un diploma di infermiere e ostetrica presso un liceo medico,,1,15.654000958020333
+MQ_k12,12,multiple_choice,Quali sono le professioni regolamentate elencate nell'articolo 56 bis soggette a limitazioni o divieti temporanei o permanenti?,C,A,La risposta è A) Ingegnere.,Medico,,0,13.031503000005614
+MQ_k12,12,multiple_choice,Quali sono le restrizioni alla possibilità del consumatore di godere dei diritti acquisiti?,D,A,"La risposta corretta è:
+
+A) La disponibilità limitata",Tutte le precedenti,,0,13.887250749976374
+MQ_k12,12,multiple_choice,Quando può esercitare il diritto di recesso il consumatore?,B,B,La risposta è B) Entro quattordici giorni di calendario dalla conclusione del contratto.,Entro quattordici giorni di calendario dalla conclusione del contratto,,1,13.284949125023559
+MQ_k12,12,multiple_choice,Quali sono esempi di strutture ricettive alberghiere e paralberghiere menzionate nel testo?,A,B,"Le strutture ricettive menzionate nel testo sono:
+
+*   B&B (Bed and Breakfast)
+*   Villaggi-albergo",Villaggi-albergo,,0,14.19373529200675
+MQ_k12,12,multiple_choice,Cosa definisce di mero supporto le strutture ricettive allestite dagli enti locali?,A,A,"Le strutture ricettive allestite dagli enti locali sono definiti come ""di mero supporto"" se offrono servizi di base, come ad esempio:
+
+* Aree di sosta
+* Campeggi itineranti
+* Campeggi agrituristiche
+* Escursionisti locali
+
+Queste strutture sono progettate per fornire ai turisti servizi essenziali e minimi, senza offrire servizi di lusso o comfort avanzato.",Aree di sosta,,1,23.537512374983635
+MQ_k12,12,multiple_choice,Quali informazioni devono essere fornite al turista prima dell'inizio del viaggio?,A,C,"La risposta corretta è C) Informazioni generali sul paese di destinazione.
+
+Secondo l'articolo 2, punto B, lettera a), dell'ordinamento del turismo, gli imprenditori di diversi modi di trasporto devono fornire informazioni generali al turista prima dell'inizio del viaggio, tra cui:
+
+* Orari e località di sosta intermedia
+* Nome e indirizzo del venditore
+* Informazioni generali sul paese di destinazione
+
+Tuttavia, la scelta C) è la risposta più completa e corretta, poiché include tutte le informazioni necessarie per preparare il turista al viaggio.",Orari e località di sosta intermedia,,0,23.97794208402047
+MQ_k12,12,multiple_choice,Quali sono le attività considerate di interesse turistico per la durata minima delle locazioni?,A,C,"Le attività considerate di interesse turistico per la durata minima delle locazioni sono:
+
+C) Aziende di soggiorno ed altri organismi di promozione turistica
+
+Secondo l'articolo 53 del codice civile, le aziende di soggiorno e gli altri organismi di promozione turistica hanno una durata minima di nove anni per la locazione.",Agenzie di viaggio e turismo,,0,16.831520665960852
+MQ_k12,12,multiple_choice,"In base all'art. 3 del decreto legislativo n. 30 del 6 febbraio 2007, chi può beneficiare delle disposizioni del decreto?",D,D,La risposta è D) Cittadini dell'Unione che si recano o soggiornano in uno Stato membro diverso da quello di cui hanno la cittadinanza e ai loro familiari.,Cittadini dell'Unione che si recano o soggiornano in uno Stato membro diverso da quello di cui hanno la cittadinanza e ai loro familiari,,1,16.463504208019003
+MQ_k12,12,multiple_choice,Quali sono le condizioni per considerare il partner di un cittadino dell'Unione come familiare per il diritto di soggiorno?,C,C,La risposta corretta è C) Deve avere una relazione stabile debitamente attestata.,Deve avere una relazione stabile debitamente attestata,,1,14.274538290977944
+MQ_k12,12,multiple_choice,Cosa deve produrre il cittadino dell'Unione per l'iscrizione anagrafica secondo il testo?,C,B,La risposta è B) Documento di identità.,Documentazione attestante l'attivita' lavorativa,,0,12.64464020903688
+MQ_k12,12,multiple_choice,Cosa devono presentare i familiari del cittadino dell'Unione europea che non hanno un autonomo diritto di soggiorno per l'iscrizione anagrafica?,B,A,La risposta è A) Certificato di nascita.,Dichiarazione di reddito,,0,16.414453832956497
+MQ_k12,12,multiple_choice,Qual è uno dei documenti richiesti per attestare la qualità di familiare a carico del cittadino dell'Unione?,B,C,La risposta è C) Documento di identità.,Certificato di nascita,,0,14.930708249972668
+MQ_k12,12,multiple_choice,Chi trasmette le richieste di iscrizioni anagrafiche dei familiari del cittadino dell'Unione che non hanno la cittadinanza di uno Stato membro alla Questura competente per territorio?,A,B,La risposta è B) La Questura competente per territorio.,Le amministrazioni comunali,,0,15.130379041016567
+MQ_k12,12,multiple_choice,Cosa deve attestare il documento rilasciato dall'autorità competente del Paese di origine o provenienza per il rilascio della Carta di soggiorno?,C,C,Il documento rilasciato dall'autorità competente del Paese di origine o provenienza per il rilascio della Carta di soggiorno deve attestare la qualità di familiare.,La qualità di familiare,,1,18.668284917017445
+MQ_k12,12,multiple_choice,Quanto dura la validità della carta di soggiorno di familiare di un cittadino dell'Unione?,B,A,La risposta è A) Due anni.,Cinque anni,,0,14.00069837499177
+MQ_k12,12,multiple_choice,Chi può essere allontanato in conformità all'art. 183-ter?,B,B,La risposta è B) Cittadini di uno Stato membro dell'Unione europea.,Cittadini di uno Stato membro dell'Unione europea,,1,12.45973654196132
+MQ_k12,12,multiple_choice,Quali sono le attività riservate alla professione notarile?,D,D,"L'attività riservata alla professione notarile è:
+
+D) Attività riservate alla professione notarile",Attività riservate alla professione notarile,,1,16.077342999982648
+MQ_k12,12,multiple_choice,Chi conferisce al Presidente della Repubblica il potere di promulgare le leggi?,D,B,La risposta è B) Il Parlamento.,La Costituzione,,0,11.208719832997303
+MQ_k12,12,multiple_choice,Qual è la procedura se il termine per l'espressione del parere parlamentare scade nei trenta giorni che precedono la scadenza dei termini previsti ai commi 1 o 5 o successivamente?,A,C,"La procedura se il termine per l'espressione del parere parlamentare scade nei trenta giorni che precedono la scadenza dei termini previsti ai commi 1 o 5 o successivamente è:
+
+C) Viene prorogato il termine per l'espressione del parere",I decreti sono emanati anche in mancanza del parere,,0,18.554003958008252
+MQ_k12,12,multiple_choice,Qual è l'organo al quale il Governo deve ritrasmettere i testi corredati dei necessari elementi integrativi di informazione?,B,D,La risposta è D) Commissioni parlamentari competenti.,Camere,,0,13.836794000002556
+MQ_k12,12,multiple_choice,A quale direttiva si riferisce la modifica della direttiva 90/435/CEE concernente il regime fiscale comune applicabile alle società madri e figlie di Stati membri diversi?,B,B,La risposta è B) 2003/123/CE.,2003/123/CE,,1,14.0001538330107
+MQ_k12,12,multiple_choice,Di cosa tratta la direttiva 2004/81/CE del Consiglio del 29 aprile 2004?,B,B,B) Titolo di soggiorno per cittadini di paesi terzi coinvolti in azioni di favoreggiamento dell'immigrazione illegale,Titolo di soggiorno per cittadini di paesi terzi coinvolti in azioni di favoreggiamento dell'immigrazione illegale,,1,13.435002624988556
+MQ_k12,12,multiple_choice,Di cosa tratta la direttiva 2004/113/CE del Consiglio del 13 dicembre 2004?,C,C,La direttiva 2004/113/CE del Consiglio del 13 dicembre 2004 tratta l'armonizzazione degli obblighi di trasparenza.,Trattamento paritario tra uomini e donne,,1,16.940367667004466
+MQ_k12,12,multiple_choice,In quale data è stata pubblicata la direttiva 89/48/CEE?,A,A,La risposta è A) 24 gennaio 1989.,24 gennaio 1989,,1,17.629198833950795
+MQ_k12,12,multiple_choice,In quale data è stata pubblicata la direttiva 85/614/CEE?,B,A,La risposta è A) 21 agosto 1985.,31 dicembre 1985,,0,13.369083459023386
+MQ_k12,12,multiple_choice,In che data sono pubblicate le direttive 85/432/CEE e 85/433/CEE?,A,A,La risposta è A) 24 settembre 1985.,24 settembre 1985,,1,16.363773874996696
+MQ_k12,12,multiple_choice,Chi ha adottato la preliminare deliberazione del Consiglio dei Ministri il 19 ottobre 2010?,D,C,La risposta è C) La Conferenza unificata.,Il Consiglio dei Ministri,,0,12.636604583007284
+MQ_k12,12,multiple_choice,Chi ha adottato la deliberazione del Consiglio dei Ministri?,A,A,La risposta è A) Presidente del Consiglio dei Ministri.,Presidente del Consiglio dei Ministri,,1,13.302447583992034
+MQ_k12,12,multiple_choice,Chi conferisce al Presidente della Repubblica il potere di promulgare le leggi?,D,A,La risposta è A) Il Parlamento.,La Costituzione,,0,11.628278582997154
+MQ_k12,12,multiple_choice,Quali interventi amministrativi autorizzatori devono essere eliminati secondo il testo?,B,B,Le risposte corrette sono: B) Misure di condizionamento della libertà contrattuale.,Misure di condizionamento della libertà contrattuale,,1,12.988769375020638
+MQ_k12,12,multiple_choice,Quali sono i modelli di regolazione definiti dalle amministrazioni competenti?,D,A,"I modelli di regolazione definiti dalle amministrazioni competenti sono:
+
+A) Incentivazione della concorrenzialità'
+B) Riduzione dei costi privati
+C) Flessibilità dell'adeguamento
+D) Tutti i precedenti",Tutti i precedenti,,0,15.91980237502139
+MQ_k12,12,multiple_choice,Quali sono i principi che i decreti legislativi e i regolamenti devono seguire secondo il testo?,D,B,"La risposta corretta è:
+
+B) Adeguamento dell'organizzazione amministrativa alle modalità di esercizio delle funzioni",Semplificazione dei procedimenti amministrativi,,0,16.428462375013623
+MQ_k12,12,multiple_choice,Quando è stato pubblicato il decreto legislativo 'Codice del consumo'?,B,B,La risposta è B.,8 ottobre 2005,,1,13.89418562501669
+MQ_k12,12,multiple_choice,Cosa costituisce una professione regolamentata secondo la direttiva?,D,A,La risposta è A) Un titolo di formazione.,Un titolo professionale riservato,,0,11.4675047500059
+MQ_k12,12,multiple_choice,Quando un prestatore di servizi può avere accesso all'attività di servizio su tutto il territorio dello Stato membro interessato?,A,A,La risposta è A) Quando presenta la richiesta dichiarazione.,Quando presenta la richiesta dichiarazione,,1,13.033337417000439
+MQ_k12,12,multiple_choice,Quali sono le condizioni per l'ammissione alla formazione di infermiere responsabile dell'assistenza generale?,A,C,La risposta è C.,Completamento di una formazione scolastica di dodici anni,,0,13.910742625012062
+MQ_k12,12,multiple_choice,Quali sono le competenze necessarie per un infermiere responsabile dell'assistenza generale?,A,B,"La risposta corretta è:
+
+B) Competenza di fornire autonomamente consigli, indicazioni e supporto alle persone bisognose di cure.",Competenza di individuare autonomamente le cure infermieristiche necessarie,,0,15.17672812496312
+MQ_k12,12,multiple_choice,"Quali attività sono aperte ai titolari di un titolo di formazione in farmacia, rilasciato da un istituto universitario o da un istituto di livello riconosciuto equivalente?",A,A,La risposta è A) a) Preparazione della forma farmaceutica dei medicinali.,a) Preparazione della forma farmaceutica dei medicinali,,1,16.75645808299305
+MQ_k12,12,multiple_choice,In quale paese il titolo professionale per gli infermieri responsabili dell'assistenza generale è 'Hospitalier(ère)/Verpleegassi­stent(e)'?,A,B,La risposta è B) Francia.,Belgio,,0,11.5486631669919
+MQ_k12,12,multiple_choice,In quale paese viene rilasciato il titolo di 'Hebamme'?,A,A,La risposta è A) Germania.,Germania,,1,12.32141924998723
+MQ_k12,12,multiple_choice,Da quale istituto viene rilasciato il titolo di Architetto in Grecia?,A,A,"La risposta corretta è:
+
+A) Metsovion Polytechnion di Atene",Metsovion Polytechnion di Atene,,1,15.577679082984105
+MQ_k12,12,multiple_choice,Qual è il titolo di formazione rilasciato dall'Università di Breslavia per gli studi completati presso la Facoltà di Architettura?,B,B,Il titolo di formazione rilasciato dall'Università di Breslavia per gli studi completati presso la Facoltà di Architettura è il diploma di architetto.,Diploma di architetto,,1,14.619740041031037
+MQ_k12,12,multiple_choice,What was the measure's objective according to the document?,D,B,"The correct answer is B) To support tour operators and travel agencies who did not suffer financial losses.
+
+According to the document, the measure was aimed at supporting undertakings operating travel agencies and tour operator activities that had not suffered financial losses due to the COVID-19 pandemic. The measure provided compensation for damages caused by the pandemic, but only for those undertakings that had not incurred significant financial losses.",To provide compensation for damages above EUR 1.8 million,,0,17.82852941704914
+MQ_k12,12,multiple_choice,Until when was the travel ban to and from extra-EU/Schengen countries in place?,A,A,La risposta è A) 31 luglio 2020.,31 July 2020,,1,10.782722583971918
+MQ_k12,12,multiple_choice,How much did the tourism sector in Italy generate in terms of GDP?,B,C,"La risposta è C) 6,6 miliardi di euro.",13%,,0,10.775470625027083
+MQ_k12,12,multiple_choice,What was the turnover percentage decrease for travels to Europe/Schengen in the period from 1 to 9 March 2020 compared to the same period in 2019?,A,B,La risposta è B) -77.6%.,-91.3%,,0,11.168328042025678
+MQ_k12,12,multiple_choice,Quali sono i requisiti necessari per poter beneficiare della misura?,A,A,La risposta è A) Essere attivi in Italia e registrati nel Registro delle Imprese sotto determinati codici ATECO.,Essere attivi in Italia e registrati nel Registro delle Imprese sotto determinati codici ATECO,,1,17.222131334012374
+MQ_k12,12,multiple_choice,Qual è uno dei requisiti affinché una misura possa essere considerata aiuto di Stato?,A,A,La risposta è A) Deve essere finanziata da risorse dello Stato.,Deve essere finanziata da risorse dello Stato,,1,13.4116498749936
+MQ_k12,12,multiple_choice,What determines the exceptional nature of the circumstances of COVID-19 as an exceptional occurrence?,A,A,"The text does not provide a clear answer to the question, but it mentions that the exceptional nature of the circumstances of COVID-19 as an exceptional occurrence is determined by three cumulative factors:
+
+(i) unforeseeable or difficult to foresee
+(ii) significant scale/economic impact
+(iii) extraordinary
+
+It also mentions that specific sectors and areas are particularly affected by the outbreak due to national outbreak control measures.
+
+However, based on general knowledge, it can be inferred that the WHO declaration of a pandemic (option A) is likely one of the factors that determines the exceptional nature of the circumstances of COVID-19. The WHO declared the COVID-19 outbreak a global health emergency in January 2020, which marked a significant escalation of the crisis.
+
+The other options are not directly related to the determination of the exceptional nature of the circumstances of COVID-19:
+
+* Option B (availability of therapeutics or vaccines for COVID-19) is not relevant to determining the exceptional nature of the circumstances.
+* Option C (absence of economic disruption) is actually the opposite of what occurred during the pandemic, as many economies were severely affected.
+* Option D (absence of travel restrictions) is also not directly related to determining the exceptional nature of the circumstances.
+
+Therefore, while there is no clear answer in the text, option A (WHO declaration of a pandemic) is likely one of the factors that determines the exceptional nature of the circumstances of COVID-19.",The WHO declaration of a pandemic,,1,36.345195916015655
+MQ_k12,12,multiple_choice,Per quali motivi la Commissione considera l'eccezionale evento COVID-19 come causa dei danni compensati dalla misura?,A,C,La risposta è C.,A) Per l'imposizione di restrizioni di viaggio,,0,12.75234237499535
+MQ_k12,12,multiple_choice,Until when did extra-EU/Schengen travel bans continue to apply?,C,C,C) 31 luglio 2020,31 July 2020,,1,10.340860790980514
+MQ_k12,12,multiple_choice,Quali danni possono essere compensati durante il periodo delle restrizioni di viaggio extra EU/Schengen?,D,D,La risposta è D) Danni dovuti a restrizioni di viaggio extra EU/Schengen.,Danni dovuti a restrizioni di viaggio extra EU/Schengen,,1,13.328762750024907
+MQ_k12,12,multiple_choice,"Quale organo è stato istituito con il decreto-legge 1° marzo 2021, n. 22?",C,C,"Il Ministero del Turismo.
+
+Con il decreto-legge 1° marzo 2021, n. 22, è stato istituito l'Ente Nazionale per la Gestione dei Campeggi (ENGCAM), che sostituisce l'Istituto Nazionale per la Gestione dei Campeggi (INGCAM).",Ministero del Turismo,,1,17.133181165962014
+MQ_k12,12,multiple_choice,Quale organismo istituisce il dispositivo per la ripresa e la resilienza?,B,C,La risposta è C) Piano Nazionale di Ripresa e Resilienza.,Regolamento (UE),,0,12.584783792030066
+MQ_k12,12,multiple_choice,Qual è uno degli obiettivi che si intendono raggiungere tramite il TDH?,A,A,"L'obiettivo che si intendono raggiungere tramite il TDH è:
+
+A) Aumentare la qualità dell’offerta turistica in Italia",Aumentare la qualità dell’offerta turistica in Italia,,1,16.819234874972608
+MQ_k12,12,multiple_choice,Chi ha il compito di coordinare l'intero Ecosistema turistico italiano?,A,C,"La risposta corretta è:
+
+C) Le Regioni e Province Autonome
+
+In Italia, l'intero Ecosistema turistico italiano è coordinato dalle Regioni e Province Autonome, che hanno la responsabilità di gestire le politiche turistiche locali e di promuovere lo sviluppo sostenibile del settore.",Il Ministero del Turismo,,0,17.091301375010516
+MQ_k12,12,multiple_choice,Qual è uno dei servizi esterni previsti dalla Piattaforma di Integrazione?,D,B,La risposta è B) Dati di prima parte.,Dati di terza parte,,0,12.676936457981355
+MQ_k12,12,multiple_choice,Quali funzioni possono svolgere gli operatori aderenti all'Ecosistema TDH022?,B,D,"Gli operatori aderenti all'Ecosistema TDH022 possono svolgere funzioni di erogatore di servizi, nel caso in cui mettano a disposizione del TDH servizi e funzionalità.",Erogare servizi,,0,15.708987957972568
+MQ_k12,12,multiple_choice,Quali sono alcune delle caratteristiche delle Linee Guida Ecosistema TDH022?,C,D,"Le caratteristiche delle Linee Guida Ecosistema TDH022 sono:
+
+*   Evoluzione della tecnologia
+*   Sviluppo sostenibile
+*   Interoperabilità dei sistemi informatici
+*   Accesso gratuito",Interoperabilità dei sistemi informatici,,0,15.64494204201037
+MQ_k12,12,multiple_choice,Cosa definiscono le Linee Guida Ecosistema TDH022?,A,D,"Le Linee Guida Ecosistema TDH022 definiscono standard e tecnologie che le Pubbliche Amministrazioni (centrali, regionali e locali), Enti e Società Terze devono tenere in considerazione per rendere i propri sistemi informatici interoperabili.",I contesti di interazione all'interno dell'Ecosistema TDH022,,0,19.272769000031985
+MQ_k12,12,multiple_choice,Come avvengono i trattamenti di dati personali nell’Ecosistema TDH022?,A,A,La risposta è A) Tramite il portale Italia.it e la relativa app.,Tramite il portale Italia.it e la relativa app,,1,13.150322500034235
+MQ_k12,12,multiple_choice,Quali misure devono essere adottate per garantire l'utilizzo di procedure matematiche e statistiche adeguate nei processi decisionali automatizzati?,D,D,"La risposta corretta è:
+
+D) Adozione di misure idonee
+
+Le misure da adottare per garantire l'utilizzo di procedure matematiche e statistiche adeguate nei processi decisionali automatizzati sono descritte nella domanda come ""adeguate"". La scelta D, ""Adozione di misure idonee"", è la risposta più appropriata poiché si riferisce all'adozione di misure che garantiscano l'utilizzo di procedure matematiche e statistiche adeguate. Le altre opzioni non sono sufficientemente precise o complete per garantire l'utilizzo di procedure matematiche e statistiche adeguate.
+
+Inoltre, la scelta D è più ampia rispetto alle opzioni A e B, che si riferiscono solo all'informativa dettagliata agli interessati e alla riduzione del numero di decisioni automatizzate. La scelta C, ""Utilizzo di procedure casuali"", è addirittura contraria a ciò che si vuole ottenere, poiché le procedure matematiche e statistiche devono essere adeguate e non casuali.
+
+Quindi, la risposta corretta è D) Adozione di misure idonee.",Adozione di misure idonee,,1,32.8154222080484
+MQ_k12,12,multiple_choice,Chi è il titolare dei trattamenti di dati personali nell'ambito dell'Ecosistema TDH022 secondo il decreto citato?,C,D,Il titolare dei trattamenti di dati personali nell'ambito dell'Ecosistema TDH022 secondo il decreto citato è il Ministero della Salute.,Ministero del Turismo,,0,15.318574459000956

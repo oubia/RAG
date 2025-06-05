@@ -14,6 +14,7 @@ class Chat:
         embedding_model_name: str,
         chunk_size: int,
         retriever_type:str,
+        max_retrievals: int = 10,
     ):
         self.model = model
         self.prompt = general_prompt
@@ -23,7 +24,7 @@ class Chat:
             collection_name,
             embedding_model_name,
         ).get_vectorstore()
-
+        self.max_retrievals = max_retrievals
         self.retriever_type = retriever_type
         self.chunk_size = chunk_size
 
@@ -33,6 +34,7 @@ class Chat:
                 llm=self.model,
                 vectorstore=self.vectorstore,
                 chunk_size=self.chunk_size,
+                max_retrievals = self.max_retrievals,
             )
             logger.info(f"Retrieving with {self.retriever_type} method")
             retriever_methods = {
@@ -48,6 +50,9 @@ class Chat:
 
             async for letter in method(query, prompt_template=self.prompt):
                 yield letter
+            
+            print(f"Query: {query} | Retriever Type: {self.retriever_type} | Chunk Size: {self.chunk_size}")
 
+            
         except Exception as error:
             yield json.dumps({"error": f"Error processing request: {error}"})
